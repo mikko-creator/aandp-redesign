@@ -1,0 +1,151 @@
+{
+ "name": "A&P Dispensary",
+ "short": "A&P",
+ "origin": "https://mikko-creator.github.io/aandp-redesign",
+ "liveSite": "https://aandpdispensary.com/",
+ "lang": "en-US",
+ "kicker": "Family-owned · Kew Gardens",
+ "topbar": [
+  "Open Daily",
+  "12 PM – 10 PM",
+  "In-Store Pickup Available"
+ ],
+ "store": {
+  "slug": "kew-gardens-ny",
+  "name": "Kew Gardens, NY",
+  "street": "81-37 Lefferts Blvd",
+  "locality": "Kew Gardens",
+  "region": "NY",
+  "postalCode": "11415",
+  "country": "United States",
+  "address": "81-37 Lefferts Blvd, Kew Gardens, NY 11415, United States",
+  "hours": "Monday – Sunday: 12 PM – 10 PM",
+  "phone": "+1 (347) 480-5045",
+  "phoneShort": "(347) 480-5045",
+  "tel": "+13474805045",
+  "blurb": "Visit A&P Dispensary for a welcoming, convenient shopping experience and a carefully selected range of quality cannabis products. Our team is here to help you find the right products and answer any questions along the way.",
+  "directions": {
+   "label": "get directions",
+   "href": "https://www.google.com/maps?cid=15311297106157784610&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=en-GB&source=embed"
+  },
+  "mapEmbed": "https://maps.google.com/maps?q=A%20%26%20P%20Dispensary%2081-37%20Lefferts%20Blvd%2C%20Kew%20Gardens%2C%20NY%2011415%2C%20United%20States&t=m&z=17&output=embed&iwloc=near",
+  "license": "License Number: OCM-RETL-24-000169",
+  "interior": "store-interior.webp"
+ },
+ "social": [
+  {
+   "name": "Instagram",
+   "href": "https://www.instagram.com/ap.dispo/"
+  },
+  {
+   "name": "Facebook",
+   "href": "https://www.facebook.com/p/AP-Dispo-61591949295252/"
+  }
+ ],
+ "footerBlurb": "Your go-to cannabis destination in New York, premium products, knowledgeable staff, and an experience worth coming back for.",
+ "compliance": "For use only by adults 21 years of age and older. Keep out of reach of children and pets. In case of accidental ingestion or overconsumption, contact the Poison Center at 1-800-222-1222 or call 9-1-1. Please consume responsibly. Cannabis can be addictive. Concerned about your cannabis use? Contact the New York State HOPELine by texting “HopeNY,” calling 1-877-8-HOPENY, or visiting oasas.ny.gov/HOPELine.",
+ "compliancePlainLink": {
+  "text": "oasas.ny.gov/HOPELine",
+  "href": "http://oasas.ny.gov/HOPELine"
+ },
+ "newsletter": {
+  "title": "Get the small-batch drops first",
+  "text": "New arrivals, restocks, and staff picks, sent every couple of weeks, never more.",
+  "field": "EMAIL",
+  "button": "GO",
+  "note": "You must be 21+ to subscribe. Unsubscribe anytime."
+ },
+ "ageGate": {
+  "kicker": "Age verification",
+  "question": "Are you 21 or older?",
+  "text": "This site features cannabis products. Please confirm your age before entering.",
+  "yes": "Yes, I'm 21+",
+  "no": "No",
+  "storageKey": "ap-age-ok"
+ },
+ "ticker": [
+  "Woodstock Specials",
+  "Trout & Co Specials",
+  "Jetty Specials",
+  "2 For $40 All Wana Gummies",
+  "Hepworth Specials",
+  "Jeeter Specials",
+  "Claybourne Co Specials",
+  "Hudson Cannabis Special",
+  "MoonDust Specials",
+  "Canna Cure Specials",
+  "Camino Specials",
+  "Papa and Barkley Sale!",
+  "Camino Chewsdays!",
+  "Clean Air Act",
+  "Cart Battery Bundle!"
+ ],
+ "testimonial": {
+  "quote": "I've been coming here since it opened. They actually take the time to explain things, never feel rushed, never feel talked into anything.",
+  "by": "A regular from the neighborhood"
+ },
+ "palette": {
+  "ink": "#000000",
+  "charcoal": "#1C1710",
+  "gold": "#977E42",
+  "green": "#39BC1F",
+  "pine": "#1F7A12",
+  "clay": "#6B5730",
+  "mist": "#EBE7D7",
+  "paper": "#FFFFFF",
+  "forest": "#294830",
+  "menuGreen": "#33CC33"
+ },
+ "fonts": {
+  "display": "Archivo Black",
+  "body": "Figtree",
+  "mono": "Roboto Mono"
+ },
+ "reviews": {
+  "kicker": "TRUSTED BY A&P DISPENSARY",
+  "title": "Quality cannabis. Knowledgeable guidance. A better way to shop.",
+  "items": [
+   {
+    "name": "Sylina Darby",
+    "text": "This shop is great! It’s in a great location and the staff are so nice and helpful. Every time I go there, the music is good and the atmosphere is clean and welcoming. I go there a lot because I like the people and their products.",
+    "source": "Google"
+   },
+   {
+    "name": "Martin R",
+    "text": "Lucy and Kennan and Arnoff were all top notch humans and budtenders. They're always happy to talk and offer recommendations in a caring and judgment-free manner. A welcome addition to the neighborhood for fans of flower. Or vapes. Or edibles.",
+    "source": "Google"
+   },
+   {
+    "name": "Francesca Lubin",
+    "text": "super friendly staff! love coming to this neighborhood dispo",
+    "source": "Google"
+   },
+   {
+    "name": "Jonathan Kolins",
+    "text": "This is a 6 out of 5 star place. Absolutely amazing staff, amazing products, and great guidance for the experience you’re looking for. I LOVE this place and I cannot recommend it highly enough!!",
+    "source": "Google"
+   },
+   {
+    "name": "Ashish Lama",
+    "text": "Beautiful store , good prices , friendly environment , amazing product.",
+    "source": "Google"
+   },
+   {
+    "name": "Kris S",
+    "text": "My neighborhood go-to spot! They always have a great stock, their staff is knowledgeable and friendly, the decor is so relaxing, and they support community! Def pop by to check out if in the neighborhood!",
+    "source": "Google"
+   },
+   {
+    "name": "Jordan Feltner",
+    "text": "It's the secret stash site. Arnav is the most helpful person I've met in the industry. Great spot. Despite what others may say the quality of product is peak NY quality so far. There is something for everyone.",
+    "source": "Google"
+   },
+   {
+    "name": "Nihaluz Zaman",
+    "text": "Very friendly staff!",
+    "source": "Google"
+   }
+  ],
+  "note": "Reviews posted on Google, as shown on aandpdispensary.com."
+ }
+}

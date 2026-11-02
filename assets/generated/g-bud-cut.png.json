@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-bud-cut",
+  "file": "assets/generated/g-bud-cut.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio macro photograph of one single dense cured cannabis flower bud, the whole bud in the frame with a wide black margin on every side, frosty white trichomes glinting gold, fine twisted orange pistils, deep green and violet calyxes, a warm gold key light from the upper left, a faint green rim light from the lower right, crisp sharp detail, isolated on a pure black background, nothing else in the frame, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2500994870,
+  "requestId": "01a19ab5-a335-7e13-9dd3-b22c7113f7b8",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a19ab5-d5d1-76e2-97f6-4a99b95fdc79"
+  },
+  "width": 2048,
+  "height": 2048,
+  "sha256": "612d7dd532171b15f7bd8238df3e3a80cc9bce7a901d2af4797cc18258d86353",
+  "raw": "tmp/img/raw/g-bud-cut.1793596968451.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T05:22:54.317Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "One dense cured bud with orange pistils, clean transparent cut-out (checked on mid grey).",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "One dense cured cannabis bud with frosty trichomes and orange pistils, lit gold from the upper left."
+}

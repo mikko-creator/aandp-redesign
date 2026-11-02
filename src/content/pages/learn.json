@@ -1,0 +1,126 @@
+{
+ "path": "/learn/",
+ "oldPath": "/education/",
+ "title": "Learn About Cannabis | A&P Dispensary",
+ "description": "Clear, approachable guides to help you understand cannabis, explore your options, and choose with confidence, without the jargon or the hype.",
+ "hero": {
+  "kicker": "Family-owned · Kew Gardens",
+  "title": [
+   "CANNABIS, WITHOUT",
+   "THE CONFUSION."
+  ],
+  "text": "Clear, approachable guides to help you understand cannabis, explore your options, and choose with confidence, without the jargon or the hype.",
+  "ctas": [
+   {
+    "label": "Start Learning",
+    "href": "#articles"
+   },
+   {
+    "label": "Shop Cannabis",
+    "href": "/shop/"
+   }
+  ]
+ },
+ "guides": {
+  "title": "ESSENTIAL GUIDES",
+  "items": [
+   {
+    "title": "Beginner's Guide",
+    "text": "New to cannabis? Start here. Learn the basics about different products, how to consume safely, and what to expect.",
+    "href": "/learn/beginners-guide/",
+    "cta": "Read More",
+    "art": "Gemini_Generated_Image_6a7mt86a7mt86a7m-removebg-preview-1.svg"
+   },
+   {
+    "title": "Understanding Cannabinoids",
+    "text": "Explore THC, CBD, and other cannabinoids. Understand how they work and their different effects on the body.",
+    "href": "/learn/understanding-cannabinoids/",
+    "cta": "Read More",
+    "art": "Gemini_Generated_Image_diqm02diqm02diqm-removebg-preview-1.svg"
+   },
+   {
+    "title": "Terpene Profile",
+    "text": "Discover terpenes, the aromatic compounds that give cannabis its unique flavors and effects.",
+    "href": "/learn/terpene-profile/",
+    "cta": "Read More",
+    "art": "Gemini_Generated_Image_61wsg61wsg61wsg6-removebg-preview-1.svg"
+   }
+  ]
+ },
+ "benefits": {
+  "title": "POTENTIAL HEALTH BENEFITS",
+  "items": [
+   {
+    "title": "Pain Relief",
+    "text": "Cannabis may help manage chronic pain and inflammation."
+   },
+   {
+    "title": "Sleep Support",
+    "text": "Many users report improved sleep quality and duration."
+   },
+   {
+    "title": "Anxiety Management",
+    "text": "CBD-rich strains may help reduce anxiety symptoms."
+   },
+   {
+    "title": "Nausea Relief",
+    "text": "Cannabis can help manage nausea and improve appetite."
+   },
+   {
+    "title": "Muscle Relaxation",
+    "text": "Helps ease muscle tension, reduce spasms, and promote overall physical comfort."
+   },
+   {
+    "title": "Mood Enhancement",
+    "text": "Designed to help improve mood while encouraging balance and overall wellness."
+   }
+  ]
+ },
+ "basics": [
+  {
+   "title": "What Is Cannabis?",
+   "text": "Cannabis is more than just a plant; it’s a complex botanical with a rich history and myriad uses. In this section, explore the basics of cannabis, including its various components like THC and CBD, and learn about its effects on the body and mind. Whether you are a recreational user or seeking medicinal benefits, understanding the fundamentals of cannabis is key to a safe and enjoyable experience."
+  },
+  {
+   "title": "Health Benefits",
+   "text": "Dive into the potential health benefits of cannabis, supported by emerging scientific research. Learn how different cannabinoids can alleviate symptoms of chronic pain, anxiety, and insomnia, and explore the therapeutic effects of cannabis in managing conditions like epilepsy and multiple sclerosis. This section aims to provide you with well-researched information to discuss with your healthcare provider."
+  },
+  {
+   "title": "Safe Consumption Practices",
+   "text": "Ensuring the safe consumption of cannabis is essential for both new users and experienced connoisseurs. Here, we provide guidance on dosing, the importance of setting, how to choose the right consumption methods, and tips for responsible use. Safety is paramount in enjoying the benefits of cannabis without adverse effects."
+  }
+ ],
+ "basicsPhoto": "All-of-the-Other-Herbs-You-Can-Smoke-1-1.webp",
+ "featured": {
+  "slug": "cbd-for-stress-relief",
+  "title": "CBD for Stress Relief: How Cannabidiol Can Help You Find Calm in a Hectic World",
+  "text": "In today’s fast-paced world, stress has become an almost inevitable part of daily life. Whether it’s work pressures, personal responsibilities, or global events, many of us find ourselves feeling overwhelmed. Enter CBD (Cannabidiol), a natural compound derived from the cannabis plant that has gained significant attention for its potential to promote relaxation and ease stress.",
+  "cta": "READ MORE",
+  "photo": "calm-cbd-added-e1781700757297.webp"
+ },
+ "carousel": [
+  {
+   "slug": "indica-sativa-hybrid",
+   "photo": "Mask-group-62.png"
+  },
+  {
+   "slug": "benefits-of-cbd-oil",
+   "photo": "Mask-group-61.png"
+  },
+  {
+   "slug": "cbd-for-stress-relief",
+   "photo": "Mask-group-60.png"
+  }
+ ],
+ "articles": [
+  "beginners-guide",
+  "benefits-of-cbd-oil",
+  "cbd-for-stress-relief",
+  "first-time-visiting",
+  "how-to-store-cannabis",
+  "indica-sativa-hybrid",
+  "terpene-profile",
+  "thc-vs-cbd",
+  "understanding-cannabinoids"
+ ]
+}

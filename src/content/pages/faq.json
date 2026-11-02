@@ -1,0 +1,91 @@
+{
+ "path": "/faq/",
+ "title": "FAQ | A&P Dispensary",
+ "description": "Answers to common questions about shopping at A&P Dispensary in Kew Gardens, NY: hours, ID, pickup, delivery and our products.",
+ "hero": {
+  "title": "Frequently Asked Questions",
+  "text": "Answers from the A&P team, in our own words."
+ },
+ "groups": [
+  {
+   "title": "Visiting A&P",
+   "items": [
+    {
+     "q": "What are your hours?",
+     "a": "Monday – Sunday: 12 PM – 10 PM.",
+     "src": "site footer"
+    },
+    {
+     "q": "Where are you located?",
+     "a": "81-37 Lefferts Blvd, Kew Gardens, NY 11415, United States.",
+     "src": "site footer"
+    },
+    {
+     "q": "What should I bring?",
+     "a": "Bring a valid, government-issued photo ID and have it ready when you arrive. Cannabis dispensaries are required to verify that customers meet the applicable legal age requirements before completing a purchase.",
+     "src": "/learn/first-time-visiting/"
+    },
+    {
+     "q": "Who can shop at A&P?",
+     "a": "For use only by adults 21 years of age and older.",
+     "src": "site footer"
+    },
+    {
+     "q": "What happens when I arrive?",
+     "a": "Once you arrive, you’ll typically begin by checking in and verifying your eligibility to shop. From there, you can explore the available products.",
+     "src": "/learn/first-time-visiting/"
+    }
+   ]
+  },
+  {
+   "title": "Ordering",
+   "items": [
+    {
+     "q": "Can I order online and pick up in-store?",
+     "a": "Shopping with A&P Dispensary is simple, fast, and secure. Browse our curated selection of premium flower, vapes, edibles, and concentrates online, then place your order in just a few clicks. Whether you’re picking up in-store or checking out the latest drops, we make the process smooth and hassle-free.",
+     "src": "/delivery/"
+    },
+    {
+     "q": "Do you deliver?",
+     "a": "Enjoy the convenience of premium cannabis delivered straight to you. A&P Dispensary offers safe, reliable, and discreet delivery so you can shop your favorite products without leaving home.",
+     "src": "/delivery/"
+    },
+    {
+     "q": "How is my order prepared?",
+     "a": "Once your order is confirmed, our trained team carefully prepares it for dispatch. Each item is securely packed, quality-checked, and handled with discretion to ensure freshness, safety, and compliance. Your order is then readied for pickup or delivery within your selected time window.",
+     "src": "/delivery/"
+    }
+   ]
+  },
+  {
+   "title": "Products and advice",
+   "items": [
+    {
+     "q": "Do I need to know what I want before I visit?",
+     "a": "You don’t need to know the exact product or strain you want. Even having a general idea can help.",
+     "src": "/learn/first-time-visiting/"
+    },
+    {
+     "q": "Will your budtenders upsell me?",
+     "a": "No upselling, ever. Our budtenders are trained to help you find the right product, not the most expensive one.",
+     "src": "home page"
+    },
+    {
+     "q": "What's the difference between THC and CBD?",
+     "a": "THC is the cannabinoid most commonly associated with the intoxicating effects of cannabis. CBD is another major cannabinoid that is not generally intoxicating in the same way THC is.",
+     "src": "/learn/first-time-visiting/"
+    },
+    {
+     "q": "How should I store my cannabis?",
+     "a": "Proper storage keeps your cannabis fresh, potent, and flavorful. We educate customers on best practices, including airtight containers, cool and dark environments, and humidity control to preserve quality over time. A little care goes a long way in protecting your purchase.",
+     "src": "/about/"
+    },
+    {
+     "q": "How do I hear about new arrivals?",
+     "a": "New arrivals, restocks, and staff picks, sent every couple of weeks, never more. You must be 21+ to subscribe. Unsubscribe anytime.",
+     "src": "site footer"
+    }
+   ]
+  }
+ ]
+}

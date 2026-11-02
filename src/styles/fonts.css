@@ -1,0 +1,6 @@
+/* fonts.css - A&P Dispensary's own three faces (as used on aandpdispensary.com), self-hosted latin subsets, SIL Open
+   Font License: Archivo Black = display, Figtree = body and UI, Roboto Mono = labels, prices and the ticker. */
+@font-face { font-family: 'Archivo Black'; font-style: normal; font-weight: 400; font-display: swap; src: url("/assets/fonts/archivo-black-400.woff2") format('woff2'); }
+@font-face { font-family: 'Figtree'; font-style: normal; font-weight: 300 900; font-display: swap; src: url("/assets/fonts/figtree-var.woff2") format('woff2'); }
+@font-face { font-family: 'Figtree'; font-style: italic; font-weight: 300 900; font-display: swap; src: url("/assets/fonts/figtree-italic-var.woff2") format('woff2'); }
+@font-face { font-family: 'Roboto Mono'; font-style: normal; font-weight: 400 700; font-display: swap; src: url("/assets/fonts/roboto-mono-var.woff2") format('woff2'); }

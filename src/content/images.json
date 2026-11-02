@@ -1,0 +1,170 @@
+{
+ "photos": {
+  "storefront.webp": {
+   "alt": "A&P Dispensary's shop front: a black awning with the green and white A&P DISPENSARY sign above a glass door."
+  },
+  "interior.webp": {
+   "alt": "Inside A&P Dispensary: an exposed brick wall, track lights and black-framed glass display cases."
+  },
+  "van.webp": {
+   "alt": "The white A&P Dispensary delivery van with its green CANNABIS DELIVERY wrap."
+  },
+  "web-mockup.webp": {
+   "alt": "The A&P Dispensary website on a laptop screen."
+  },
+  "bud.webp": {
+   "alt": "A cured cannabis bud with orange pistils."
+  },
+  "calm-cbd.webp": {
+   "alt": "A jar of CBD gummies on a table, a person blurred in the background."
+  },
+  "prerolls.webp": {
+   "alt": "Two pre-rolls resting on cannabis leaves."
+  },
+  "trichomes.png": {
+   "alt": "Macro of a cannabis flower covered in trichomes, with orange pistils."
+  },
+  "buds-cut.png": {
+   "alt": "A cured cannabis bud."
+  },
+  "herbs.webp": {
+   "alt": "Ground herbs, rolling papers and a jar on a gold tray."
+  },
+  "article-strains.png": {
+   "alt": "Glass jars of cannabis buds with strain-name labels on a shop counter."
+  },
+  "article-cbd-oil.png": {
+   "alt": "A hand holding an amber bottle of CBD oil."
+  },
+  "article-cbd-stress.png": {
+   "alt": "A jar of CBD gummies on a table, a person blurred in the background."
+  },
+  "store-room.jpg": {
+   "alt": "Inside A&P Dispensary: a glass counter case of products in front of an exposed brick wall lined with tall black-framed glass cases, track lights and potted plants."
+  },
+  "store-room-wide.jpg": {
+   "alt": "Inside A&P Dispensary: two tall black-framed glass cases of products against an exposed brick wall, a large potted plant and a posted notice at the right."
+  },
+  "store-case-1.jpg": {
+   "alt": "A tall black-framed glass case at A&P Dispensary, its lit glass shelves holding packaged products."
+  },
+  "store-case-2.jpg": {
+   "alt": "A full black-framed display case at A&P Dispensary with shelves of boxed and bagged products."
+  },
+  "store-shelf.jpg": {
+   "alt": "A glass shelf at A&P Dispensary holding round tins and small boxes, an exposed brick wall behind."
+  },
+  "store-brick.jpg": {
+   "alt": "A glass display case against A&P Dispensary's exposed brick wall, with tins, cards and colourful packaged products on its shelves."
+  },
+  "store-counter.jpg": {
+   "alt": "Looking down into A&P Dispensary's glass counter case: jars, pouches and packaged products on a white base."
+  }
+ },
+ "media": {
+  "store-room": {
+   "mp4": "/assets/media/store-room.mp4",
+   "mp4Small": "/assets/media/store-room-sm.mp4",
+   "poster": "/assets/media/store-room.jpg",
+   "w": 1920,
+   "h": 1080,
+   "duration": 8.93,
+   "audio": false,
+   "use": "home hero film, store page hero",
+   "note": "A&P's own footage (store-room clip, landscape crop; forward-then-reverse loop; mp4Small is the full portrait frame 720x1280)"
+  },
+  "inside-1": {
+   "mp4": "/assets/media/inside-1.mp4",
+   "poster": "/assets/media/inside-1.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: the store room and a tall lit display case; forward-then-reverse loop)"
+  },
+  "inside-2": {
+   "mp4": "/assets/media/inside-2.mp4",
+   "poster": "/assets/media/inside-2.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: a tall glass display case, close; forward-then-reverse loop)"
+  },
+  "inside-3": {
+   "mp4": "/assets/media/inside-3.mp4",
+   "poster": "/assets/media/inside-3.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: a full display case of products; forward-then-reverse loop)"
+  },
+  "inside-4": {
+   "mp4": "/assets/media/inside-4.mp4",
+   "poster": "/assets/media/inside-4.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: a shelf of tins in a case against brick; forward-then-reverse loop)"
+  },
+  "inside-5": {
+   "mp4": "/assets/media/inside-5.mp4",
+   "poster": "/assets/media/inside-5.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: a case against the brick wall; forward-then-reverse loop)"
+  },
+  "inside-6": {
+   "mp4": "/assets/media/inside-6.mp4",
+   "poster": "/assets/media/inside-6.jpg",
+   "w": 720,
+   "h": 1280,
+   "duration": 7.93,
+   "audio": false,
+   "use": "Step Inside A&P (home, store page)",
+   "note": "A&P's own footage (vertical store clip: the glass counter case from above; forward-then-reverse loop)"
+  },
+  "smoke": {
+   "mp4": "/assets/media/smoke.mp4",
+   "poster": "/assets/media/smoke.jpg",
+   "w": 1920,
+   "h": 1080,
+   "duration": 10.0,
+   "audio": false,
+   "use": "ethereal overlays (screen blend), learn hero",
+   "note": "A&P's own footage (smoke film, 16:9 centre crop; 1 s crossfade loop)"
+  },
+  "plants": {
+   "mp4": "/assets/media/plants.mp4",
+   "poster": "/assets/media/plants.jpg",
+   "w": 1920,
+   "h": 1080,
+   "duration": 9.93,
+   "audio": false,
+   "use": "article heroes, learn",
+   "note": "A&P's own footage (backlit plants film; forward-then-reverse loop)"
+  },
+  "haze-loop": {
+   "mp4": "/assets/media/haze-loop.mp4",
+   "mp4Small": "/assets/media/haze-loop-sm.mp4",
+   "poster": "/assets/media/haze-loop.jpg",
+   "w": 1920,
+   "h": 1068,
+   "wSmall": 960,
+   "hSmall": 534,
+   "duration": 11.9,
+   "audio": false,
+   "use": "ethereal band backdrop (deals, drops): muted decorative loop, poster only under reduced motion",
+   "note": "AI-generated illustrative motion (fal, Kling 2.1 image-to-video, animated from the AI-generated still g-smoke-glass), played forward then in reverse so it loops seamlessly. Not footage of A&P Dispensary, its store, staff, customers, products or brands."
+  }
+ }
+}

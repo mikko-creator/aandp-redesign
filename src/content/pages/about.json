@@ -1,0 +1,56 @@
+{
+ "path": "/about/",
+ "oldPath": "/about-us/",
+ "title": "About Us | A&P Dispensary",
+ "description": "A family-owned dispensary bringing thoughtfully selected, small-batch cannabis and genuine, knowledgeable service to our Kew Gardens neighborhood.",
+ "hero": {
+  "kicker": "Family-owned · Kew Gardens",
+  "title": [
+   "BUILT ON GOOD CANNABIS.",
+   "ROOTED IN COMMUNITY."
+  ],
+  "text": "A family-owned dispensary bringing thoughtfully selected, small-batch cannabis and genuine, knowledgeable service to our Kew Gardens neighborhood.",
+  "ctas": [
+   {
+    "label": "Our Story",
+    "href": "#story"
+   },
+   {
+    "label": "Visit A&P",
+    "href": "/store/kew-gardens-ny/"
+   }
+  ]
+ },
+ "values": [
+  {
+   "title": "Highly knowledgeable",
+   "text": "Our team is trained to guide you with confidence and clarity. Whether you’re new to cannabis or refining your preferences, we take the time to explain products, effects, and formats so you can make informed choices that fit your lifestyle. No pressure, just honest, knowledgeable support every visit."
+  },
+  {
+   "title": "Recommend great products",
+   "text": "Every recommendation is based on quality, consistency, and your personal needs. From top-tier flower to carefully selected concentrates and edibles, we help you discover products that align with your preferences, whether that’s flavor, potency, or desired effects."
+  },
+  {
+   "title": "How to Store Cannabis",
+   "text": "Proper storage keeps your cannabis fresh, potent, and flavorful. We educate customers on best practices, including airtight containers, cool and dark environments, and humidity control to preserve quality over time. A little care goes a long way in protecting your purchase."
+  },
+  {
+   "title": "For the customers",
+   "text": "At A&P Dispensary, the customer experience always comes first. We focus on transparency, comfort, and trust, creating a welcoming space where everyone feels at ease. Our goal is simple: provide reliable products, helpful education, and friendly service you can count on."
+  }
+ ],
+ "valuesPhoto": "Buds-8.png",
+ "blocks": [
+  {
+   "title": "order online, pick up with ease",
+   "text": "At A&P Dispensary, we’re proud to be part of the local community, providing a welcoming space where premium cannabis products and exceptional customer service come together. Whether you’re visiting us for the first time or returning as a valued customer, our knowledgeable team is here to help you explore a carefully curated selection of high-quality cannabis products. From personalized recommendations to a seamless shopping experience, we’re committed to making every visit convenient, comfortable, and memorable.",
+   "photo": "cannabis-bud-trichomes-macro-closeup.png"
+  },
+  {
+   "title": "your neighbourhood cannabis experience",
+   "text": "At A&P Dispensary, we’re proud to be part of the local community, offering a welcoming space where quality cannabis products and exceptional service come together. Whether you’re a first-time visitor or a returning customer, our knowledgeable team is here to help you explore a carefully curated selection of premium cannabis products. From personalized recommendations to a seamless shopping experience, we’re committed to making every visit comfortable, convenient, and memorable.",
+   "photo": "Prerolls-Picture.webp"
+  }
+ ],
+ "reviews": "site.reviews"
+}

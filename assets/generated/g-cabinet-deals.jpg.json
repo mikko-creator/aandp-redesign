@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cabinet-deals",
+  "file": "assets/generated/g-cabinet-deals.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist interior still-life photograph: the inside of a dark display cabinet with three empty clear glass shelves held by thin matte black metal brackets, completely empty, a warm gold light strip along the top inside edge pouring down through the glass shelves, gold highlights on the shelf edges, a soft green glow at the base of the cabinet in the lower right. Composition: the shelves fill the right 60% of the frame in gentle perspective, black negative space on the left. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, quiet premium mood; no products, no objects on the shelves, no price tags, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1471414352,
+  "requestId": "01a19ab5-77de-7c13-a6df-de621f19364e",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "25bcab50dc93dad3a6c4e531b34a3174f58b34fddc0752dfd50781ced0998d46",
+  "raw": "tmp/img/raw/g-cabinet-deals.1793596956886.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T05:22:38.196Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Empty cabinet: three clear glass shelves, gold light strip at the top, green glow at the base. No products, labels or text.",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "Empty glass shelves inside a dark display cabinet, lit by a warm gold light from above."
+}

@@ -1,0 +1,4727 @@
+{
+ "capturedAt": "2026-11-02",
+ "note": "Sample of A&P's live menu as listed on aandpdispensary.com on 2 November 2026. Prices and stock change daily.",
+ "categories": [
+  {
+   "slug": "flower",
+   "label": "Flower",
+   "carrot": "flower",
+   "path": "/products/flower/",
+   "count": 97,
+   "icon": "flower-icon-3.png",
+   "ids": [
+    11316148757,
+    11316147560,
+    11316148437,
+    11114783609,
+    8163366830,
+    9250418479,
+    8571774214,
+    11316148657,
+    11316148300,
+    11316146550,
+    10488702810,
+    10488703742,
+    10488703170,
+    7592392736,
+    9811454538,
+    9811454225,
+    9811454227,
+    10763949189,
+    11118929683,
+    11118930106,
+    10741848414,
+    11541948367,
+    10741847687,
+    11541950029,
+    8146291920,
+    8976170307,
+    11141587283,
+    11141587314,
+    11141586594,
+    6951785253,
+    9651861816,
+    11141587131,
+    11141587106,
+    11141587338,
+    11362043429,
+    11362043419,
+    11362043424,
+    11362043431,
+    11362043433,
+    5663135709,
+    5663135293,
+    5663135652,
+    11201637071,
+    11196595374,
+    10973079268,
+    10973080168,
+    10973080202,
+    10973079258,
+    10935399129,
+    10935399307,
+    10935399723,
+    10057631191,
+    10803376338,
+    10935400268,
+    10803374933,
+    10935400270,
+    10803376268,
+    10935399039,
+    10935399982,
+    5663135408,
+    5663135745,
+    5663135547,
+    10662006761,
+    10662007717,
+    10662006736,
+    11255798265,
+    11255798506,
+    11197850741,
+    11201636844,
+    10359944340,
+    10359944352,
+    7593954839,
+    7593955139,
+    7888343945,
+    11198796063,
+    11198795683,
+    11198796613,
+    11198795986,
+    7732767898,
+    10701767498,
+    10701767508,
+    10701767506,
+    10701767488,
+    10701767484,
+    10701767496,
+    10701767509,
+    9332047794,
+    8241293030,
+    7991640230,
+    9372029241,
+    9372029318,
+    9372028737,
+    11095976584,
+    11501104019,
+    11501103822,
+    7952307060,
+    11035910091
+   ]
+  },
+  {
+   "slug": "prerolls",
+   "label": "Pre-Rolls",
+   "carrot": "preroll",
+   "path": "/products/prerolls/",
+   "count": 118,
+   "icon": "prerolls-icon-1.png",
+   "ids": [
+    8169989015,
+    10529429017,
+    11518999807,
+    11518999768,
+    11518999948,
+    10827601227,
+    8538431340,
+    9091611783,
+    9091611847,
+    9091611795,
+    10488702866,
+    10763949234,
+    10763949147,
+    10054748663,
+    10741847517,
+    10054748558,
+    10054748747,
+    10741847575,
+    10054748573,
+    10054748601,
+    10741847731,
+    11234826574,
+    10741848326,
+    10054748896,
+    10741847623,
+    11234826835,
+    10741847705,
+    10741848377,
+    10054748932,
+    10054748652,
+    10054748626,
+    10054748756,
+    10054748739,
+    10054748686,
+    11541948476,
+    10741847707,
+    10208697678,
+    10208697837,
+    11118929748,
+    8376883027,
+    8376881386,
+    10763949221,
+    10763948846,
+    10483199523,
+    10483199466,
+    10483199464,
+    7022157024,
+    6539019645,
+    11196595803,
+    11196596663,
+    11196594648,
+    11196595703,
+    11196595674,
+    10974565355,
+    10889805160,
+    10889805973,
+    10889805074,
+    10889805247,
+    9091611923,
+    9091490228,
+    11541793870,
+    8162237404,
+    7613288961,
+    10935399721,
+    10803375145,
+    11114781808,
+    11114782862,
+    11114782932,
+    5663135481,
+    6539019642,
+    5663135460,
+    5663135719,
+    6539019606,
+    5663135416,
+    10662007446,
+    5663135541,
+    5663135441,
+    5663135476,
+    6370230682,
+    6370230640,
+    6370230676,
+    5663135666,
+    11201636190,
+    7888343805,
+    10359944338,
+    7593954912,
+    7593955032,
+    5663135298,
+    8778724644,
+    8778724646,
+    8687011328,
+    7732767737,
+    7732767892,
+    7732767869,
+    7732769025,
+    7732767375,
+    8516652374,
+    8145595326,
+    8145595577,
+    10356614596,
+    9173935129,
+    9173934982,
+    7991640226,
+    9173935111,
+    7991640210,
+    11095977587,
+    11095976470,
+    10335303316,
+    10335302959,
+    10335301755,
+    9173800332,
+    10335303330,
+    11197850169,
+    10100039681,
+    11501103983,
+    11501103847,
+    9070806816,
+    9350970407
+   ]
+  },
+  {
+   "slug": "vapes",
+   "label": "Vapes",
+   "carrot": "carts",
+   "path": "/products/vapes/",
+   "count": 129,
+   "icon": "vapes-icon-2.png",
+   "ids": [
+    10740341557,
+    5909741663,
+    10740342219,
+    8162015340,
+    10054748968,
+    10054748841,
+    10741847866,
+    10054748902,
+    10741848544,
+    11234826381,
+    9628982349,
+    7144847457,
+    11499478062,
+    5663135613,
+    11499478555,
+    9628982322,
+    9628982127,
+    10504219737,
+    11499478305,
+    5663135526,
+    10504220421,
+    11118930440,
+    11118930504,
+    11118930432,
+    9651783620,
+    5895268924,
+    5895269161,
+    11214999335,
+    11215001121,
+    9651783625,
+    11215001138,
+    5663135338,
+    5663135383,
+    5663135367,
+    5663135748,
+    5663135395,
+    5663135733,
+    5663135478,
+    5663135515,
+    5663135604,
+    5663135392,
+    7730417824,
+    5663135337,
+    5663135482,
+    5663135419,
+    5663135523,
+    7950475558,
+    5663135451,
+    5663135633,
+    5663135586,
+    5663135311,
+    5663135595,
+    5663135445,
+    5663135381,
+    6971644968,
+    5663135305,
+    5663135308,
+    5663135728,
+    5663135296,
+    5663135628,
+    11519311284,
+    11519311204,
+    11519311251,
+    6486846660,
+    6971645163,
+    9313669874,
+    5663135459,
+    5663135436,
+    10164871063,
+    11519311456,
+    11479629212,
+    11479629407,
+    11479629389,
+    11479629491,
+    11479629201,
+    11479629532,
+    11479629475,
+    11479629330,
+    5663135691,
+    6851579611,
+    7888288968,
+    11257301365,
+    9952050970,
+    11257302865,
+    10161682695,
+    11257302751,
+    11257303003,
+    10014072460,
+    8437550410,
+    10014072415,
+    10014072097,
+    10014072082,
+    8437550238,
+    11114783197,
+    10014072276,
+    8437550707,
+    8437550310,
+    10827286040,
+    5663135403,
+    7022157060,
+    7022157145,
+    11518999570,
+    5663135600,
+    9871857673,
+    5775690467,
+    11197851782,
+    11197851559,
+    11501772529,
+    11501773342,
+    11501775043,
+    11501774682,
+    11501774064,
+    11501772331,
+    11501772871,
+    11501775169,
+    11501773238,
+    11501775186,
+    11501775128,
+    11501774894,
+    11501774982,
+    11501774904,
+    11501775056,
+    11501772228,
+    11501774233,
+    11501772595,
+    7218787958,
+    7218787415,
+    7218787995,
+    7478245476
+   ]
+  },
+  {
+   "slug": "edibles",
+   "label": "Edibles",
+   "carrot": "edible",
+   "path": "/products/edibles/",
+   "count": 98,
+   "icon": "edibles-icon-2-1.png",
+   "ids": [
+    5883112720,
+    5883112969,
+    10827601957,
+    5883112991,
+    5883112824,
+    9351054907,
+    8538430645,
+    8538430592,
+    7892845624,
+    7892846039,
+    7892845648,
+    7892846151,
+    7892845686,
+    8970985175,
+    8970985008,
+    5663135309,
+    7180506522,
+    5663135635,
+    5663135593,
+    7180506402,
+    8223382091,
+    6918806592,
+    8223382102,
+    7199141117,
+    7199140889,
+    9310495271,
+    9310495340,
+    5787923104,
+    6475020017,
+    6475019918,
+    5787923103,
+    7869933757,
+    10827678101,
+    10827677578,
+    10827677297,
+    10827677388,
+    5663135299,
+    5663135711,
+    5663135695,
+    5877181473,
+    11483677645,
+    5777806310,
+    5777806656,
+    5777805973,
+    5777806629,
+    7094272796,
+    7094272798,
+    10228576456,
+    10228575262,
+    9651783773,
+    11316146517,
+    11316146826,
+    11316147351,
+    10164871061,
+    10164871066,
+    10164871068,
+    10164871062,
+    6470160652,
+    9310495201,
+    5787923085,
+    5787923090,
+    11257302679,
+    6851579707,
+    7421622932,
+    6851580244,
+    8376966152,
+    5663135506,
+    11257302893,
+    10828642254,
+    8399972293,
+    5880251527,
+    5880251612,
+    10827287290,
+    5880251857,
+    8169988246,
+    11197850739,
+    11197849843,
+    11197850532,
+    11197850624,
+    7180506425,
+    7180506299,
+    7180506483,
+    5663135378,
+    5663135388,
+    5663135411,
+    5895034716,
+    5895035219,
+    7732767331,
+    9370378457,
+    5663194579,
+    11197850436,
+    5663135532,
+    5663135340,
+    5663135568,
+    5663135492,
+    5663135551,
+    5663135354,
+    5663135474
+   ]
+  },
+  {
+   "slug": "concentrates",
+   "label": "Concentrates",
+   "carrot": "concentrate",
+   "path": "/products/concentrates/",
+   "count": 17,
+   "icon": "concentrates-icon-2.png",
+   "ids": [
+    10506410548,
+    10249740174,
+    6474775528,
+    6474775605,
+    6474775568,
+    5880251454,
+    10483199842,
+    9370377175,
+    7730761709,
+    6486846528,
+    5663194674,
+    7867177537,
+    11178169314,
+    11178169330,
+    10955786551,
+    9651706434,
+    5775690451
+   ]
+  },
+  {
+   "slug": "tinctures",
+   "label": "Tinctures",
+   "carrot": "cbd",
+   "path": "/products/tinctures/",
+   "count": 0,
+   "icon": "tinctures-icon.png",
+   "ids": []
+  },
+  {
+   "slug": "topicals",
+   "label": "Topicals",
+   "carrot": "topical",
+   "path": "/products/topicals/",
+   "count": 6,
+   "icon": "topicals-icon.png",
+   "ids": [
+    8538430302,
+    10228576204,
+    10228576221,
+    8376963798,
+    5895034756,
+    5775690676
+   ]
+  },
+  {
+   "slug": "accessories",
+   "label": "Accessories",
+   "carrot": "accessory",
+   "path": "/products/accessories/",
+   "count": 43,
+   "icon": null,
+   "ids": [
+    6917794908,
+    9609561262,
+    9772344238,
+    9772344247,
+    9772344254,
+    9772344211,
+    9772344216,
+    9772344250,
+    9772344225,
+    9772344221,
+    9772344243,
+    9772344235,
+    8102954249,
+    7486848501,
+    10531995223,
+    5663135364,
+    6915665054,
+    9114142877,
+    10531995489,
+    10531995368,
+    10531995442,
+    7328762820,
+    10531995324,
+    10531995361,
+    10531995548,
+    11501917046,
+    11501916787,
+    11501916361,
+    6799952197,
+    6799952287,
+    9934756805,
+    6799952328,
+    6799952185,
+    6799952298,
+    6799952213,
+    6799952344,
+    6799952360,
+    6799952250,
+    6799952161,
+    6799952278,
+    9972687494,
+    9972687492,
+    6799952282
+   ]
+  },
+  {
+   "slug": "merch",
+   "label": "Merch",
+   "carrot": "merch",
+   "path": "/products/merch/",
+   "count": 0,
+   "icon": null,
+   "ids": []
+  }
+ ],
+ "collections": [
+  {
+   "slug": "our-specials",
+   "label": "Our Specials",
+   "ids": [
+    11316148757,
+    11316147560,
+    11316148437,
+    9370378457,
+    9370377175,
+    7730761709,
+    7613288961,
+    9651861816,
+    11141587131,
+    11141587106,
+    11141587338,
+    6486846660,
+    6971645163,
+    9313669874,
+    5663135459,
+    5663135436,
+    10164871063,
+    5663135532,
+    5663135340,
+    5663135568,
+    5663135492,
+    5663135551,
+    5663135354,
+    5663135474
+   ],
+   "path": "/collection/our-specials/"
+  },
+  {
+   "slug": "bestselling",
+   "label": "Bestselling",
+   "ids": [
+    5883112991,
+    10827677578,
+    7593954912,
+    10827677388,
+    5663135340,
+    5663135695,
+    10827677297,
+    8778724644,
+    7593955032,
+    5663135506,
+    5663135436,
+    10827601957,
+    8399972293,
+    7950475558,
+    5663135381,
+    5663135311,
+    11362043419,
+    8778724646,
+    7991640210,
+    7888343805,
+    7613288961,
+    7328762820,
+    7199140889,
+    6917794908
+   ],
+   "path": "/collection/bestselling/"
+  },
+  {
+   "slug": "popular-flower",
+   "label": "Popular Flower",
+   "ids": [
+    11316148757,
+    11316147560,
+    11316148437,
+    11114783609,
+    8163366830,
+    9250418479,
+    8571774214,
+    11316148657,
+    11316148300,
+    11316146550,
+    10488702810,
+    10488703742
+   ],
+   "path": "/collection/popular-flower/"
+  },
+  {
+   "slug": "popular-preroll",
+   "label": "Popular Preroll",
+   "ids": [
+    8169989015,
+    10529429017,
+    11518999807,
+    11518999768,
+    11518999948,
+    10827601227,
+    8538431340,
+    9091611783,
+    9091611847,
+    9091611795,
+    10488702866,
+    10763949234
+   ],
+   "path": "/collection/popular-preroll/"
+  },
+  {
+   "slug": "popular-carts",
+   "label": "Popular Carts",
+   "ids": [
+    10740341557,
+    5909741663,
+    10740342219,
+    8162015340,
+    10054748968,
+    10054748841,
+    10741847866,
+    10054748902,
+    10741848544,
+    11234826381,
+    9628982349,
+    7144847457
+   ],
+   "path": "/collection/popular-carts/"
+  }
+ ],
+ "promotions": [
+  {
+   "id": 78264,
+   "name": "1937 Specials",
+   "description": "All 1937 flower is 2 for $50!",
+   "ends": "2026-12-31",
+   "productIds": [
+    11316148757,
+    11316147560,
+    11316148437
+   ]
+  },
+  {
+   "id": 77325,
+   "name": "Trout & Co Specials",
+   "description": "All online orders for Trout & Co products are tax free!",
+   "ends": "2027-01-31",
+   "productIds": [
+    9370378457,
+    9370377175,
+    7730761709
+   ]
+  },
+  {
+   "id": 77786,
+   "name": "MFNY Specials",
+   "description": "MFNY 4pk infused prerolls are 25% off! MFNY 2pk 0.5g cartridges are 21% off!",
+   "ends": "2026-12-31",
+   "productIds": [
+    7613288961
+   ]
+  },
+  {
+   "id": 77557,
+   "name": "Florist Farms Special",
+   "description": "All Florist Farms live resin infused preroll multipacks are buy one get one 40% off! All Florist Farms 7g jars are buy one get one 50% off!",
+   "ends": "2026-12-31",
+   "productIds": [
+    9651861816,
+    11141587131,
+    11141587106,
+    11141587338
+   ]
+  },
+  {
+   "id": 77522,
+   "name": "Jaunty Live Resin Battery Bundle",
+   "description": "Every Jaunty live resin cartridge comes with a free Jaunty 510 thread battery for a limited time! Simply add both to your cart!",
+   "ends": "2027-03-31",
+   "productIds": [
+    6486846660,
+    6971645163,
+    9313669874,
+    5663135459,
+    5663135436,
+    10164871063
+   ]
+  },
+  {
+   "id": 70358,
+   "name": "Wana Specials",
+   "description": "Buy any 2 Wana gummies for $40!",
+   "ends": "2027-03-26",
+   "productIds": [
+    5663135532,
+    5663135340,
+    5663135568,
+    5663135492,
+    5663135551,
+    5663135354,
+    5663135474
+   ]
+  },
+  {
+   "id": 77985,
+   "name": "SPFarms Specials",
+   "description": "SPFarms reserve line flower is 10% off!",
+   "ends": "2026-12-31",
+   "productIds": [
+    10701767496,
+    10701767509
+   ]
+  },
+  {
+   "id": 78204,
+   "name": "Olio Specials",
+   "description": "Olio Grape Blast rosin is 3 for $100!",
+   "ends": "2026-12-31",
+   "productIds": [
+    10483199842
+   ]
+  },
+  {
+   "id": 77784,
+   "name": "PUFF Specials",
+   "description": "PUFF Hash Infused 5pk prerolls are buy one get one 40% off! PUFF prerolls are 2 for $20!",
+   "ends": "2026-12-31",
+   "productIds": [
+    5663135541,
+    5663135441,
+    5663135476
+   ]
+  },
+  {
+   "id": 77229,
+   "name": "Camino Specials!",
+   "description": "Camino Chews are buy one get one free everyday!",
+   "ends": "2026-12-31",
+   "productIds": [
+    7199141117,
+    7199140889
+   ]
+  },
+  {
+   "id": 72758,
+   "name": "Papa and Barkley Specials!",
+   "description": "Papa and Barkley products are 15% off! (Excludes 1000mg Tincture)",
+   "ends": "2026-12-31",
+   "productIds": [
+    5895034756,
+    5895035219
+   ]
+  },
+  {
+   "id": 72637,
+   "name": "Hepworth & Bonanza Bundle!",
+   "description": "Hepworth and Bonanza 1g carts are both 2 for $52! (Can mix and match between the two brands!)",
+   "ends": "2026-12-31",
+   "productIds": []
+  },
+  {
+   "id": 77608,
+   "name": "Umamii Specials",
+   "description": "Umamii 10pk gummies are buy one get one free until supplies last!",
+   "ends": "2026-11-26",
+   "productIds": []
+  },
+  {
+   "id": 77970,
+   "name": "Hepworth Specials",
+   "description": "Hepworth bubble hash infused 5pks are buy one get one 80% off! Hepworth Citrus Slurp 8ths are 4 for $75!",
+   "ends": "2026-12-31",
+   "productIds": [
+    11196595374,
+    11196595803,
+    11196596663,
+    11196594648
+   ]
+  },
+  {
+   "id": 78548,
+   "name": "Claybourne Co Specials",
+   "description": "Claybourne Co. vapes and blunts are buy two get one free!",
+   "ends": "2026-11-30",
+   "productIds": [
+    10054748663,
+    10741847517,
+    10054748558,
+    10054748747,
+    10741847575,
+    10054748573,
+    10054748601,
+    10741847731,
+    10741848326,
+    10054748968,
+    10054748841,
+    10741847866,
+    10054748902,
+    10741848544
+   ]
+  },
+  {
+   "id": 77515,
+   "name": "CANOPI Specials",
+   "description": "CANOPI elixirs are 50% off!",
+   "ends": "2026-11-30",
+   "productIds": [
+    8970985175,
+    8970985008
+   ]
+  },
+  {
+   "id": 77769,
+   "name": "Florette & Cheevo Specials",
+   "description": "Florette 0.5g live resin vapes are buy one get one 50% off! Florette 4pk 1g preroll packs are 20% off! Florette 5pk 0.5g prerolls are buy one get one 40% off! Cheevo 7pk prerolls are 13% off!",
+   "ends": "2026-11-30",
+   "productIds": [
+    10763949234,
+    10763949147,
+    8376883027,
+    8376881386,
+    10763949221,
+    10763948846,
+    11118930440,
+    11118930504,
+    11118930432
+   ]
+  },
+  {
+   "id": 78514,
+   "name": "Turn PodPak Bundle",
+   "description": "Buy any 2 Turn Pods and get the PodPak battery case for free!",
+   "ends": "2026-12-31",
+   "productIds": [
+    11501775186,
+    11501775128,
+    11501774894,
+    11501774982,
+    11501774904,
+    11501775056,
+    11501772228,
+    11501774233,
+    11501772595
+   ]
+  },
+  {
+   "id": 75603,
+   "name": "Jetty Specials",
+   "description": "All Jetty rosin tanks are 20% off!",
+   "ends": "2026-11-30",
+   "productIds": [
+    11479629212,
+    11479629407,
+    11479629389,
+    11479629491,
+    11479629201,
+    11479629532,
+    11479629475,
+    11479629330
+   ]
+  }
+ ],
+ "products": {
+  "11316148757": {
+   "id": 11316148757,
+   "name": "1937 3.5g Flower Fat Cat",
+   "slug": "1937-3-5g-flower-fat-cat",
+   "category": "flower",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $240.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 30.0
+    }
+   ],
+   "thc": "21.55%",
+   "cbd": "0.07%",
+   "strain": null,
+   "description": "Earthy, funky, gassy, and slightly sweet indica",
+   "imageHash": "03645991179656ecb754891b726745d7bd7d71af1b9e7d03170b7ce2097f74a0",
+   "image": "/assets/products/03645991179656ecb754.webp"
+  },
+  "11316147560": {
+   "id": 11316147560,
+   "name": "1937 3.5g Flower Phantom OG",
+   "slug": "1937-3-5g-flower-phantom-og",
+   "category": "flower",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $240.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 30.0
+    }
+   ],
+   "thc": "21.27%",
+   "cbd": "0.05%",
+   "strain": null,
+   "description": "hybrid featuring an earthy, pine-forward aroma with notes of citrus and subtle sweetness",
+   "imageHash": "868eb08c38878882e69973c045ccae8ed86039112425ce3727e2249db3e427f3",
+   "image": "/assets/products/868eb08c38878882e699.webp"
+  },
+  "11316148437": {
+   "id": 11316148437,
+   "name": "1937 3.5g Flower Sour Power",
+   "slug": "1937-3-5g-flower-sour-power",
+   "category": "flower",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $240.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 30.0
+    }
+   ],
+   "thc": "22.35%",
+   "cbd": null,
+   "strain": null,
+   "description": "sativa featuring sharp zesty lemon-lime, tart citrus, and heavy diesel exhaust",
+   "imageHash": "c91f07e3ec21e100c0c2606ad05e67bc43a3fff5221f0ec54b8391c00fddf577",
+   "image": "/assets/products/c91f07e3ec21e100c0c2.webp"
+  },
+  "11114783609": {
+   "id": 11114783609,
+   "name": "Aeterna 14g Flower Smalls Ego Checker",
+   "slug": "aeterna-14g-flower-smalls-ego-checker",
+   "category": "flower",
+   "brand": null,
+   "price": 80.0,
+   "priceRange": "$80.00 - $160.00",
+   "options": [
+    {
+     "label": "14.0g",
+     "price": 80.0
+    }
+   ],
+   "thc": "21.63%",
+   "cbd": null,
+   "strain": null,
+   "description": "Flavor Profile: Nutty cookie dough flavors blended with cool mint\nfor a smooth, dessert-forward profile. Caryophyllene and\nLimonene round it out with subtle spice and brightness.\nEffects:\nCreative, upbeat head high\nPositive, social energy\nLight and motivating\nBest for: Daytime use, social settings, creative projects",
+   "imageHash": "c56b31dd6431adf435c388e86dabc9c9c823597d3ee1aafda5a2940396f2543b",
+   "image": "/assets/products/c56b31dd6431adf435c3.webp"
+  },
+  "8163366830": {
+   "id": 8163366830,
+   "name": "Aeterna 3.5g Flower Apple Fritter",
+   "slug": "aeterna-3-5g-flower-apple-fritter",
+   "category": "flower",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $288.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 36.0
+    }
+   ],
+   "thc": "26.29%",
+   "cbd": null,
+   "strain": null,
+   "description": "Flavor Profile: Sweet and sour apple pastry notes layered with\ngassy undertones. Caryophyllene brings the fuel-forward edge,\nwhile Limonene adds a bright tart apple finish.\nEffects:\nEuphoric onset\nDeep physical relaxation\nBalanced and versatile\nBest for: Anytime use, unwinding without sedation, mood elevation",
+   "imageHash": "abdbf78e355fee5382d2b6626203c2eb6fe391b84e8d8bee76feedb9bd0de4c5",
+   "image": "/assets/products/abdbf78e355fee5382d2.webp"
+  },
+  "9250418479": {
+   "id": 9250418479,
+   "name": "Aeterna 3.5g Flower Ego Checker",
+   "slug": "aeterna-3-5g-flower-ego-checker",
+   "category": "flower",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $288.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 36.0
+    }
+   ],
+   "thc": "21.63%",
+   "cbd": null,
+   "strain": null,
+   "description": "Flavor Profile: Nutty cookie dough flavors blended with cool mint\nfor a smooth, dessert-forward profile. Caryophyllene and\nLimonene round it out with subtle spice and brightness.\nEffects:\nCreative, upbeat head high\nPositive, social energy\nLight and motivating\nBest for: Daytime use, social settings, creative projects",
+   "imageHash": "44b2d392cd029a83ed7510bb11e8136723f6930872109f88a7f9fd0d61586ccb",
+   "image": "/assets/products/44b2d392cd029a83ed75.webp"
+  },
+  "8571774214": {
+   "id": 8571774214,
+   "name": "Aeterna 3.5g Flower Garlic Runtz",
+   "slug": "aeterna-3-5g-flower-garlic-runtz",
+   "category": "flower",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $288.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 36.0
+    }
+   ],
+   "thc": "30.14%",
+   "cbd": null,
+   "strain": null,
+   "description": "Bold garlic and gassy spice upfront, finishing with sweet vanilla undertones. Limonene and Caryophyllene create a\nsavory-sweet contrast that lingers.",
+   "imageHash": "abdbf78e355fee5382d2b6626203c2eb6fe391b84e8d8bee76feedb9bd0de4c5",
+   "image": "/assets/products/abdbf78e355fee5382d2.webp"
+  },
+  "11316148657": {
+   "id": 11316148657,
+   "name": "Bouket 7g Flower Smalls Creme Bouket",
+   "slug": "bouket-7g-flower-smalls-creme-bouket",
+   "category": "flower",
+   "brand": null,
+   "price": 55.0,
+   "priceRange": "$55.00 - $220.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 55.0
+    }
+   ],
+   "thc": "28.63%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hybrid",
+   "imageHash": "7b0ac26780a64effeaea6b52adfca40d8f207ae96264869a48b55d0bc4422e48",
+   "image": "/assets/products/7b0ac26780a64effeaea.webp"
+  },
+  "11316148300": {
+   "id": 11316148300,
+   "name": "Bouket 7g Flower Smalls Hot Sauce",
+   "slug": "bouket-7g-flower-smalls-hot-sauce",
+   "category": "flower",
+   "brand": null,
+   "price": 55.0,
+   "priceRange": "$55.00 - $220.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 55.0
+    }
+   ],
+   "thc": "27.97%",
+   "cbd": null,
+   "strain": null,
+   "description": "Sativa",
+   "imageHash": "7b0ac26780a64effeaea6b52adfca40d8f207ae96264869a48b55d0bc4422e48",
+   "image": "/assets/products/7b0ac26780a64effeaea.webp"
+  },
+  "11316146550": {
+   "id": 11316146550,
+   "name": "Bouket 7g Flower Smalls Neon Wolf",
+   "slug": "bouket-7g-flower-smalls-neon-wolf",
+   "category": "flower",
+   "brand": null,
+   "price": 55.0,
+   "priceRange": "$55.00 - $220.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 55.0
+    }
+   ],
+   "thc": "27.75%",
+   "cbd": null,
+   "strain": null,
+   "description": "Indica",
+   "imageHash": "7b0ac26780a64effeaea6b52adfca40d8f207ae96264869a48b55d0bc4422e48",
+   "image": "/assets/products/7b0ac26780a64effeaea.webp"
+  },
+  "10488702810": {
+   "id": 10488702810,
+   "name": "Budding Bliss Farm 3.5g Flower Blue Zushi",
+   "slug": "budding-bliss-farm-3-5g-flower-blue-zushi",
+   "category": "flower",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $480.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 60.0
+    }
+   ],
+   "thc": "23.65%",
+   "cbd": "0.05%",
+   "strain": null,
+   "description": null,
+   "imageHash": "059d0ff0a1b22d5bae4bb0f9f7264075c34a3d618b28af99f2ea6491ffa4ff69",
+   "image": "/assets/products/059d0ff0a1b22d5bae4b.webp"
+  },
+  "10488703742": {
+   "id": 10488703742,
+   "name": "Budding Bliss Farm 3.5g Flower Mac Stomper",
+   "slug": "budding-bliss-farm-3-5g-flower-mac-stomper",
+   "category": "flower",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $480.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 60.0
+    }
+   ],
+   "thc": "27.22%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "059d0ff0a1b22d5bae4bb0f9f7264075c34a3d618b28af99f2ea6491ffa4ff69",
+   "image": "/assets/products/059d0ff0a1b22d5bae4b.webp"
+  },
+  "10488703170": {
+   "id": 10488703170,
+   "name": "Budding Bliss Farm 3.5g Flower Superboof",
+   "slug": "budding-bliss-farm-3-5g-flower-superboof",
+   "category": "flower",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $480.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 60.0
+    }
+   ],
+   "thc": "30.92%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "059d0ff0a1b22d5bae4bb0f9f7264075c34a3d618b28af99f2ea6491ffa4ff69",
+   "image": "/assets/products/059d0ff0a1b22d5bae4b.webp"
+  },
+  "7592392736": {
+   "id": 7592392736,
+   "name": "Canna Cure 0.7g Dime Bag Purple Zkittlez",
+   "slug": "canna-cure-0-7g-dime-bag-purple-zkittlez",
+   "category": "flower",
+   "brand": null,
+   "price": 9.5,
+   "priceRange": "$9.50 - $47.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 9.5
+    }
+   ],
+   "thc": "25.01%",
+   "cbd": null,
+   "strain": null,
+   "description": "Purple Zkittlez, is a indica cross of Purple Punch and The Original Z, delivering a robust flavor profile coupled with a powerful high. Its stunning purple shades highlight the trichomes, resulting in a grape-forward, fruity spectrum of delightful tastes. For enthusiasts of classic purple strains, this is an excellent new variety to become enamored with. Consumers describe the effects as being happy, relaxed, and sometimes sleepy.",
+   "imageHash": "48637e4e0ed8cf7fb0f0c3d54297fa25f01f5919af04e8db174d523589e7c681",
+   "image": "/assets/products/48637e4e0ed8cf7fb0f0.webp"
+  },
+  "9811454538": {
+   "id": 9811454538,
+   "name": "Canna Cure 0.7g Dime Bag Strawberry Diesel",
+   "slug": "canna-cure-0-7g-dime-bag-strawberry-diesel",
+   "category": "flower",
+   "brand": null,
+   "price": 9.5,
+   "priceRange": "$9.50 - $47.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 9.5
+    }
+   ],
+   "thc": "22.31%",
+   "cbd": null,
+   "strain": null,
+   "description": "Small but mighty, this Canna Cure Dime Bag packs bold flavor and smooth potency into a perfect 0.7g size. Strawberry Diesel brings a sweet berry aroma with a kick of fuel, delivering a uplifting sativa experience that hits just right whenever you need a quick, quality session.",
+   "imageHash": "48637e4e0ed8cf7fb0f0c3d54297fa25f01f5919af04e8db174d523589e7c681",
+   "image": "/assets/products/48637e4e0ed8cf7fb0f0.webp"
+  },
+  "9811454225": {
+   "id": 9811454225,
+   "name": "Canna Cure 3.5g Flower Blockberry",
+   "slug": "canna-cure-3-5g-flower-blockberry",
+   "category": "flower",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $320.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 40.0
+    }
+   ],
+   "thc": "25.63%",
+   "cbd": null,
+   "strain": null,
+   "description": "Block Berry, also known as “Blockberry” or “BlockBerry,” is an evenly balanced hybrid strain (50% indica/50% sativa) created through crossing the delicious Black Cherry Punch X Tropicana Cookies strains. A super tasty bud that will have you begging for just one more delightful toke, Block Berry is a fantastic hybrid for any lover of sweet treats. The taste of Block Berry is truly a delight, with a sweet and sugary blueberry flavor accented by hints of citrusy oranges, creamy vanilla and dark chocolate.",
+   "imageHash": "ebdfa9bdff6269721a505e5aa8c5f1afeffe917ccd62be1547edd4d79f53b90b",
+   "image": "/assets/products/ebdfa9bdff6269721a50.webp"
+  },
+  "9811454227": {
+   "id": 9811454227,
+   "name": "Canna Cure 3.5g Flower Blue Zushi",
+   "slug": "canna-cure-3-5g-flower-blue-zushi",
+   "category": "flower",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $320.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 40.0
+    }
+   ],
+   "thc": "19.88%",
+   "cbd": null,
+   "strain": null,
+   "description": "Blue Zushi is a indica dominant hybrid strain known for its vibrant, frosty buds and a complex aroma blending earthy, floral, sweet, and citrus notes. Prized for its relaxing and euphoric effects, it offers a smooth experience ideal for unwinding or enhancing creativity.",
+   "imageHash": "ebdfa9bdff6269721a505e5aa8c5f1afeffe917ccd62be1547edd4d79f53b90b",
+   "image": "/assets/products/ebdfa9bdff6269721a50.webp"
+  },
+  "10763949189": {
+   "id": 10763949189,
+   "name": "Cheevo 28g Flower Purple Starfruit",
+   "slug": "cheevo-28g-flower-purple-starfruit",
+   "category": "flower",
+   "brand": null,
+   "price": 160.0,
+   "priceRange": "$160.00",
+   "options": [
+    {
+     "label": "28.0g",
+     "price": 160.0
+    }
+   ],
+   "thc": "24.84%",
+   "cbd": null,
+   "strain": null,
+   "description": "Purple Starfruit stands out with vibrant purple hues, uniform, and dense bud eye-catching buds. It combines a striking bag appeal with a rich berry‑earthy‑herbal aroma profile. This variety is bred to deliver a strong, memorable high that eases you into relaxation without dragging you down.",
+   "imageHash": "36c61f32e6ca4c50c1a2a7fb38d3f14500f9bcfd37b6885071290dd79764f32e",
+   "image": "/assets/products/36c61f32e6ca4c50c1a2.webp"
+  },
+  "11118929683": {
+   "id": 11118929683,
+   "name": "Cheevo 7g Ground Flower Blueberry Diesel",
+   "slug": "cheevo-7g-ground-flower-blueberry-diesel",
+   "category": "flower",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $144.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 36.0
+    }
+   ],
+   "thc": "25.63%",
+   "cbd": null,
+   "strain": null,
+   "description": "Sweet berry sweetness meets pungent fuel funk. This uplifting sativa delivers an energetic, cerebral high with a boost of focus and creativity, balanced by a mellow, fruity finish ideal for daytime activity.",
+   "imageHash": "747a954505b6ddecad6c0ef4d26fbf3634eeb33bc6c66d464d8c940626956e45",
+   "image": "/assets/products/747a954505b6ddecad6c.webp"
+  },
+  "11118930106": {
+   "id": 11118930106,
+   "name": "Cheevo 7g Ground Flower Cheddar Cheeze",
+   "slug": "cheevo-7g-ground-flower-cheddar-cheeze",
+   "category": "flower",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $144.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 36.0
+    }
+   ],
+   "thc": "24.26%",
+   "cbd": null,
+   "strain": null,
+   "description": "A hybrid with savory, funky cheese aroma with sweet, creamy notes and an earthy backdrop.",
+   "imageHash": "98144a82fa7092781d99dca0d9bf73573898af00be7f5f158cbd3298528b98e9",
+   "image": "/assets/products/98144a82fa7092781d99.webp"
+  },
+  "10741848414": {
+   "id": 10741848414,
+   "name": "Claybourne Co Classic Cuts 3.5g Flower Durban Poison",
+   "slug": "claybourne-co-classic-cuts-3-5g-flower-durban-poison",
+   "category": "flower",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $400.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 50.0
+    }
+   ],
+   "thc": "26.22%",
+   "cbd": null,
+   "strain": null,
+   "description": "Classic Cuts, A selection of classic and modern classic varieties curated from a lineage of tried and true genetics. Always hand-trimmed, always grown indoors. This pure sativa originates from the South African port city of Durban. It has gained popularity worldwide for its sweet smell and energetic, uplifting effects. Durban Poison is the perfect strain to help you stay productive through a busy day, when exploring the outdoors, or to lend a spark of creativity. Growers and concentrate enthusiasts will both enjoy the over-sized resin glands which make this strain a quality choice for concentrate extraction. The buds are round and chunky, and leave a thick coating of trichomes on almost all areas of the plant.",
+   "imageHash": "b9eddc7939d6d862e8ac88040c6ced02967078849d03e977672d274f83c51b41",
+   "image": "/assets/products/b9eddc7939d6d862e8ac.webp"
+  },
+  "11541948367": {
+   "id": 11541948367,
+   "name": "Claybourne Co Classic Cuts 3.5g Flower Kush Mints",
+   "slug": "claybourne-co-classic-cuts-3-5g-flower-kush-mints",
+   "category": "flower",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $400.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 50.0
+    }
+   ],
+   "thc": "36.56%",
+   "cbd": null,
+   "strain": null,
+   "description": "Classic Cuts, A selection of classic and modern classic varieties curated from a lineage of tried and true genetics. Always hand-trimmed, always grown indoors",
+   "imageHash": "4dc17174343401d65050397b3c8cbf60dcd6d05a50a3b0fadc27b0c256faae39",
+   "image": "/assets/products/4dc17174343401d65050.webp"
+  },
+  "10741847687": {
+   "id": 10741847687,
+   "name": "Claybourne Co Gold Cuts 3.5g Flower Lemon Drop Top",
+   "slug": "claybourne-co-gold-cuts-3-5g-flower-lemon-drop-top",
+   "category": "flower",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $480.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 60.0
+    }
+   ],
+   "thc": "37.34%",
+   "cbd": null,
+   "strain": null,
+   "description": "Exclusive and unique genetics from Claybourne’s breeding and selection program. Gold Cuts are hand-trimmed on the stem, using minimal touch processing for maximum trichome preservation.",
+   "imageHash": "46ae9d48488b2c6e920fedd44fbbf703c9680e1abe692d91c64babf38aa8ce49",
+   "image": "/assets/products/46ae9d48488b2c6e920f.webp"
+  },
+  "11541950029": {
+   "id": 11541950029,
+   "name": "Claybourne Co Gold Cuts 3.5g Flower The Judge",
+   "slug": "claybourne-co-gold-cuts-3-5g-flower-the-judge",
+   "category": "flower",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $480.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 60.0
+    }
+   ],
+   "thc": "35.73%",
+   "cbd": null,
+   "strain": null,
+   "description": "Exclusive and unique genetics from Claybourne’s breeding and selection program. Gold Cuts are hand-trimmed on the stem, using minimal touch processing for maximum trichome preservation.\n\nWe call this strain “The Judge” because it frickin’ rules. The Judge is an indica with a distinct diesel aroma juxtaposed by its coffee and plum flavor. The pungent smell, coming from its Chem Dawg lineage, is offset by the fact it’s our highest testing strain ever, proving that The Judge is indeed stern, but more than fair.",
+   "imageHash": "ca109024869f521e6382b177144eb11778798decce4442e336522edf1469779f",
+   "image": "/assets/products/ca109024869f521e6382.webp"
+  },
+  "9651861816": {
+   "id": 9651861816,
+   "name": "Florist Farms 7g Flower King Sherb",
+   "slug": "florist-farms-7g-flower-king-sherb",
+   "category": "flower",
+   "brand": null,
+   "price": 70.0,
+   "priceRange": "$70.00 - $280.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 70.0
+    }
+   ],
+   "thc": "30.92%",
+   "cbd": null,
+   "strain": null,
+   "description": "King Sherb is an indica known for its soothing, mood-elevating effects that begin with a gentle wave of euphoria before melting into a heavy, tranquil body high. Perfect for winding down in the evening, easing stress, or settling in for a restful night, this strain offers a smooth, flavorful smoke with a slow-building potency that lingers comfortably.",
+   "imageHash": "44aa8b171dd78178fac0ce46f166f09e95f922f4bc429f38f0ae9978740dd37e",
+   "image": "/assets/products/44aa8b171dd78178fac0.webp"
+  },
+  "11141587131": {
+   "id": 11141587131,
+   "name": "Florist Farms 7g Flower Private Party",
+   "slug": "florist-farms-7g-flower-private-party",
+   "category": "flower",
+   "brand": null,
+   "price": 70.0,
+   "priceRange": "$70.00 - $280.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 70.0
+    }
+   ],
+   "thc": "22.71%",
+   "cbd": null,
+   "strain": null,
+   "description": "A balanced Hybrid strain known for uplifting, balancing, and energizing effects, perfect for social settings, with sweet, sour citrus and strong gas/diesel aromas and flavors, grown organically in New York. It provides a feel-good, creative vibe without being overpowering, thanks to its blend of Zkittlez S1 and AVL genetics.",
+   "imageHash": "73f4a8371b4c4dfa76d1552cbc08e856e198f34a8e88fa23373c69f53ab1a153",
+   "image": "/assets/products/73f4a8371b4c4dfa76d1.webp"
+  },
+  "11141587106": {
+   "id": 11141587106,
+   "name": "Florist Farms 7g Flower Purple Boof",
+   "slug": "florist-farms-7g-flower-purple-boof",
+   "category": "flower",
+   "brand": null,
+   "price": 70.0,
+   "priceRange": "$70.00 - $280.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 70.0
+    }
+   ],
+   "thc": "22.46%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hybrid with fruity and skunky with spicy undertones",
+   "imageHash": "ea8928d166dc3431bc541d8fe12b805777be83b8cca668b5c44daedca1712737",
+   "image": "/assets/products/ea8928d166dc3431bc54.webp"
+  },
+  "11141587338": {
+   "id": 11141587338,
+   "name": "Florist Farms 7g Flower Tropicana Cookies",
+   "slug": "florist-farms-7g-flower-tropicana-cookies",
+   "category": "flower",
+   "brand": null,
+   "price": 70.0,
+   "priceRange": "$70.00 - $280.00",
+   "options": [
+    {
+     "label": "7.0g",
+     "price": 70.0
+    }
+   ],
+   "thc": "23.81%",
+   "cbd": null,
+   "strain": null,
+   "description": "Sativa with a citrusy flavor and a waffle cone finish",
+   "imageHash": "df83b3071fc4ca35b400784a373686bb898afedeec909302eed3ac5625141e77",
+   "image": "/assets/products/df83b3071fc4ca35b400.webp"
+  },
+  "11362043419": {
+   "id": 11362043419,
+   "name": "FlyWeight 3.5g Flower Cherry Garcia",
+   "slug": "flyweight-3-5g-flower-cherry-garcia",
+   "category": "flower",
+   "brand": null,
+   "price": 22.0,
+   "priceRange": "$22.00 - $176.00",
+   "options": [
+    {
+     "label": "3.5g",
+     "price": 22.0
+    }
+   ],
+   "thc": "27.16%",
+   "cbd": null,
+   "strain": null,
+   "description": "Indica",
+   "imageHash": "875194ba60c1445b76906774512850dc80ae179c2b4eda9749d13c8e7affcc3a_2",
+   "image": "/assets/products/875194ba60c1445b7690.webp"
+  },
+  "8169989015": {
+   "id": 8169989015,
+   "name": "5Boro 1.5g Blunt Amnesia Haze",
+   "slug": "5boro-1-5g-blunt-amnesia-haze",
+   "category": "prerolls",
+   "brand": null,
+   "price": 17.5,
+   "priceRange": "$17.50 - $87.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 17.5
+    }
+   ],
+   "thc": "21.04%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hemp wrapped blunt filled with 1.5 grams of premium cannabis. Glass tip provides unrestricted airflow from start to finish.\n\nStrain Type: Sativa\n\nTerpenes: A-Bisabolol, Borneol, A-Humulene, Guaiol\n\nLineage: Original Haze crossed with several different original landraces\n\nEffects: Amnesia Haze may actually drive inspiration rather than forgetfulness. This strain makes for a well-balanced, albeit somewhat cerebral high, with an uplifting energetic boost.\n\nAromas/Flavors: This unique terpene profile will leave you tasting a sweet nutty flavor with a citrus undertone.",
+   "imageHash": "48967c7d7116c8fc3e4f0d4f9ae55e7d26a4519bd0738b3a3f10b5583d6baf5d",
+   "image": "/assets/products/48967c7d7116c8fc3e4f.webp"
+  },
+  "10529429017": {
+   "id": 10529429017,
+   "name": "5Boro 1.5g Blunt Cereal Milk",
+   "slug": "5boro-1-5g-blunt-cereal-milk",
+   "category": "prerolls",
+   "brand": null,
+   "price": 17.5,
+   "priceRange": "$17.50 - $87.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 17.5
+    }
+   ],
+   "thc": "27.85%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hemp wrapped blunt filled with 1.5 grams of premium cannabis. Glass tip provides unrestricted airflow from start to finish.\n\nStrain Type: Hybrid\n\nEffects: Evenly balanced hybrid strain with euphoric effects\n\nAromas/Flavors: Sweet, creamy flavor reminiscent of milk left over after eating cereal.",
+   "imageHash": "519862d34ee2410ca3f43db848068756ff1f679c18237f3fcf2ad4a4c37eb24a",
+   "image": "/assets/products/519862d34ee2410ca3f4.webp"
+  },
+  "11518999807": {
+   "id": 11518999807,
+   "name": "5Boro 1.5g Blunt Hood Candy",
+   "slug": "5boro-1-5g-blunt-hood-candy",
+   "category": "prerolls",
+   "brand": null,
+   "price": 17.5,
+   "priceRange": "$17.50 - $87.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 17.5
+    }
+   ],
+   "thc": "21.06%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hemp wrapped blunt filled with 1.5 grams of premium cannabis. Glass tip provides unrestricted airflow from start to finish.\n\nStrain Type: Indica\n\nTerpenes: B-Caryophyllene, Limonene, B-Myrcene, A-Humulene, B-Pinene\n\nEffects: Hood Candyz is great for unwinding at end of the day of a long day. Effects include heavy body relaxation, mental relief, and powerful munchies.\n\nAromas/Flavors: Extremely sweet and fruity with small hints of gassy floral notes.",
+   "imageHash": "e8db3f904c7f6ac00893e225091d793ba882fae9cf1fcf2c1663f1733ca9f3f1",
+   "image": "/assets/products/e8db3f904c7f6ac00893.webp"
+  },
+  "11518999768": {
+   "id": 11518999768,
+   "name": "Alibi 1g Rosin Infused Preroll Royal Cherry Kush x Crazy Train",
+   "slug": "alibi-1g-rosin-infused-preroll-royal-cherry-kush-x-crazy-train",
+   "category": "prerolls",
+   "brand": null,
+   "price": 18.5,
+   "priceRange": "$18.50 - $92.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 18.5
+    }
+   ],
+   "thc": "32.29%",
+   "cbd": null,
+   "strain": null,
+   "description": "This is a ceramic tipped preroll, with 1 gram of ground Royal Cherry Kush flower, injected with a Live rosin extracted from Crazy Train cannabis.\n\nStrain Type: Hybrid Dominant\n\nEffects: Potent hybrid effects consisting of creative insight and energy, followed by powerful munchies and body relaxation\n\nAromas/Flavors: A delicious twist between the gassy, cherry flavors of the flower and the lemon-lime taste of the rosin.",
+   "imageHash": "fe2d9a41d67322aa191075c502380b08654a3df704acb25613216155a42aac75",
+   "image": "/assets/products/fe2d9a41d67322aa1910.webp"
+  },
+  "11518999948": {
+   "id": 11518999948,
+   "name": "Alibi 1g Rosin Infused Preroll Super Silver Haze x Tropical Cooler",
+   "slug": "alibi-1g-rosin-infused-preroll-super-silver-haze-x-tropical-cooler",
+   "category": "prerolls",
+   "brand": null,
+   "price": 18.5,
+   "priceRange": "$18.50 - $92.50",
+   "options": [
+    {
+     "label": "1",
+     "price": 18.5
+    }
+   ],
+   "thc": "30.62%",
+   "cbd": null,
+   "strain": null,
+   "description": "This is a ceramic tipped preroll, with 1 gram of ground Super Silver Haze flower, injected with a Live rosin extracted from Tropical Cooler cannabis.\n\nStrain Type: Sativa Dominant\n\nEffects: Potent Sativa effects consisting of deep creative insight and a powerful feeling of energy that makes you want to get things done.\n\nAromas/Flavors: A delicious twist between the earthy, citrus flavors of the flower and the sweet-tropical taste of the rosin.",
+   "imageHash": "b7a4b0c2d9e016ecb9b4c53c3826ceeaa5865ff62ebf50286538b9ee27546e0c",
+   "image": "/assets/products/b7a4b0c2d9e016ecb9b4.webp"
+  },
+  "10827601227": {
+   "id": 10827601227,
+   "name": "All That Chocolate Big Buzz Blunt Shotgun Sugar",
+   "slug": "all-that-chocolate-big-buzz-blunt-shotgun-sugar",
+   "category": "prerolls",
+   "brand": null,
+   "price": 12.0,
+   "priceRange": "$12.00 - $60.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 12.0
+    }
+   ],
+   "thc": "21.26%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "12634a14b2c8b5e6bd2d47d6a0a0dcc6029899be8fe26ad28743073297eb3843",
+   "image": "/assets/products/12634a14b2c8b5e6bd2d.webp"
+  },
+  "8538431340": {
+   "id": 8538431340,
+   "name": "Ayrloom 5pk 0.6g Infused Prerolls Pink Rozay",
+   "slug": "ayrloom-5pk-0-6g-infused-prerolls-pink-rozay",
+   "category": "prerolls",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $200.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 40.0
+    }
+   ],
+   "thc": "34.74%",
+   "cbd": null,
+   "strain": null,
+   "description": "like sipping on a bright + floral glass of rosé wine, but without the hangover. unwind + reach a higher buzz with relaxing effects.",
+   "imageHash": "00957d7c6ee21e9ed4068097f20baf2ef5637aef3eae914fe8fec59076eb3e34",
+   "image": "/assets/products/00957d7c6ee21e9ed406.webp"
+  },
+  "9091611783": {
+   "id": 9091611783,
+   "name": "Baby Jeeter 5pk 0.5g Infused Prerolls Apples and Bananas",
+   "slug": "baby-jeeter-5pk-0-5g-infused-prerolls-apples-and-bananas",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "41.12%",
+   "cbd": null,
+   "strain": null,
+   "description": "Apples and Bananas is an evenly balanced and delicious hybrid strain. When it comes to the flavor of this bud, the name says it all. Apples and Bananas packs a sweet and fruity taste that's filled with delicious sugary bananas and sharply sour apples, with a touch of black pepper to it. The aroma takes a spicier turn, with a sharp punch of savory diesel. The Apples and Bananas high is just as delicious, with full-bodied sensations that hit hard and leave you dazed. You'll feel the heady tingling almost immediately, lifting your mind into a state of happy euphoria accompanied by a boost of creativity.",
+   "imageHash": "95167ecd498fdb7f4ca8e4cd6a330ab0ca9cd383a813729b4309b9fdfd77e89c",
+   "image": "/assets/products/95167ecd498fdb7f4ca8.webp"
+  },
+  "9091611847": {
+   "id": 9091611847,
+   "name": "Baby Jeeter 5pk 0.5g Infused Prerolls Pink Lemon",
+   "slug": "baby-jeeter-5pk-0-5g-infused-prerolls-pink-lemon",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "40%",
+   "cbd": null,
+   "strain": null,
+   "description": "Pink Lemon is a hybrid Strain. The high is very relaxing but not sleepy. It's a bit of a creeper starting with a very nice clean head high with an energy boost. It puts you in a positive mood with positive thoughts. An evenly balanced hybrid that still allows you to function. The aroma is sweet raspberry and lemon. On the dry hit you taste sweet raspberry with a little bit of candy citrus. The flavor is fruity, sweet raspberry with candy citrus notes and some grapefruit on exhale.",
+   "imageHash": "433b8375b177395da2ee692cd84a7b188be38ac1ed4aac67c283287936a0c65e",
+   "image": "/assets/products/433b8375b177395da2ee.webp"
+  },
+  "9091611795": {
+   "id": 9091611795,
+   "name": "Baby Jeeter 5pk 0.5g Infused Prerolls Skywalker OG",
+   "slug": "baby-jeeter-5pk-0-5g-infused-prerolls-skywalker-og",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "34.05%",
+   "cbd": null,
+   "strain": null,
+   "description": "Prepare for liftoff and sink into deep relaxation with Jeeter’s Skywalker OG Infused Pre-Roll. This premium indica preroll combines top-shelf whole flower, potent cannabis oil, and a generous kief coating to deliver an ultra-smooth, slow-burning experience that hits hard and lasts long. Skywalker OG is a powerful indica-dominant strain known for its earthy, spicy flavor profile and deeply relaxing, body-heavy effects. Ideal for evening use, this pre-roll is your go-to for stress relief, pain management, and restful sleep, perfect for winding down after a long day. Jeeter’s infused pre-rolls are crafted with care, using only premium flower (never shake or trim), ensuring a consistent, flavorful, and highly potent smoke every time.",
+   "imageHash": "ff550fbc217d3b25b72eedf36cda1a8f99132b697da8a9e264ef623477a8e7ff",
+   "image": "/assets/products/ff550fbc217d3b25b72e.webp"
+  },
+  "10488702866": {
+   "id": 10488702866,
+   "name": "Budding Bliss 1g Preroll Mac Stomper",
+   "slug": "budding-bliss-1g-preroll-mac-stomper",
+   "category": "prerolls",
+   "brand": null,
+   "price": 14.0,
+   "priceRange": "$14.00 - $70.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 14.0
+    }
+   ],
+   "thc": "26.38%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "3b61ed708338099663bae7cb317136822258574387aa06474b67098428326532",
+   "image": "/assets/products/3b61ed708338099663ba.webp"
+  },
+  "10763949234": {
+   "id": 10763949234,
+   "name": "Cheevo 7pk 1g Prerolls Blue Dream",
+   "slug": "cheevo-7pk-1g-prerolls-blue-dream",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "21.36%",
+   "cbd": null,
+   "strain": null,
+   "description": "A sativa with sweet blueberry aromatics meld with earthy pine undertones.",
+   "imageHash": "58b2b258ad75a0f18ee8e393ea8a1028268a974d94ee7690ccc773cce79b4e85",
+   "image": "/assets/products/58b2b258ad75a0f18ee8.webp"
+  },
+  "10763949147": {
+   "id": 10763949147,
+   "name": "Cheevo 7pk 1g Prerolls Hypnotik",
+   "slug": "cheevo-7pk-1g-prerolls-hypnotik",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "24.22%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hypnotik is a sativa-dominant hybrid cannabis strain typically created by crossing MAC and Gorilla Diesel #3 with sweet berry, cake, and subtle citrus or lemon notes",
+   "imageHash": "47b8b80b0ef38208189aa5f5abfccaecdeb4af6b9e5b8cba247a441acfdf3d04",
+   "image": "/assets/products/47b8b80b0ef38208189a.webp"
+  },
+  "10054748663": {
+   "id": 10054748663,
+   "name": "Claybourne Co 1.5g Infused Blunt Black Triangle OG",
+   "slug": "claybourne-co-1-5g-infused-blunt-black-triangle-og",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "47.1%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "c0beb394bf7773796bad7b2f32b2eadedb02171fd9961857ebd808e12fd46417",
+   "image": "/assets/products/c0beb394bf7773796bad.webp"
+  },
+  "10741847517": {
+   "id": 10741847517,
+   "name": "Claybourne Co 1.5g Infused Blunt Durban Poison",
+   "slug": "claybourne-co-1-5g-infused-blunt-durban-poison",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "da40b08d4bbe32233d750c90b5e1837768aa970bd605df926fa8e7db8f4f8916",
+   "image": "/assets/products/da40b08d4bbe32233d75.webp"
+  },
+  "10054748558": {
+   "id": 10054748558,
+   "name": "Claybourne Co 1.5g Infused Blunt King Louis OG",
+   "slug": "claybourne-co-1-5g-infused-blunt-king-louis-og",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "49.8%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "1f12104415416612752359df70de298240800ddedea68b7437333e671dd962f4",
+   "image": "/assets/products/1f121044154166127523.webp"
+  },
+  "10054748747": {
+   "id": 10054748747,
+   "name": "Claybourne Co 1.5g Infused Blunt Lemon Cherry Gelato",
+   "slug": "claybourne-co-1-5g-infused-blunt-lemon-cherry-gelato",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "44.1%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "2f32961ab3e81d5f76a12b129d41b51c3d0d3be730b77786b3a7483416e77b56",
+   "image": "/assets/products/2f32961ab3e81d5f76a1.webp"
+  },
+  "10741847575": {
+   "id": 10741847575,
+   "name": "Claybourne Co 1.5g Infused Blunt Lemon Lime Kush",
+   "slug": "claybourne-co-1-5g-infused-blunt-lemon-lime-kush",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "fceb2f9c1be8215757f0a6be56c636bc020187b9bba72bbaa78a4ac2e90d77bc",
+   "image": "/assets/products/fceb2f9c1be8215757f0.webp"
+  },
+  "10054748573": {
+   "id": 10054748573,
+   "name": "Claybourne Co 1.5g Infused Blunt Mango Machine",
+   "slug": "claybourne-co-1-5g-infused-blunt-mango-machine",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "038c9122dfb23e3436ef83670ab9d390845db38aed03824ceb5e9c978d58c61b",
+   "image": "/assets/products/038c9122dfb23e3436ef.webp"
+  },
+  "10054748601": {
+   "id": 10054748601,
+   "name": "Claybourne Co 1.5g Infused Blunt Peach Pie",
+   "slug": "claybourne-co-1-5g-infused-blunt-peach-pie",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "47fae43f9ab7743178ead7938d3348ea3862e404fbea18ce4826fc191cf8da14",
+   "image": "/assets/products/47fae43f9ab7743178ea.webp"
+  },
+  "10741847731": {
+   "id": 10741847731,
+   "name": "Claybourne Co 1.5g Infused Blunt Strawberry Cough",
+   "slug": "claybourne-co-1-5g-infused-blunt-strawberry-cough",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "1802884429a94ebf52385e586e8d427feebcb7753857b7cc102062c4f7eea724",
+   "image": "/assets/products/1802884429a94ebf5238.webp"
+  },
+  "11234826574": {
+   "id": 11234826574,
+   "name": "Claybourne Co 1.5g Infused Blunt Super Sour Apple",
+   "slug": "claybourne-co-1-5g-infused-blunt-super-sour-apple",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "52.02%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "e98be7af2012bee26aba6b72b50f3e0f4f48559cf82c8de1c8bead4f3d96b6ec",
+   "image": "/assets/products/e98be7af2012bee26aba.webp"
+  },
+  "10741848326": {
+   "id": 10741848326,
+   "name": "Claybourne Co 1.5g Infused Blunt Wedding Cake",
+   "slug": "claybourne-co-1-5g-infused-blunt-wedding-cake",
+   "category": "prerolls",
+   "brand": null,
+   "price": 36.0,
+   "priceRange": "$36.00 - $180.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 36.0
+    }
+   ],
+   "thc": "44.59%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the 'Loudest on the Block': Flyers 1.5g Infused Blunt. Crafted from premium indoor, full nug flower infused with THCa & liquid diamonds, natural terpenes and wrapped in an herbal blend cone made of chamomile, cacao, & yerba maté. A badass blunt built better.",
+   "imageHash": "e83ac729e8c7f042cff0f3464b0cc1c748fa1ed4fb6e2b922af556797c602513",
+   "image": "/assets/products/e83ac729e8c7f042cff0.webp"
+  },
+  "10054748896": {
+   "id": 10054748896,
+   "name": "Claybourne Co 5pk 0.5g Infused Prerolls Black Triangle OG",
+   "slug": "claybourne-co-5pk-0-5g-infused-prerolls-black-triangle-og",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "36.7%",
+   "cbd": null,
+   "strain": null,
+   "description": "Frost Around & Find Out! These super tasty half gram pre-rolls are THCa Diamond Frosted, Terpene Enhanced, and made from Premium Indoor, Full Nug Flower Infused with Liquid Diamonds. Each Frosted Flyer is highly potent and packed with nonstop flavor all the way down to the crutch. Available In: (2.5g) 5-Packs.",
+   "imageHash": "fc16078de64d8e66067a09c45c036523c68214b1bfe0711a0652fb39894dd1b8",
+   "image": "/assets/products/fc16078de64d8e66067a.webp"
+  },
+  "7613288961": {
+   "id": 7613288961,
+   "name": "MFNY 4pk 0.75g Live Resin Infused Prerolls Sour Diesel x Sour Diesel",
+   "slug": "mfny-4pk-0-75g-live-resin-infused-prerolls-sour-diesel-x-sour-diesel",
+   "category": "prerolls",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "26.36%",
+   "cbd": null,
+   "strain": null,
+   "description": "Elevate your pre-roll experience with MFNY Sour Diesel Live Resin Infused 4pk – 0.75g, crafted for bold flavor and enhanced potency. Infused with premium live resin, these pre-rolls deliver a terpene-rich, full-spectrum experience with smooth, consistent burns.\n\nSour Diesel is a legendary sativa known for its pungent diesel aroma, bright citrus notes, and earthy undertones. This infused format amplifies both flavor and effects, providing a more robust and long-lasting session compared to standard pre-rolls.\n\nAs a sativa, it offers an energizing, uplifting high that boosts focus, creativity, and mood, perfect for daytime use or active, social settings.",
+   "imageHash": "59e894860a080250ee55b9bca742fed9e51b6b809e54713e4c20fc1b9ff4f51d",
+   "image": "/assets/products/59e894860a080250ee55.webp"
+  },
+  "7888343805": {
+   "id": 7888343805,
+   "name": "Revert 0.5g Preroll Cherry Swirl",
+   "slug": "revert-0-5g-preroll-cherry-swirl",
+   "category": "prerolls",
+   "brand": null,
+   "price": 6.0,
+   "priceRange": "$6.00 - $30.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 6.0
+    }
+   ],
+   "thc": "25.35%",
+   "cbd": null,
+   "strain": null,
+   "description": "Cherry Swirl is a smooth, sun-grown hybrid with rich cherry sweetness layered over subtle earth and cream. This strain delivers a balanced experience that starts with a gentle cerebral lift and settles into an easy, relaxed body feel. Approachable and versatile, Cherry Swirl is well-suited for daytime or early evening sessions when you want flavor, clarity, and calm without feeling weighed down.",
+   "imageHash": "7a47238b4336f4e04d7a72f12e194ff5a7596844b88bae1cd9dc3b0049df5531",
+   "image": "/assets/products/7a47238b4336f4e04d7a.webp"
+  },
+  "7593954912": {
+   "id": 7593954912,
+   "name": "Revert 0.5g Preroll Godfather OG",
+   "slug": "revert-0-5g-preroll-godfather-og",
+   "category": "prerolls",
+   "brand": null,
+   "price": 6.0,
+   "priceRange": "$6.00 - $30.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 6.0
+    }
+   ],
+   "thc": "26.04%",
+   "cbd": null,
+   "strain": null,
+   "description": "Godfather OG, also known as \"Godfather,\" \"The Don of All OG's,\" and \"OG Godfather,\" is a potent indica marijuana strain made by crossing XXX OG and Alpha OG. The effects of this strain are sedating and relaxing. This strain features a flavor profile that is spicy and kushy, with undertones of subtle grape. Consumers with a low THC tolerance should only smoke Godfather OG in small doses due to its high THC levels, which hover around 28%. This strain won 1st place for Best Indica at the 2013 Cannabis Cup in Los Angeles.",
+   "imageHash": "7c24ce018df661d9582ab5690a6a1ae1e95960c73052d67a36d22592b546bf3d",
+   "image": "/assets/products/7c24ce018df661d9582a.webp"
+  },
+  "7593955032": {
+   "id": 7593955032,
+   "name": "Revert 0.5g Preroll Grapelato",
+   "slug": "revert-0-5g-preroll-grapelato",
+   "category": "prerolls",
+   "brand": null,
+   "price": 6.0,
+   "priceRange": "$6.00 - $30.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 6.0
+    }
+   ],
+   "thc": "25.31%",
+   "cbd": null,
+   "strain": null,
+   "description": "Grapelato is a smooth, flavor-forward hybrid that blends sweet grape and creamy dessert notes with subtle earthiness. This strain delivers a relaxed, uplifting experience that starts with a light cerebral buzz and settles into a calm, comfortable body feel. Easygoing and balanced, Grapelato is great for social settings, creative moments, or unwinding without feeling heavy.",
+   "imageHash": "fa56280305b963be8986022fdc68c380c8192094a5d2ec77ca952425e38a6061",
+   "image": "/assets/products/fa56280305b963be8986.webp"
+  },
+  "8778724644": {
+   "id": 8778724644,
+   "name": "Rolling Green 1g Preroll Green Crack",
+   "slug": "rolling-green-1g-preroll-green-crack",
+   "category": "prerolls",
+   "brand": null,
+   "price": 14.0,
+   "priceRange": "$14.00 - $70.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 14.0
+    }
+   ],
+   "thc": "31.62%",
+   "cbd": "0.13%",
+   "strain": null,
+   "description": "Flavors: Citrus zest, sweet mango, pineapple, earthy finish Effects: Energizing, focused, uplifting Great For: Daytime use, productivity, staying active Type: Sativa‑leaning Hybrid",
+   "imageHash": "8a57707a6809ffe04afa2ea1f33c8d412f6f9aa1dd8d80b60da017a23b3d3e06",
+   "image": "/assets/products/8a57707a6809ffe04afa.webp"
+  },
+  "8778724646": {
+   "id": 8778724646,
+   "name": "Rolling Green 1g Preroll Super Lemon Haze",
+   "slug": "rolling-green-1g-preroll-super-lemon-haze",
+   "category": "prerolls",
+   "brand": null,
+   "price": 14.0,
+   "priceRange": "$14.00 - $70.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 14.0
+    }
+   ],
+   "thc": "36.7%",
+   "cbd": "0.1%",
+   "strain": null,
+   "description": "Flavors: Sweet lemon candy, soft lavender, peppery spice\n\nEffects: Uplifting, energetic, clear-headed\n\nGreat For: Daytime use, social settings, staying productive\n\nType: Sativa‑leaning Hybrid",
+   "imageHash": "8a57707a6809ffe04afa2ea1f33c8d412f6f9aa1dd8d80b60da017a23b3d3e06",
+   "image": "/assets/products/8a57707a6809ffe04afa.webp"
+  },
+  "7991640210": {
+   "id": 7991640210,
+   "name": "Stone Road 1g Infused Preroll Space Cake",
+   "slug": "stone-road-1g-infused-preroll-space-cake",
+   "category": "prerolls",
+   "brand": null,
+   "price": 20.0,
+   "priceRange": "$20.00 - $100.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 20.0
+    }
+   ],
+   "thc": "38.06%",
+   "cbd": "0.1%",
+   "strain": null,
+   "description": "Space Cake offers the signature creamy flavor profile of a cake strain, backed by bright notes of fresh fruit and berries. This indica varietal is infused with hash and diamonds, enhancing its potency and flavor profile.",
+   "imageHash": "e03ca2f780c6109b774b9b6589bfc4a5f6fed584f16ceb9068b2975a66f96af6",
+   "image": "/assets/products/e03ca2f780c6109b774b.webp"
+  },
+  "10740341557": {
+   "id": 10740341557,
+   "name": "Bonanza 2g Disposable Baja Splash",
+   "slug": "bonanza-2g-disposable-baja-splash",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "82.14%",
+   "cbd": "0.76%",
+   "strain": null,
+   "description": "This Indica dominant strain has a tropical flavor profile, with hints of hibiscus and exotic fruits. This will allow users to feel relaxed, happy and sleepy, perfect for evening time use.",
+   "imageHash": "ade501d0c9478aaa43b4b41ba5bbb7db68ff5cdee20956098770337c0c5658a9",
+   "image": "/assets/products/ade501d0c9478aaa43b4.webp"
+  },
+  "5909741663": {
+   "id": 5909741663,
+   "name": "Bonanza 2g Disposable Strawberry Lemonade",
+   "slug": "bonanza-2g-disposable-strawberry-lemonade",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "85.44%",
+   "cbd": null,
+   "strain": null,
+   "description": "A hybrid product that is described as having a perfect balance of tart and sweet, with mood-elevating, energetic, and creative effects.",
+   "imageHash": "5d5a712809dcf234c170da50146fd5bc8350f1b7616fa34600bd34f77f08a799",
+   "image": "/assets/products/5d5a712809dcf234c170.webp"
+  },
+  "10740342219": {
+   "id": 10740342219,
+   "name": "Bonanza 4g Disposable Blue Dream",
+   "slug": "bonanza-4g-disposable-blue-dream",
+   "category": "vapes",
+   "brand": null,
+   "price": 100.0,
+   "priceRange": "$100.00 - $500.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 100.0
+    }
+   ],
+   "thc": "84.83%",
+   "cbd": "0.34%",
+   "strain": null,
+   "description": "The perfect combination of flavors as you inhale the blueberry tones to awaken your palate.",
+   "imageHash": "9ee4ee6a0104d7ee5074e4147dc7b48d83cbfab0996651f845969167cc9a8a30",
+   "image": "/assets/products/9ee4ee6a0104d7ee5074.webp"
+  },
+  "8162015340": {
+   "id": 8162015340,
+   "name": "Bonanza 4g Disposable Maui Wowie",
+   "slug": "bonanza-4g-disposable-maui-wowie",
+   "category": "vapes",
+   "brand": null,
+   "price": 100.0,
+   "priceRange": "$100.00 - $500.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 100.0
+    }
+   ],
+   "thc": "84.89%",
+   "cbd": "0.4%",
+   "strain": null,
+   "description": "Take a trip to the tropics with the Bonanza Maui Wowie, a classic sativa that has been delighting cannabis lovers since the 1960s. Known for its sweet pineapple aroma, tropical fruit flavors, and smooth earthy undertones, this cart delivers a bright, energizing experience that’s perfect for daytime enjoyment.",
+   "imageHash": "f86520c9d050a1daa135d9a260d9f18c596d512e22f5b600316314d1b2c942a1",
+   "image": "/assets/products/f86520c9d050a1daa135.webp"
+  },
+  "10054748968": {
+   "id": 10054748968,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Black Triangle OG",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-black-triangle-og",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "7f502727a10b37b9ac790c2ff37285a8dd56377640e8420b892a3e4f6f650683",
+   "image": "/assets/products/7f502727a10b37b9ac79.webp"
+  },
+  "10054748841": {
+   "id": 10054748841,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Blue Dream",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-blue-dream",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "82.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "1120524150780e98ab77b151ec46907d8d74cd6c14bb21b99c55dc048c37c8ee",
+   "image": "/assets/products/1120524150780e98ab77.webp"
+  },
+  "10741847866": {
+   "id": 10741847866,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Peach Pie",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-peach-pie",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "c9de81de06a19373a3a980358ebe42bc2d37903fb75f6b8b194ab40efbc896e5",
+   "image": "/assets/products/c9de81de06a19373a3a9.webp"
+  },
+  "10054748902": {
+   "id": 10054748902,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Pineapple Express",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-pineapple-express",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "98685e8ebaae7ddb651b271315d8e873cc90743d1212ad39b62203a2aab72261",
+   "image": "/assets/products/98685e8ebaae7ddb651b.webp"
+  },
+  "10741848544": {
+   "id": 10741848544,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Super Sour Apple",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-super-sour-apple",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "5bb26a9d13768555248791d6bfa55aab905bd3077917f67bfa8ce8eb0f18711f",
+   "image": "/assets/products/5bb26a9d137685552487.webp"
+  },
+  "11234826381": {
+   "id": 11234826381,
+   "name": "Claybourne Co 1g Liquid Diamond Disposable Wedding Cake",
+   "slug": "claybourne-co-1g-liquid-diamond-disposable-wedding-cake",
+   "category": "vapes",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $300.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 60.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "Meet the cleanest and the meanest, Gassers All-In-One Vape. Powered by 100%, uncut liquid diamonds delivering next-level potency & flavor in a personalized, pocket-ready device. Built tough, tuned for performance, and certified clean so you can stay always on the gas. Available now in (15) 1g strains from classic gas to fruity bangers.\nPure Liquid Diamonds + Natural Terpenes: Nothing Cut, Nothing Diluted with an Average of 90-92% Total THC.\nPalm-Style, USB-C Rechargeable: Ready-to-Go on the Low. Anywhere at Anytime.\nAdjustable Temperature Control: Dial-In Max Flavor or Cloud Intensity.\nSmart LCD Display: Easier to Use Settings for Total Control.\nAnti-Burn & Anti-Clog Tech: Smooth Drags from First to Last.\nHigh-Performance Build: Oil-Resistant & Heat-Proof to Avoid Microplastic Breakdown.",
+   "imageHash": "ac01db7ddb45674ee9add2280de536c9a003831da852c41c3796c770cec63cb5",
+   "image": "/assets/products/ac01db7ddb45674ee9ad.webp"
+  },
+  "9628982349": {
+   "id": 9628982349,
+   "name": "Fernway 0.5g Traveler PRO Sour Diesel",
+   "slug": "fernway-0-5g-traveler-pro-sour-diesel",
+   "category": "vapes",
+   "brand": null,
+   "price": 32.0,
+   "priceRange": "$32.00 - $160.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 32.0
+    }
+   ],
+   "thc": "81.5%",
+   "cbd": "0.34%",
+   "strain": null,
+   "description": "The classic pungent sativa that always commands attention, with sharp gasoline notes balanced by spicy pepper and earthy pine.",
+   "imageHash": "bd3d9a293477e21d4d420798140de3d35b153800f603d1357dc36bd7afa09b7d",
+   "image": "/assets/products/bd3d9a293477e21d4d42.webp"
+  },
+  "7144847457": {
+   "id": 7144847457,
+   "name": "Fernway 1g Cartridge Elderflower",
+   "slug": "fernway-1g-cartridge-elderflower",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "86.73%",
+   "cbd": "0.24%",
+   "strain": null,
+   "description": "A balanced Hybrid that’s designed for a light, sweet and uplifting experience. It has a flowery taste and a relaxing yet uplifting effect.",
+   "imageHash": "68731fc33f8c0dc524e62336a8c2a74fb30deb14b9e37f53b04922b816b9fbcf",
+   "image": "/assets/products/68731fc33f8c0dc524e6.webp"
+  },
+  "11499478062": {
+   "id": 11499478062,
+   "name": "Fernway 1g Cartridge Lava Cake",
+   "slug": "fernway-1g-cartridge-lava-cake",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "83.92%",
+   "cbd": "0.24%",
+   "strain": null,
+   "description": "Built to melt. A smooth, rich hybrid ideal for clocking out, kicking back, and doing dessert first.",
+   "imageHash": "1813b0e5efbc95eaaea9a606a4f4cd2557e249d4e73aef5cc6eda70cab73972d",
+   "image": "/assets/products/1813b0e5efbc95eaaea9.webp"
+  },
+  "5663135613": {
+   "id": 5663135613,
+   "name": "Fernway 1g Cartridge Red Headed Stranger",
+   "slug": "fernway-1g-cartridge-red-headed-stranger",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "81.99%",
+   "cbd": "0.23%",
+   "strain": null,
+   "description": "A sativa-leaning vape cartridge known for its uplifting, energizing effects and distinctive spicy, citrusy, and slightly gassy flavor profile with hints of cinnamon, orange zest, and earthy notes. It provides a clear-headed, creative cerebral lift, making it ideal for daytime use, focus, and social activities, crafted with high-purity distillate and natural terpenes in premium 510-thread hardware.",
+   "imageHash": "51fd1a07cbe93907e910d9a8ba22fbe9fbf00d5c4faed33037a9781d7bec0aa2",
+   "image": "/assets/products/51fd1a07cbe93907e910.webp"
+  },
+  "11499478555": {
+   "id": 11499478555,
+   "name": "Fernway 1g Traveler PRO Alpine Strawberry",
+   "slug": "fernway-1g-traveler-pro-alpine-strawberry",
+   "category": "vapes",
+   "brand": null,
+   "price": 56.0,
+   "priceRange": "$56.00 - $280.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 56.0
+    }
+   ],
+   "thc": "86.01%",
+   "cbd": "0.26%",
+   "strain": null,
+   "description": "A sweet, juicy, sun-ripened strawberry flavor with a bright berry taste and subtle herbal notes, delivering uplifting, focused, and energetic sativa-leaning effects perfect for daytime use, all in a sleek, convenient disposable vape with pure oil and natural terpenes",
+   "imageHash": "a7b1f7c356c95d14043b5390ba6ee29241761d6792aa730cc529e447319d1550",
+   "image": "/assets/products/a7b1f7c356c95d14043b.webp"
+  },
+  "9628982322": {
+   "id": 9628982322,
+   "name": "Fernway 1g Traveler PRO Granddaddy Purple",
+   "slug": "fernway-1g-traveler-pro-granddaddy-purple",
+   "category": "vapes",
+   "brand": null,
+   "price": 56.0,
+   "priceRange": "$56.00 - $280.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 56.0
+    }
+   ],
+   "thc": "82.44%",
+   "cbd": "0.22%",
+   "strain": null,
+   "description": "An Indica dominant Hybrid with a powerful grape and berry flavor profile and aroma. This is perfect for those looking to relax and calm down.",
+   "imageHash": "a4a207e72c2ec228d7053808f90250f9eb1419ce935f5b6d732be4455c7b7f0d",
+   "image": "/assets/products/a4a207e72c2ec228d705.webp"
+  },
+  "9628982127": {
+   "id": 9628982127,
+   "name": "Fernway 1g Traveler PRO Pineapple Express",
+   "slug": "fernway-1g-traveler-pro-pineapple-express",
+   "category": "vapes",
+   "brand": null,
+   "price": 56.0,
+   "priceRange": "$56.00 - $280.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 56.0
+    }
+   ],
+   "thc": "81.99%",
+   "cbd": "0.22%",
+   "strain": null,
+   "description": "Juicy pineapple and bright citrus burst to life on the inhale, balanced by soft earth and pine undertones for depth. Formulated with high‑purity cannabis oil and curated terpenes, users report a lively cerebral uplift paired with gentle body ease. The flavor is tropical-forward yet grounded by herbal, forested accents, making it equally suited for creative days or mellow evenings. Ideal for boosting mood, sparking inspiration, or enjoying a flavorful hybrid experience.",
+   "imageHash": "47dcd775f228a57e64df702a37ef99b27fbe85ec7aca5afa6aae0140dfde7d0e",
+   "image": "/assets/products/47dcd775f228a57e64df.webp"
+  },
+  "10504219737": {
+   "id": 10504219737,
+   "name": "Fernway 1g Traveler PRO Pumpkin Spice",
+   "slug": "fernway-1g-traveler-pro-pumpkin-spice",
+   "category": "vapes",
+   "brand": null,
+   "price": 58.0,
+   "priceRange": "$58.00 - $290.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 58.0
+    }
+   ],
+   "thc": "86.49%",
+   "cbd": "0.22%",
+   "strain": null,
+   "description": "We went there. The feel-good hit of the fall is back.",
+   "imageHash": "010f8cc57a1c025051117af11a6c841d7140f3d13d54cd5f1daf9d4f81663005",
+   "image": "/assets/products/010f8cc57a1c02505111.webp"
+  },
+  "11499478305": {
+   "id": 11499478305,
+   "name": "Fernway 2g Traveler Banana Bread",
+   "slug": "fernway-2g-traveler-banana-bread",
+   "category": "vapes",
+   "brand": null,
+   "price": 86.0,
+   "priceRange": "$86.00 - $430.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 86.0
+    }
+   ],
+   "thc": "86.88%",
+   "cbd": "0.22%",
+   "strain": null,
+   "description": "It always hits the spot. A timeless flavor – tasty, fresh-baked and always welcome.",
+   "imageHash": "26dfadb2af9ba33f22402adf70c620b197253c8d3dfa9e2983b3f5071feeccc5",
+   "image": "/assets/products/26dfadb2af9ba33f2240.webp"
+  },
+  "5663135526": {
+   "id": 5663135526,
+   "name": "Fernway 2g Traveler Berry Haze",
+   "slug": "fernway-2g-traveler-berry-haze",
+   "category": "vapes",
+   "brand": null,
+   "price": 83.0,
+   "priceRange": "$83.00 - $415.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 83.0
+    }
+   ],
+   "thc": "86.03%",
+   "cbd": null,
+   "strain": null,
+   "description": "An indica-leaning disposable vape offering a rich, sweet berry flavor profile with creamy and earthy undertones, featuring high-purity oil and natural terpenes for smooth, relaxing effects, perfect for unwinding or social gatherings. It's praised for its convenience, premium feel, and balanced flavor notes of blackberry and birch.",
+   "imageHash": "92e022eb428daaf6366ba701c342037791d73e3b96ddb7b1ae385ea8c7a73895",
+   "image": "/assets/products/92e022eb428daaf6366b.webp"
+  },
+  "10504220421": {
+   "id": 10504220421,
+   "name": "Fernway 2g Traveler Honeycrisp",
+   "slug": "fernway-2g-traveler-honeycrisp",
+   "category": "vapes",
+   "brand": null,
+   "price": 86.0,
+   "priceRange": "$86.00 - $430.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 86.0
+    }
+   ],
+   "thc": "88.03%",
+   "cbd": "0.23%",
+   "strain": null,
+   "description": "Life just got sweeter. Perfectly crisp and juicy like an orchard-fresh apple.",
+   "imageHash": "0e46f6279399283d93759e68f1faf7f2dd0530a5be1eac955f997768c1ac1264",
+   "image": "/assets/products/0e46f6279399283d9375.webp"
+  },
+  "11118930440": {
+   "id": 11118930440,
+   "name": "Florette Live Resin 0.5g Disposable GG#4",
+   "slug": "florette-live-resin-0-5g-disposable-gg4",
+   "category": "vapes",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "70.3%",
+   "cbd": "0.16%",
+   "strain": null,
+   "description": "Cultivated and curated by Florette, this powerhouse hybrid of Sour Diesel × Sour Dubb × Chem’s Sister × Chocolate Diesel features a terpene profile rich in β-caryophyllene, limonene, β-myrcene, and α-cedrene. Perfect for creating, daydreaming, or unwinding with intention, GG4 balances deep relaxation with euphoric clarity.",
+   "imageHash": "9aaec6b3b0d1070b5ba4c00f036184bf7f92aef34a935b6d38556450b7bade2c",
+   "image": "/assets/products/9aaec6b3b0d1070b5ba4.webp"
+  },
+  "11118930504": {
+   "id": 11118930504,
+   "name": "Florette Live Resin 0.5g Disposable Gelato 41",
+   "slug": "florette-live-resin-0-5g-disposable-gelato-41",
+   "category": "vapes",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "80.21%",
+   "cbd": "0.13%",
+   "strain": null,
+   "description": "Sativa with a relaxing and body-focused high combined with mental clarity, creativity, and stress relief.",
+   "imageHash": "2c5f68b3359fd01f0facb1b122844bd5965ac55dfa93ad8baef8a5a5fa94aef6",
+   "image": "/assets/products/2c5f68b3359fd01f0fac.webp"
+  },
+  "11118930432": {
+   "id": 11118930432,
+   "name": "Florette Live Resin 0.5g Disposable Original Sangria",
+   "slug": "florette-live-resin-0-5g-disposable-original-sangria",
+   "category": "vapes",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "80.07%",
+   "cbd": "0.18%",
+   "strain": null,
+   "description": "Indica dominant",
+   "imageHash": "ac070206808594eb6e5b2908a89db3164b5c74895ffd679abf3420ff5887c477",
+   "image": "/assets/products/ac070206808594eb6e5b.webp"
+  },
+  "7950475558": {
+   "id": 7950475558,
+   "name": "Jaunty 1g Cartridge Cherry Pie",
+   "slug": "jaunty-1g-cartridge-cherry-pie",
+   "category": "vapes",
+   "brand": null,
+   "price": 39.0,
+   "priceRange": "$39.00 - $195.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 39.0
+    }
+   ],
+   "thc": "87.73%",
+   "cbd": null,
+   "strain": null,
+   "description": "Cherry Pie is a tasty swirl of sweet black cherries and sour pie cherries that builds and lingers overtop dank and herbaceous undertones. This hybrid hits fast producing a balanced high that’s devoid of any laziness or fatigue.",
+   "imageHash": "c97d71f52eed65e3a685a5e15d32d65cc67d5fb683418fb25b79c34bc49cd429",
+   "image": "/assets/products/c97d71f52eed65e3a685.webp"
+  },
+  "5663135311": {
+   "id": 5663135311,
+   "name": "Jaunty 1g Cartridge Green Crack",
+   "slug": "jaunty-1g-cartridge-green-crack",
+   "category": "vapes",
+   "brand": null,
+   "price": 39.0,
+   "priceRange": "$39.00 - $195.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 39.0
+    }
+   ],
+   "thc": "86.77%",
+   "cbd": null,
+   "strain": null,
+   "description": "A potent sativa blend with ~90% THC, offering a sweet, tropical citrus flavor with earthy notes, known for delivering an energetic, uplifting, creative, and focused cerebral high, ideal for daytime motivation, featuring terpenes like Myrcene, Limonene, and Humulene in a 510-thread cartridge.",
+   "imageHash": "83ebdafb517eda2e23b7ec75bc4eb5ec71781eed45e72ea6a08241de453111f7",
+   "image": "/assets/products/83ebdafb517eda2e23b7.webp"
+  },
+  "5663135381": {
+   "id": 5663135381,
+   "name": "Jaunty 1g Cartridge Pineapple Express",
+   "slug": "jaunty-1g-cartridge-pineapple-express",
+   "category": "vapes",
+   "brand": null,
+   "price": 39.0,
+   "priceRange": "$39.00 - $195.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 39.0
+    }
+   ],
+   "thc": "78.24%",
+   "cbd": null,
+   "strain": null,
+   "description": "A cartridge that offers a potent hybrid experience with sweet pineapple, tropical fruit, and pine flavors, delivering uplifting, energetic, and euphoric effects with laser-focus, making it ideal for daytime use, featuring cannabis-derived terpenes (CDT) in a 510-thread cartridge for true-to-strain authenticity.",
+   "imageHash": "7bfc5cb7106444ff5d781da30e8f6d282693dfdb5601cff6d3bd0d0fd66954ec",
+   "image": "/assets/products/7bfc5cb7106444ff5d78.webp"
+  },
+  "6486846660": {
+   "id": 6486846660,
+   "name": "Jaunty 1g Live Resin Cartridge GG4",
+   "slug": "jaunty-1g-live-resin-cartridge-gg4",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "71.41%",
+   "cbd": null,
+   "strain": null,
+   "description": "Hybrid cross of (Sour Dubb x Chem’s Sister) x Chocolate Diesel -- a full-spectrum expression of the plant in its most powerful form. Made from terpene-rich flower that’s flash-frozen at harvest, our clean BHO extraction unlocks and preserves the bold aromas, natural cannabinoids, and strain-specific traits naturally found inside each plant’s cola. Using gold-standard equipment and techniques, we separate and refine the oil without compromising flavor or potency, leaving you with a loud, true-to-plant experience crafted with care in NY.",
+   "imageHash": "da8c34db4ff49cceac5bc500dd611091587e36d3676051f8b6148e7fe5ed5cce",
+   "image": "/assets/products/da8c34db4ff49cceac5b.webp"
+  },
+  "6971645163": {
+   "id": 6971645163,
+   "name": "Jaunty 1g Live Resin Cartridge Gelato33",
+   "slug": "jaunty-1g-live-resin-cartridge-gelato33",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "78.89%",
+   "cbd": null,
+   "strain": null,
+   "description": "A Hybrid that allows for the full flavor profile of the terpenes of these flash frozen plants to come out. This minty and sweet strain allows users to feel happy and uplifted while also staying relaxed and calm during the effects.",
+   "imageHash": "d255b3aa5a3930d240e549f4e85a0325cf51ea45fb7ec03ac9cd17ae526dc3b4",
+   "image": "/assets/products/d255b3aa5a3930d240e5.webp"
+  },
+  "9313669874": {
+   "id": 9313669874,
+   "name": "Jaunty 1g Live Resin Cartridge Gelato41",
+   "slug": "jaunty-1g-live-resin-cartridge-gelato41",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "73.81%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "22504a0444864a53d91c525e24443a33225ab4a850de9dd6d129a59d5e188ed3",
+   "image": "/assets/products/22504a0444864a53d91c.webp"
+  },
+  "5663135459": {
+   "id": 5663135459,
+   "name": "Jaunty 1g Live Resin Cartridge Heir Heads",
+   "slug": "jaunty-1g-live-resin-cartridge-heir-heads",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "76.41%",
+   "cbd": null,
+   "strain": null,
+   "description": "a full-spectrum, indica-dominant experience with fruity, herbal, and spiced apple notes from its Apples & Bananas x Runtz lineage, delivering powerful, relaxing effects with a true-to-plant flavor thanks to flash-frozen flower and clean BHO extraction, ensuring bold aromas and a smooth, potent vape for calm relaxation",
+   "imageHash": "6e6ab31843723f9642296f78518d551528162b10487d4c128b0e7c3f925759c4",
+   "image": "/assets/products/6e6ab31843723f964229.webp"
+  },
+  "5663135436": {
+   "id": 5663135436,
+   "name": "Jaunty 1g Live Resin Cartridge Nimbus Snacks",
+   "slug": "jaunty-1g-live-resin-cartridge-nimbus-snacks",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "77.41%",
+   "cbd": null,
+   "strain": null,
+   "description": "Elevate your vaping experience with Jaunty Nimbus Snacks Live Resin Cartridge, delivering potent sativa energy in a smooth, convenient setup. This live resin cartridge captures the full terpene profile of Nimbus Snacks, expect bright, sweet, snack-like top notes with earthy undertones. The high is clear-headed, uplifting, and energizing, ideal for daytime use, creative tasks, or whenever you want a boost of focus and motivation.",
+   "imageHash": "7d0759bacbb3b9a2cd1d3e1e8ea9c28aa7783ded096410ebd90ee6283dacb4f9",
+   "image": "/assets/products/7d0759bacbb3b9a2cd1d.webp"
+  },
+  "10164871063": {
+   "id": 10164871063,
+   "name": "Jaunty 1g Live Resin Cartridge Tropical Z",
+   "slug": "jaunty-1g-live-resin-cartridge-tropical-z",
+   "category": "vapes",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "78.56%",
+   "cbd": null,
+   "strain": null,
+   "description": "Sweet and sour citrus, Tangy Creamsicle finish Live Resin Oil Cartridges, a full-spectrum expression of the plant in its most powerful form. Made from terpene-rich flower that’s flash-frozen at harvest, our clean BHO extraction unlocks and preserves the bold aromas, natural cannabinoids, and strain-specific traits naturally found inside each plant’s cola. Using gold-standard equipment and techniques, we separate and refine the oil without compromising flavor or potency, leaving you with a loud, true-to-plant experience crafted with care in NY.",
+   "imageHash": "27f485a7abdd9e84d9804f2e278bb15c79255714376981b7d79eaa890f9b5d2b",
+   "image": "/assets/products/27f485a7abdd9e84d980.webp"
+  },
+  "5883112720": {
+   "id": 5883112720,
+   "name": "All That Chocolate 100mg Dark Chocolate",
+   "slug": "all-that-chocolate-100mg-dark-chocolate",
+   "category": "edibles",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": "9.01mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Crafted with premium dark chocolate, this bar delivers rich cocoa depth, subtle bitterness, and a silky finish, perfect for those who prefer a more elevated, less sugary edible. The infusion of THC enhances the experience with gentle euphoria, relaxation, or creative clarity.",
+   "imageHash": "e3abfd0ace1940888f5f4b86cdeaf7fe1e36732ba4a57c7f9a0fcffb65f71069",
+   "image": "/assets/products/e3abfd0ace1940888f5f.webp"
+  },
+  "5883112969": {
+   "id": 5883112969,
+   "name": "All That Chocolate 100mg Milk Chocolate",
+   "slug": "all-that-chocolate-100mg-milk-chocolate",
+   "category": "edibles",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": "9.53mg",
+   "cbd": null,
+   "strain": null,
+   "description": "A Hybrid where Each bite delivers rich, creamy milk chocolate made from high-quality cocoa and smooth, melt-in-your-mouth texture. With a consistent THC dose per piece, enjoy precise control over your experience, ideal for beginners looking for a gentle introduction or seasoned users seeking a flavorful edible alternative.",
+   "imageHash": "3beac29c9fb26e5de5c76d004aee3386fed8bcce802f1ccdd7c51aaaa93c3210",
+   "image": "/assets/products/3beac29c9fb26e5de5c7.webp"
+  },
+  "10827601957": {
+   "id": 10827601957,
+   "name": "All That Chocolate 100mg Mini Dark Chocolate",
+   "slug": "all-that-chocolate-100mg-mini-dark-chocolate",
+   "category": "edibles",
+   "brand": null,
+   "price": 12.0,
+   "priceRange": "$12.00 - $60.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 12.0
+    }
+   ],
+   "thc": "10.3mg",
+   "cbd": "4.65%",
+   "strain": null,
+   "description": null,
+   "imageHash": "cc4b136ad4eeb4ee6145b23892f3ce7401c5f4242675e5b24faf8ae1b44f16b9",
+   "image": "/assets/products/cc4b136ad4eeb4ee6145.webp"
+  },
+  "5883112991": {
+   "id": 5883112991,
+   "name": "All That Chocolate 100mg Mini Milk Chocolate",
+   "slug": "all-that-chocolate-100mg-mini-milk-chocolate",
+   "category": "edibles",
+   "brand": null,
+   "price": 12.0,
+   "priceRange": "$12.00 - $60.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 12.0
+    }
+   ],
+   "thc": "10.54mg",
+   "cbd": "0.5%",
+   "strain": null,
+   "description": "For the connoisseur who commands a higher standard of potency, we present The Big Buzz. This is not a casual indulgence, but a profound experience. The Big Buzz is an intentionally potent product designed for the seasoned enthusiast. The flavor is pure chocolate, the experience is pure elevation. The Big Buzz was created for the expert user who seeks an extraordinary and uncompromising journey. Truly the King of No Chill.",
+   "imageHash": "167d11fc974bb0bcf720ccd06ae25de722dc8c18b65f7064c71a961386cccaef",
+   "image": "/assets/products/167d11fc974bb0bcf720.webp"
+  },
+  "5883112824": {
+   "id": 5883112824,
+   "name": "All That Chocolate 50mg Lions Mane Infused Dark Chocolate",
+   "slug": "all-that-chocolate-50mg-lions-mane-infused-dark-chocolate",
+   "category": "edibles",
+   "brand": null,
+   "price": 15.0,
+   "priceRange": "$15.00 - $75.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 15.0
+    }
+   ],
+   "thc": "4.45mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Savor the rich, deep notes of our premium dark chocolate, enhanced by a delicate dusting of Lion's Mane Mushroom, known for its remarkable ability to support mental clarity and foster a profound sense of calm. Made with 70% dark chocolate and infused pure cannabis distillate for clarity and balance, creating a space where indulgence meets wellness.",
+   "imageHash": "58f59208fbf3e20238b4108f74b630982ec42f7d2340d68e0c0e8885f47d3a72",
+   "image": "/assets/products/58f59208fbf3e20238b4.webp"
+  },
+  "9351054907": {
+   "id": 9351054907,
+   "name": "Ayrloom 100mg Gummies Dream Weaver Sugar Plum",
+   "slug": "ayrloom-100mg-gummies-dream-weaver-sugar-plum",
+   "category": "edibles",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": "9.91mg",
+   "cbd": "0.12%",
+   "strain": null,
+   "description": "sweet dreams await. sweet plum, cozy spice, + rest-supporting cannabinoids come together to soften your night. crafted to catch the chaos of your day + ease you into rest, dreamweaver is woven with calming cbn, your gentle guide to dreamland. fast acting, gluten free, vegan.",
+   "imageHash": "bf568bb820fae27ccd1ba4c7c7b014df5f8f5ec1121ebb18a3140caa48c7c37a",
+   "image": "/assets/products/bf568bb820fae27ccd1b.webp"
+  },
+  "8538430645": {
+   "id": 8538430645,
+   "name": "Ayrloom 100mg Gummies Orchard Sunrise Apple",
+   "slug": "ayrloom-100mg-gummies-orchard-sunrise-apple",
+   "category": "edibles",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": "9.88mg",
+   "cbd": "0.13%",
+   "strain": null,
+   "description": "every orchard sunrise means a new day + a new opportunity. we pay homage to our orchard’s 110-year-old history + nod hello to the future with our apple flavored cannabis infused gummies. they combine flavors of our most beloved apples for a crisp + juicy profile. infused with b3, b6 + b12 for an extra boost! fast acting, gluten free, vegan.",
+   "imageHash": "38b30c28c927aade04aaf61bd455e7f07c8fa46c4e4f677c147bec5dac41efd8",
+   "image": "/assets/products/38b30c28c927aade04aa.webp"
+  },
+  "8538430592": {
+   "id": 8538430592,
+   "name": "Ayrloom 100mg Gummies Pillow Talk Blueberry Lavender",
+   "slug": "ayrloom-100mg-gummies-pillow-talk-blueberry-lavender",
+   "category": "edibles",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": "10.18mg",
+   "cbd": "0.13%",
+   "strain": null,
+   "description": "we believe that nothing beats a good night’s sleep. with flavors of just-picked blueberries + pure lavender, pillow talk is a sleep essential. make all the zzz’s count + be ready to dream big! fast acting, gluten free, vegan.",
+   "imageHash": "3616c3d6cd31a44da622f598983e736b2e3c07d163701eb242708e5ffef94ce5",
+   "image": "/assets/products/3616c3d6cd31a44da622.webp"
+  },
+  "7892845624": {
+   "id": 7892845624,
+   "name": "Beezy Beez 100mg Gummies Dreamland",
+   "slug": "beezy-beez-100mg-gummies-dreamland",
+   "category": "edibles",
+   "brand": null,
+   "price": 20.0,
+   "priceRange": "$20.00 - $100.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 20.0
+    }
+   ],
+   "thc": "0.35%",
+   "cbd": "0.6%",
+   "strain": null,
+   "description": null,
+   "imageHash": "a9f8c6f9a2c12e9d06ab64f66e3d79c97f257680ef5e43cd93568c586b03088b",
+   "image": "/assets/products/a9f8c6f9a2c12e9d06ab.webp"
+  },
+  "7892846039": {
+   "id": 7892846039,
+   "name": "Beezy Beez 100mg Hard Candy Daytime",
+   "slug": "beezy-beez-100mg-hard-candy-daytime",
+   "category": "edibles",
+   "brand": null,
+   "price": 20.0,
+   "priceRange": "$20.00 - $100.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 20.0
+    }
+   ],
+   "thc": "0.29%",
+   "cbd": "0.26%",
+   "strain": null,
+   "description": null,
+   "imageHash": "85282793d98d5aadf777dc42508282b1e41ebe1f061e9936779d6cba558726ce",
+   "image": "/assets/products/85282793d98d5aadf777.webp"
+  },
+  "7892845648": {
+   "id": 7892845648,
+   "name": "Beezy Beez 100mg Hard Candy Nighttime",
+   "slug": "beezy-beez-100mg-hard-candy-nighttime",
+   "category": "edibles",
+   "brand": null,
+   "price": 26.0,
+   "priceRange": "$26.00 - $130.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 26.0
+    }
+   ],
+   "thc": "0.23%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "77e97018b8fb020bba515c53b2dd548e108e18a115ce90ff27b175a5b517968b",
+   "image": "/assets/products/77e97018b8fb020bba51.webp"
+  },
+  "7892846151": {
+   "id": 7892846151,
+   "name": "Beezy Beez 240mg Raw Honey Cinnamon",
+   "slug": "beezy-beez-240mg-raw-honey-cinnamon",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "0.13%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "2f28164cddd06fa776567a33123f319f718ca533f667c7032e11e8739469301a",
+   "image": "/assets/products/2f28164cddd06fa77656.webp"
+  },
+  "7892845686": {
+   "id": 7892845686,
+   "name": "Beezy Beez 240mg Raw Honey Plain",
+   "slug": "beezy-beez-240mg-raw-honey-plain",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "0.14%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "471b0f229fa02a13086de43116355de8e1183481a9052f0a4274004b49a98db9",
+   "image": "/assets/products/471b0f229fa02a13086d.webp"
+  },
+  "8970985175": {
+   "id": 8970985175,
+   "name": "CANOPI THC Elixir 100mg Bottle",
+   "slug": "canopi-thc-elixir-100mg-bottle",
+   "category": "edibles",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $200.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 40.0
+    }
+   ],
+   "thc": "5.1mg",
+   "cbd": null,
+   "strain": null,
+   "description": "CANOPI is a cannabis elixir designed to be sipped straight or mixed into your favorite drinks. Built for flexibility and control, it offers a multi-use, multi-serving format that allows you to shape your own experience. All-natural, shelf-stable, and crafted with precision, each 30ml serving delivers 6mg of THC for thoughtful adult use. This 100mg bottle contains roughly 17 doses worth of elixir! Unlike single-use cannabis beverages or edibles, CANOPI is designed as a customizable elixir. Sip it straight\nMix into tea, seltzer, or mocktails Build your own ritual!",
+   "imageHash": "d52fc7d5827b8b7e4616f6c75660e57c85f4f2cfa1cdde4feafb4f09c2dc7b8b",
+   "image": "/assets/products/d52fc7d5827b8b7e4616.webp"
+  },
+  "8970985008": {
+   "id": 8970985008,
+   "name": "CANOPI THC Elixir 12mg Shooter",
+   "slug": "canopi-thc-elixir-12mg-shooter",
+   "category": "edibles",
+   "brand": null,
+   "price": 12.0,
+   "priceRange": "$12.00 - $60.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 12.0
+    }
+   ],
+   "thc": "5.4mg",
+   "cbd": null,
+   "strain": null,
+   "description": "CANOPI is a cannabis elixir designed to be sipped straight or mixed into your favorite drinks. Built for flexibility and control, it offers a multi-use, multi-serving format that allows you to shape your own experience. All-natural, shelf-stable, and crafted with precision, each 30ml serving delivers 6mg of THC for thoughtful adult use. This 12mg bottle contains roughly 2 doses worth of elixir! Unlike single-use cannabis beverages or edibles, CANOPI is designed as a customizable elixir. Sip it straight\nMix into tea, seltzer, or mocktails Build your own ritual!",
+   "imageHash": "fadb7401fe00e3f03b470eca9341e55bd56a1e31efa3600a91281ec101af0630",
+   "image": "/assets/products/fadb7401fe00e3f03b47.webp"
+  },
+  "5663135309": {
+   "id": 5663135309,
+   "name": "Calamity Jane 100mg Chocolates Blackjack",
+   "slug": "calamity-jane-100mg-chocolates-blackjack",
+   "category": "edibles",
+   "brand": null,
+   "price": 24.0,
+   "priceRange": "$24.00 - $120.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 24.0
+    }
+   ],
+   "thc": "9.06mg",
+   "cbd": "8.91%",
+   "strain": null,
+   "description": "dark chocolate bites with peanut butter, designed for focus and daytime energy, featuring a blend of THC, CBD, and CBG (often 10:10:10 ratios per piece) infused with the hybrid Blackjack strain's uplifting effects, delivering nutty, cocoa, and herbal notes for a balanced mental flow and functional experience.",
+   "imageHash": "5113373a7069d49430a2bedf36c416bf1e07f182cf7605c9cbc8d98291897782",
+   "image": "/assets/products/5113373a7069d49430a2.webp"
+  },
+  "7180506522": {
+   "id": 7180506522,
+   "name": "Calamity Jane 100mg Chocolates High Noon",
+   "slug": "calamity-jane-100mg-chocolates-high-noon",
+   "category": "edibles",
+   "brand": null,
+   "price": 24.0,
+   "priceRange": "$24.00 - $120.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 24.0
+    }
+   ],
+   "thc": "8.52mg",
+   "cbd": "8.24%",
+   "strain": null,
+   "description": "Milk Chocolate Infused edibles with a smooth chocolate taste for a smooth experience. These are made for a more balanced relaxed feeling for its users.",
+   "imageHash": "de158ed6feb26269f2415261ccf1990b37ed0c30afa25f575b55e3bca8e7b658",
+   "image": "/assets/products/de158ed6feb26269f241.webp"
+  },
+  "5663135635": {
+   "id": 5663135635,
+   "name": "Calamity Jane 100mg Chocolates Prospector",
+   "slug": "calamity-jane-100mg-chocolates-prospector",
+   "category": "edibles",
+   "brand": null,
+   "price": 24.0,
+   "priceRange": "$24.00 - $120.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 24.0
+    }
+   ],
+   "thc": "10.2mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Hybrid milk chocolate bites specifically designed for Focus/Renew, featuring milk chocolate with toffee, often infused with a 2:1 THC:CBG ratio, aiming for uplifting, energizing, and daytime-friendly effects.",
+   "imageHash": "d6a7967a8ac4d614e3b7c07c8ca393a81a64ce5656735d06b8715aa0eeeb8699",
+   "image": "/assets/products/d6a7967a8ac4d614e3b7.webp"
+  },
+  "5663135593": {
+   "id": 5663135593,
+   "name": "Calamity Jane 100mg Chocolates Rocky Top",
+   "slug": "calamity-jane-100mg-chocolates-rocky-top",
+   "category": "edibles",
+   "brand": null,
+   "price": 24.0,
+   "priceRange": "$24.00 - $120.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 24.0
+    }
+   ],
+   "thc": "100mg",
+   "cbd": null,
+   "strain": null,
+   "description": "An indica based white chocolate edible featuring crushed cookies and cream, designed for a balanced experience, offering sweet, crunchy flavors with 10mg THC per piece (10 pieces total) for focus or general enjoyment.",
+   "imageHash": "047b4590cc92a8feed4d605291d3990fbde46f08e9fbc0ef229086c3a9018f8e",
+   "image": "/assets/products/047b4590cc92a8feed4d.webp"
+  },
+  "7180506402": {
+   "id": 7180506402,
+   "name": "Calamity Jane 100mg Chocolates Sundown",
+   "slug": "calamity-jane-100mg-chocolates-sundown",
+   "category": "edibles",
+   "brand": null,
+   "price": 24.0,
+   "priceRange": "$24.00 - $120.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 24.0
+    }
+   ],
+   "thc": "9.98mg",
+   "cbd": "9.3%",
+   "strain": null,
+   "description": "Rich dark chocolate that’s smooth, creamy, and reliable that is perfect for those looking to be relaxed and even sleepy, making these perfect for evening use.",
+   "imageHash": "54b1d7189026ff128782e9588a37f21e29eb6f937ff6395da5a028ae2951ddb3",
+   "image": "/assets/products/54b1d7189026ff128782.webp"
+  },
+  "8223382091": {
+   "id": 8223382091,
+   "name": "Camino 100mg Gummies Freshly Squeezed",
+   "slug": "camino-100mg-gummies-freshly-squeezed",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "5.29mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Picture this: You've just wrapped up a hectic workday, your mind is racing with thoughts, and your body is feeling tense. This is the perfect occasion to reach for Camino Freshly Squeezed Recover gummies. Each gummy contains 5MG of THC and 10MG of CBG, along with hybrid-like terpenes that work together to create a harmonious blend of relaxation and balance.\n\nCBG, known for its potential anti-inflammatory and anti-anxiety effects, helps balance out THC’s psychoactive experience. It's like having a gentle hand guiding you through, ensuring that you stay grounded and centered.\n\nCamino Freshly Squeezed Recover gummies aren't just a treat for your tastebuds; they're a ticket to a serene state of mind. Embrace the relaxation and respite they offer.",
+   "imageHash": "c1a13c4633da274d2956b220deb6599b8e34bc45f6e0b17792e572bed42089b6",
+   "image": "/assets/products/c1a13c4633da274d2956.webp"
+  },
+  "6918806592": {
+   "id": 6918806592,
+   "name": "Camino 100mg Sour Gummies Raspberry Lemonade",
+   "slug": "camino-100mg-sour-gummies-raspberry-lemonade",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "9.69mg",
+   "cbd": null,
+   "strain": null,
+   "description": "For those moments when you want to make a great experience even more joyous, like hanging with friends at the beach or enjoying a comedy show,  enter Camino Sours Raspberry Lemonade Bliss gummies. These delightful treats are designed to boost your mood and create a blissful experience no matter where you are and what you’re up to. Each delectable gummy is infused with 10MG of THC and a tailored blend of hybrid-like terpenes that marries perfectly with the sweet, tangy notes of ripe raspberries and the flavors of fresh, sugary lemonade. Welcome to your happy place!",
+   "imageHash": "b908a66ddc7fb9689e9d29f0a0d74fa50abadc0155dba51fd665a3b3b15bbbe9",
+   "image": "/assets/products/b908a66ddc7fb9689e9d.webp"
+  },
+  "8223382102": {
+   "id": 8223382102,
+   "name": "Camino 100mg Sour Gummies Strawberry Sunset",
+   "slug": "camino-100mg-sour-gummies-strawberry-sunset",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "9.2mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Kick back dockside and relax to the rhythmic sounds of soft waves lapping against the shoreline. Indica-like terpenes meet a refreshing strawberry citrus flavor in this marvelously mellow edible. Take a deep breath in and chill out.",
+   "imageHash": "66c3868822a8cc810596192f19da67f91d549eb02b6e2725c25f9a77ffaf990d",
+   "image": "/assets/products/66c3868822a8cc810596.webp"
+  },
+  "7199141117": {
+   "id": 7199141117,
+   "name": "Camino Chews 100mg Edibles Boysenberry",
+   "slug": "camino-chews-100mg-edibles-boysenberry",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "10.44mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Imagine slipping into a peaceful evening, where the stresses of the day gradually fade away, and the rising moon gently ushers you toward restful sleep. This is the perfect time to reach for Camino Chews Boysenberry ‘Sleep’, crafted to help you unwind and drift off effortlessly. Each sweet fruit chew is infused with a soothing blend of 10MG THC and 5MG CBN enhanced by chamomile and lavender extracts plus indica-like terpenes.",
+   "imageHash": "345bdbfa64ec79e67bc02f42bc06222aafc2ebdf333742a4c15fd533c3709270",
+   "image": "/assets/products/345bdbfa64ec79e67bc0.webp"
+  },
+  "7199140889": {
+   "id": 7199140889,
+   "name": "Camino Chews 100mg Edibles Golden Peach",
+   "slug": "camino-chews-100mg-edibles-golden-peach",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "10.63mg",
+   "cbd": "0.12%",
+   "strain": null,
+   "description": "Relief is closer than you think. Whether you’re dealing with the morning after a big night out, or looking for support with recurring aches and pains, Camino Chews Golden Peach \"Recover\" are a delicious, effective option. These plant-based fruit chews are formulated with THC and CBG for a soothing mind-body experience enhanced with hybrid-like terpenes for those times your body needs some extra TLC.",
+   "imageHash": "e7ee0fdffba4c5f64a0ebd254eaa81015e2186341bac849cf119a4c7bad7d42c",
+   "image": "/assets/products/e7ee0fdffba4c5f64a0e.webp"
+  },
+  "10827677578": {
+   "id": 10827677578,
+   "name": "Cycling Frog 10mg Seltzers Cran Raspberry",
+   "slug": "cycling-frog-10mg-seltzers-cran-raspberry",
+   "category": "edibles",
+   "brand": null,
+   "price": 5.0,
+   "priceRange": "$5.00 - $25.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 5.0
+    }
+   ],
+   "thc": "10.08mg",
+   "cbd": "10.08%",
+   "strain": null,
+   "description": "Cycling Frog THC Seltzers are sparkling, juicy, and deliciously crafted beverages that deliver a sessionable, booze-free buzz. The funnest drink you’ll ever have.",
+   "imageHash": "4986d47d9083489ca43ee7c44a44ef96cd03dceb649a4f45a50df8b78d1af881",
+   "image": "/assets/products/4986d47d9083489ca43e.webp"
+  },
+  "10827677297": {
+   "id": 10827677297,
+   "name": "Cycling Frog 10mg Seltzers Ruby Grapefruit",
+   "slug": "cycling-frog-10mg-seltzers-ruby-grapefruit",
+   "category": "edibles",
+   "brand": null,
+   "price": 5.0,
+   "priceRange": "$5.00 - $25.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 5.0
+    }
+   ],
+   "thc": "10.19mg",
+   "cbd": "10.19%",
+   "strain": null,
+   "description": "Cycling Frog THC Seltzers are sparkling, juicy, and deliciously crafted beverages that deliver a sessionable, booze-free buzz. The funnest drink you’ll ever have.",
+   "imageHash": "dde0f1bbccb75cdf11a714148f209f8b2c4ac12dcdb8452448e075093fb96f4a",
+   "image": "/assets/products/dde0f1bbccb75cdf11a7.webp"
+  },
+  "10827677388": {
+   "id": 10827677388,
+   "name": "Cycling Frog 10mg Seltzers Wild Cherry",
+   "slug": "cycling-frog-10mg-seltzers-wild-cherry",
+   "category": "edibles",
+   "brand": null,
+   "price": 5.0,
+   "priceRange": "$5.00 - $25.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 5.0
+    }
+   ],
+   "thc": "10.1mg",
+   "cbd": "10.1%",
+   "strain": null,
+   "description": "Cycling Frog THC Seltzers are sparkling, juicy, and deliciously crafted beverages that deliver a sessionable, booze-free buzz. The funnest drink you’ll ever have.",
+   "imageHash": "566b609f48ba8fab1e76d96075619b6c39251c4545e77455a2fbf9790867c3dc",
+   "image": "/assets/products/566b609f48ba8fab1e76.webp"
+  },
+  "5663135695": {
+   "id": 5663135695,
+   "name": "Dark Star 100mg Bullet Bar Nighttime",
+   "slug": "dark-star-100mg-bullet-bar-nighttime",
+   "category": "edibles",
+   "brand": null,
+   "price": 13.0,
+   "priceRange": "$13.00 - $65.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 13.0
+    }
+   ],
+   "thc": "9.54mg",
+   "cbd": null,
+   "strain": null,
+   "description": "An Indica based dark chocolate edible infused with THC and often CBN, designed for relaxation and sleep, featuring a rich, bittersweet taste with calming effects from terpenes like myrcene and linalool, helping users unwind and promote restful sleep.",
+   "imageHash": "ce2a0ef7b822d889fc3a89cdc99742766448cc34d73dc26872c8ba503fbb668c",
+   "image": "/assets/products/ce2a0ef7b822d889fc3a.webp"
+  },
+  "5663135506": {
+   "id": 5663135506,
+   "name": "MFNY 100mg Live Rosin Gummies Sour Peach x Rainbow Beltz 2.0",
+   "slug": "mfny-100mg-live-rosin-gummies-sour-peach-x-rainbow-beltz-2-0",
+   "category": "edibles",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": "100.22mg",
+   "cbd": null,
+   "strain": null,
+   "description": "These Indica-based vegan, full-spectrum, cultivar-specific gummies are infused with MFNY’s premium Rainbow Beltz live rosin extract. Superior to distillate, live rosin is made via solventless extraction from premium fresh frozen plants, preserving all the natural terpenes. We use the minimum amount of sugar to highlight the fruity and candy flavors of the Rainbow Beltz, paired with natural flavors of sour peaches.",
+   "imageHash": "ba061da8b8ff94a88bfedf49ba80639b6b09ad23472d817339e66087c7f9bb14",
+   "image": "/assets/products/ba061da8b8ff94a88bfe.webp"
+  },
+  "8399972293": {
+   "id": 8399972293,
+   "name": "NYCE 100mg Rosin Gummies Blueberry",
+   "slug": "nyce-100mg-rosin-gummies-blueberry",
+   "category": "edibles",
+   "brand": null,
+   "price": 22.0,
+   "priceRange": "$22.00 - $110.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 22.0
+    }
+   ],
+   "thc": "10.25mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Live Hash Rosin gummies that are Indica based. Designed for nighttime use, these are perfect for relaxing and winding down.",
+   "imageHash": "5497a11439cc9c144cca0fdaadefa78193d8940f1394dbf8916c524074ce42ff",
+   "image": "/assets/products/5497a11439cc9c144cca.webp"
+  },
+  "9370378457": {
+   "id": 9370378457,
+   "name": "Trout & Co 100mg Ampersand Peach Mochi",
+   "slug": "trout-co-100mg-ampersand-peach-mochi",
+   "category": "edibles",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $200.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 40.0
+    }
+   ],
+   "thc": "8.86mg",
+   "cbd": null,
+   "strain": null,
+   "description": "Ampersand is a water-soluble, solventless hash rosin powder crafted from premium, full-spectrum live rosin. Designed to dissolve under your tongue, the powder provides a fast-acting (2–15 minute) effect through lymphatic absorption rather than digestion.",
+   "imageHash": "1e8946525643c3a7a18954303e599391d2996033229caed9f5f7fd5a4f0207f1",
+   "image": "/assets/products/1e8946525643c3a7a189.webp"
+  },
+  "5663135532": {
+   "id": 5663135532,
+   "name": "Wana 100mg Gummies Island Punch",
+   "slug": "wana-100mg-gummies-island-punch",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "11.07mg",
+   "cbd": "0.03%",
+   "strain": null,
+   "description": "These potentially relaxing, island-inspired Indica gummies evoke a mouth-watering tropical punch with hints of grape, orange, cherry, and pineapple. They're also fast-acting, with a 5-15 minute onset and 2-4 hour duration.",
+   "imageHash": "acba44328956dfa456694bc6d1abcb9ca31ab9aa5bdc81feda3a890458882db1",
+   "image": "/assets/products/acba44328956dfa45669.webp"
+  },
+  "5663135340": {
+   "id": 5663135340,
+   "name": "Wana 100mg Gummies Limoncello",
+   "slug": "wana-100mg-gummies-limoncello",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "10.69mg",
+   "cbd": "0.07%",
+   "strain": null,
+   "description": "These vegan, melt-proof, hybrid edibles offering a sweet and slightly sour lemon flavor with uplifting, balanced effects, thanks to fast-acting technology for a 5-15 minute onset, making them ideal for creativity and mood boosts with a consistent, enjoyable experience.",
+   "imageHash": "df871c7485aa625b5c566ae3ba774949c2c252abf78554b9ae11077957501652",
+   "image": "/assets/products/df871c7485aa625b5c56.webp"
+  },
+  "5663135568": {
+   "id": 5663135568,
+   "name": "Wana 100mg Gummies New York Sunrise",
+   "slug": "wana-100mg-gummies-new-york-sunrise",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "9.85mg",
+   "cbd": "0.04%",
+   "strain": null,
+   "description": "A fast-acting, sativa-leaning edibles with citrus (orange) and tart cherry flavors, inspired by a Tequila Sunrise and enhanced with uplifting terpenes for focus, creativity, and a smooth, balanced lift with a quick 5-15 minute onset. They are vegan, melt-proof, kosher, and use organic sweeteners, offering an energizing hybrid experience for daytime use, with effects lasting 2-4 hours.",
+   "imageHash": "7b17ecd98ad761bc7d8c069c5ab2617c7b64bccf8b1a7407c772813db1c33753",
+   "image": "/assets/products/7b17ecd98ad761bc7d8c.webp"
+  },
+  "5663135492": {
+   "id": 5663135492,
+   "name": "Wana 100mg Gummies Peach Bellini",
+   "slug": "wana-100mg-gummies-peach-bellini",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "9.84mg",
+   "cbd": "0.05%",
+   "strain": null,
+   "description": "These fast-acting Sativa peach gummies will add some zip to your day with their inspiring blend of 30+ uplifting terpenes.",
+   "imageHash": "6a56f783d6c60a6e7e5d358eeb9a5aa11213e3892bf06ee0e08689137b28a92c",
+   "image": "/assets/products/6a56f783d6c60a6e7e5d.webp"
+  },
+  "5663135551": {
+   "id": 5663135551,
+   "name": "Wana 100mg Gummies Pina Colada",
+   "slug": "wana-100mg-gummies-pina-colada",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "11.49mg",
+   "cbd": "0.03%",
+   "strain": null,
+   "description": "Fast-acting, indica-leaning edibles with rich pineapple and coconut flavors, using terpene-enhanced distillate for a mellow, relaxing, and sometimes sleepy effect, perfect for unwinding, often delivering quick relief within 5-15 minutes. They are vegan, gluten-free, melt-proof, made with organic sweeteners.",
+   "imageHash": "3735a72a0d77f9524ebfb629178c6d871a2d1cd5dd0ed38005236d6f3841c95e",
+   "image": "/assets/products/3735a72a0d77f9524ebf.webp"
+  },
+  "5663135354": {
+   "id": 5663135354,
+   "name": "Wana 100mg Gummies Stay Asleep",
+   "slug": "wana-100mg-gummies-stay-asleep",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "9.09mg",
+   "cbd": "18.64%",
+   "strain": null,
+   "description": "A melatonin-free, cannabis-infused edible designed to provide long-lasting, uninterrupted sleep without next-day grogginess. They are formulated to address the root causes of sleeplessness, such as stress and physical tension.",
+   "imageHash": "062948ca12317acbee3d488c49313016f39dfd32dd486e16f350d0c151b66a7d",
+   "image": "/assets/products/062948ca12317acbee3d.webp"
+  },
+  "5663135474": {
+   "id": 5663135474,
+   "name": "Wana 100mg Gummies Strawberry Margarita",
+   "slug": "wana-100mg-gummies-strawberry-margarita",
+   "category": "edibles",
+   "brand": null,
+   "price": 28.0,
+   "priceRange": "$28.00 - $140.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 28.0
+    }
+   ],
+   "thc": "10.72mg",
+   "cbd": "10.67%",
+   "strain": null,
+   "description": "fast-acting, hybrid edibles with a sweet, citrusy, slightly salty flavor, featuring a 1:1 ratio of THC and CBD (or sometimes THC/CBD/CBG), enhanced with terpenes for a balanced, uplifting experience that kicks in within 5-15 minutes due to \"nano-encapsulation\" technology, making them vegan, gluten-free, and melt-proof.",
+   "imageHash": "d36d4fef6d60bada14079bf7b45cac06418ac2201481a51a9b108dc551665665",
+   "image": "/assets/products/d36d4fef6d60bada1407.webp"
+  },
+  "10506410548": {
+   "id": 10506410548,
+   "name": "Cultured 1g Live Resin SLM",
+   "slug": "cultured-1g-live-resin-slm",
+   "category": "concentrates",
+   "brand": null,
+   "price": 45.0,
+   "priceRange": "$45.00 - $135.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 45.0
+    }
+   ],
+   "thc": "74.4%",
+   "cbd": null,
+   "strain": null,
+   "description": "Experience the bold character of SLM Live Resin, a terpene-rich extract crafted from freshly harvested cannabis to preserve the strain's natural flavor and potency. This lively hybrid combines the zesty citrus and herbal notes of Super Lemon Haze with the creamy, earthy complexity of MAC, creating a smooth, flavorful concentrate with exceptional depth.\n\nFlavor Profile: Bright lemon • Sweet citrus • Earthy herbs • Creamy diesel\n\nSLM delivers an uplifting cerebral buzz paired with a balanced body relaxation. Expect a clear-headed, creative, and euphoric experience that gradually settles into a calm, comfortable finish, making it a versatile choice for any time of day.",
+   "imageHash": "e0c9e3cea6b2d3e17ca825412fe2a7e5bc0262dd5ceb081251df8192894f66a4",
+   "image": "/assets/products/e0c9e3cea6b2d3e17ca8.webp"
+  },
+  "10249740174": {
+   "id": 10249740174,
+   "name": "Dreaming Tree Farm Temple Balls Honey Banana",
+   "slug": "dreaming-tree-farm-temple-balls-honey-banana",
+   "category": "concentrates",
+   "brand": null,
+   "price": 55.0,
+   "priceRange": "$55.00 - $165.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 55.0
+    }
+   ],
+   "thc": "68.31%",
+   "cbd": "0.24%",
+   "strain": null,
+   "description": "Hand-rolled solventless temple ball hash made from premium Honey Banana (a Spritzer cross of the classic Honey Boo × Strawberry Banana lineage). Expect rich, dessert-like notes of ripe banana, sweet honey, tropical fruit, and subtle earthy spice, with a full-bodied, aromatic smoke that stays true to the strain’s signature flavor. The dark, polished exterior protects a sticky, resinous interior packed with terpenes (led by caryophyllene) and potent cannabinoids. Crafted via ice-water extraction of high-quality flower, gently dried, pressed, and rolled into traditional 1g temple balls, then carefully cured. A pure, traditional hash experience with modern craft quality, smooth, flavorful, and deeply satisfying.",
+   "imageHash": "6f91024f16e5bfaecb657718b848568dc288ac9d07fe4260244e8a578156057c",
+   "image": "/assets/products/6f91024f16e5bfaecb65.webp"
+  },
+  "6474775528": {
+   "id": 6474775528,
+   "name": "Dreaming Tree Farms 1g Rosin Black Maple",
+   "slug": "dreaming-tree-farms-1g-rosin-black-maple",
+   "category": "concentrates",
+   "brand": null,
+   "price": 66.0,
+   "priceRange": "$66.00 - $198.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 66.0
+    }
+   ],
+   "thc": "64.7%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "a85cb18db42639e57f67b841c62250d8c55a92093ed75ec6e01f23bc73f50f2f",
+   "image": "/assets/products/a85cb18db42639e57f67.webp"
+  },
+  "6474775605": {
+   "id": 6474775605,
+   "name": "Dreaming Tree Farms 1g Rosin Honey Banana",
+   "slug": "dreaming-tree-farms-1g-rosin-honey-banana",
+   "category": "concentrates",
+   "brand": null,
+   "price": 66.0,
+   "priceRange": "$66.00 - $198.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 66.0
+    }
+   ],
+   "thc": "70.61%",
+   "cbd": "0.34%",
+   "strain": null,
+   "description": null,
+   "imageHash": "a85cb18db42639e57f67b841c62250d8c55a92093ed75ec6e01f23bc73f50f2f",
+   "image": "/assets/products/a85cb18db42639e57f67.webp"
+  },
+  "6474775568": {
+   "id": 6474775568,
+   "name": "Dreaming Tree Farms 1g Rosin Super Boof",
+   "slug": "dreaming-tree-farms-1g-rosin-super-boof",
+   "category": "concentrates",
+   "brand": null,
+   "price": 66.0,
+   "priceRange": "$66.00 - $198.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 66.0
+    }
+   ],
+   "thc": "69%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "a85cb18db42639e57f67b841c62250d8c55a92093ed75ec6e01f23bc73f50f2f",
+   "image": "/assets/products/a85cb18db42639e57f67.webp"
+  },
+  "5880251454": {
+   "id": 5880251454,
+   "name": "NYCE 1g Rosin Poddy Mouth",
+   "slug": "nyce-1g-rosin-poddy-mouth",
+   "category": "concentrates",
+   "brand": null,
+   "price": 60.0,
+   "priceRange": "$60.00 - $180.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 60.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "An evenly balanced hybrid known for a flavor profile of sweet, fruity, gassy, and spicy notes with a balanced high that brings uplifting euphoria and deep relaxation, making it great for stress relief and creativity. It's a solventless live rosin from Humboldt Pound Cake x Mountain Top Mint.",
+   "imageHash": "1fea0c788e1572e87c62262ab5d82a35a34233cf03b0363ee9550c9e82df9bc2",
+   "image": "/assets/products/1fea0c788e1572e87c62.webp"
+  },
+  "10483199842": {
+   "id": 10483199842,
+   "name": "Olio 1g Live Rosin Grape Blast",
+   "slug": "olio-1g-live-rosin-grape-blast",
+   "category": "concentrates",
+   "brand": null,
+   "price": 70.0,
+   "priceRange": "$70.00 - $210.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 70.0
+    }
+   ],
+   "thc": "66.7%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "c104739fb2faba9bf284eb872ed70893f379a58c717c5f7e48d99ffa706f1f3c",
+   "image": "/assets/products/c104739fb2faba9bf284.webp"
+  },
+  "9370377175": {
+   "id": 9370377175,
+   "name": "Trout & Co 1g Rosin Sweet Vidalia Private Reserve",
+   "slug": "trout-co-1g-rosin-sweet-vidalia-private-reserve",
+   "category": "concentrates",
+   "brand": null,
+   "price": 88.0,
+   "priceRange": "$88.00 - $264.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 88.0
+    }
+   ],
+   "thc": "76.25%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "03830e92e75f477b73a32973d1914ba1f2a5a2acc9bc2532f7e828c0829d7d30",
+   "image": "/assets/products/03830e92e75f477b73a3.webp"
+  },
+  "7730761709": {
+   "id": 7730761709,
+   "name": "Trout & Co 2g Rosin GMO Thumbprint",
+   "slug": "trout-co-2g-rosin-gmo-thumbprint",
+   "category": "concentrates",
+   "brand": null,
+   "price": 200.0,
+   "priceRange": "$200.00 - $800.00",
+   "options": [
+    {
+     "label": "2.0g",
+     "price": 200.0
+    }
+   ],
+   "thc": "74.64%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "03830e92e75f477b73a32973d1914ba1f2a5a2acc9bc2532f7e828c0829d7d30",
+   "image": "/assets/products/03830e92e75f477b73a3.webp"
+  },
+  "6486846528": {
+   "id": 6486846528,
+   "name": "Umamii 1g Live Rosin Banana Pie-Paya",
+   "slug": "umamii-1g-live-rosin-banana-pie-paya",
+   "category": "concentrates",
+   "brand": null,
+   "price": 72.5,
+   "priceRange": "$72.50 - $217.50",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 72.5
+    }
+   ],
+   "thc": "74.5%",
+   "cbd": null,
+   "strain": null,
+   "description": "Banana Pie Paya Tier 1 is the purest expression of this cultivar, crafted from a single 90u–119u micron wash to isolate only the most premium trichome heads. Grown, washed, and pressed entirely in-house by Umamii, this single source live rosin is made from fresh-frozen flower using a completely solventless process, preserving the cultivar's fullest terpene expression.\n\nThe profile opens with rich banana-cream sweetness layered over warm pastry dough and smooth vanilla custard. As the experience unfolds, soft tropical fruit notes emerge alongside a delicate gassy undertone, finishing with a buttery pie crust that lingers long after the exhale. The smoke is exceptionally clean, smooth, and flavorful, delivering a refined dessert-forward profile with remarkable clarity and complexity.\n\nProduced in extremely limited quantities, Tier 1 represents Umamii's highest standard of solventless craftsmanship. By isolating only the finest trichome heads, Banana Pie Paya Tier 1 offers unmatched purity, terpene intensity, and a true connoisseur-grade single source live rosin experience.",
+   "imageHash": "433585c44c73970cb8bbf7d0cbda70a3b27a74003b294de401337a43ce90cf11",
+   "image": "/assets/products/433585c44c73970cb8bb.webp"
+  },
+  "5663194674": {
+   "id": 5663194674,
+   "name": "Umamii 1g Live Rosin Papaya",
+   "slug": "umamii-1g-live-rosin-papaya",
+   "category": "concentrates",
+   "brand": null,
+   "price": 72.5,
+   "priceRange": "$72.50 - $217.50",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 72.5
+    }
+   ],
+   "thc": "70.6%",
+   "cbd": null,
+   "strain": null,
+   "description": "Indulge in the pure essence of tropical bliss with our Papaya Single Source Live Rosin, meticulously crafted from fresh-frozen Papaya buds harvested at peak ripeness. This premium solventless extract is pressed using a precise 90-micron mesh for an ultra-refined texture that's silky smooth and bursting with vibrant terpenes. Juicy ripe papaya mingles with hints of mango, citrus zest, and subtle earthy undertones, delivering a sweet, fruity exhale that's reminiscent of a sun-soaked island getaway. A balanced hybrid experience that uplifts the mind with euphoric, creative energy while gently relaxing the body.",
+   "imageHash": "275c3534558d689b4006e8941c5805f05be276cbe5b0f0005d681b607faa190f",
+   "image": "/assets/products/275c3534558d689b4006.webp"
+  },
+  "7867177537": {
+   "id": 7867177537,
+   "name": "Umamii 1g Private Reserve Rosin GMO",
+   "slug": "umamii-1g-private-reserve-rosin-gmo",
+   "category": "concentrates",
+   "brand": null,
+   "price": 77.0,
+   "priceRange": "$77.00 - $231.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 77.0
+    }
+   ],
+   "thc": "73.2%",
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "0587732907ca8c996ebce32abafcae43de4af9f017ace6a663e9159b681bb703",
+   "image": "/assets/products/0587732907ca8c996ebc.webp"
+  },
+  "11178169314": {
+   "id": 11178169314,
+   "name": "Umamii 1g Private Reserve Rosin Ninja Fruit",
+   "slug": "umamii-1g-private-reserve-rosin-ninja-fruit",
+   "category": "concentrates",
+   "brand": null,
+   "price": 90.0,
+   "priceRange": "$90.00 - $270.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 90.0
+    }
+   ],
+   "thc": "75.32%",
+   "cbd": "0.2%",
+   "strain": null,
+   "description": "Sensei’s genetics. Umamii’s craft. Ninja Fruit pairs bright grapefruit citrus with sweet grape notes and an earthy finish for a rich, fruit-forward dab. This hybrid may offer an uplifting, mood-brightening start that settles into relaxed, easygoing calm, a balance of mental lift and body comfort. Effects vary by person and dose. Grown, washed, and pressed at our farm in Wyoming, NY using Sensei’s genetics, this Private Reserve collaboration brings our shared dedication to craft into every solventless 1g jar.",
+   "imageHash": "44cb81abf72ede26b2e6a312127c1d0a5eaee9b188c569f8dce60e535a415927",
+   "image": "/assets/products/44cb81abf72ede26b2e6.webp"
+  },
+  "11178169330": {
+   "id": 11178169330,
+   "name": "Umamii 2g Live Rosin Honey Banana",
+   "slug": "umamii-2g-live-rosin-honey-banana",
+   "category": "concentrates",
+   "brand": null,
+   "price": 112.5,
+   "priceRange": "$112.50 - $450.00",
+   "options": [
+    {
+     "label": "2.0g",
+     "price": 112.5
+    }
+   ],
+   "thc": "63.94%",
+   "cbd": "0.23%",
+   "strain": null,
+   "description": null,
+   "imageHash": "f58838c6c36a2f5d9ab6aaec1fda8a595d1e28da283cb8a85a02c557c4e1aa6b",
+   "image": "/assets/products/f58838c6c36a2f5d9ab6.webp"
+  },
+  "10955786551": {
+   "id": 10955786551,
+   "name": "Umamii 2g Live Rosin Soap",
+   "slug": "umamii-2g-live-rosin-soap",
+   "category": "concentrates",
+   "brand": null,
+   "price": 106.5,
+   "priceRange": "$106.50 - $426.00",
+   "options": [
+    {
+     "label": "2.0g",
+     "price": 106.5
+    }
+   ],
+   "thc": "78.45%",
+   "cbd": "0.25%",
+   "strain": null,
+   "description": "Fresh, funky, and unmistakably Soap. This cross brings an anticipated flavor profile of cool mint, sweet herbal notes, and earthy gas, rounded out by a distinctive floral, almost soapy finish. A subtle doughy richness adds depth beneath the crisp, aromatic top notes.\n\nThe experience may bring an uplifting cerebral buzz with a happy, creative feel, followed by gentle body relaxation. Think a lively mental lift balanced by mellow physical ease, with effects varying by person and dose.",
+   "imageHash": "c1b52fe5e350f1a62285942608030e5e25dd0f48ff83867e08bbe97056131b00",
+   "image": "/assets/products/c1b52fe5e350f1a62285.webp"
+  },
+  "9651706434": {
+   "id": 9651706434,
+   "name": "Umamii Cured Resin 1g Field Notes",
+   "slug": "umamii-cured-resin-1g-field-notes",
+   "category": "concentrates",
+   "brand": null,
+   "price": 36.5,
+   "priceRange": "$36.50 - $109.50",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 36.5
+    }
+   ],
+   "thc": "80.46%",
+   "cbd": "0.11%",
+   "strain": null,
+   "description": "From Umamii's Cured Resin Summer Series...Inspired by the outdoors, Field Notes offers a bold, terpene-forward profile with warm spice, earthy herbs, and a subtle peppery kick. This balanced hybrid delivers a rich, complex flavor that's perfect for those who enjoy something beyond the ordinary.\n\n\nFlavor Profile: Earthy herbs • Warm spice • Pepper • Woody finish\n\n\nExperience: Clear-headed and grounded with gentle body relaxation, Field Notes provides a balanced experience that's equally suited for creative moments or unwinding after a long day.",
+   "imageHash": "753c69ee32229404850b04715919ad98338ace5ee234dcdc3bdacfcb3038b551",
+   "image": "/assets/products/753c69ee32229404850b.webp"
+  },
+  "5775690451": {
+   "id": 5775690451,
+   "name": "VCC Full Spectrum RSO 1g",
+   "slug": "vcc-full-spectrum-rso-1g",
+   "category": "concentrates",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $120.00",
+   "options": [
+    {
+     "label": "1.0g",
+     "price": 40.0
+    }
+   ],
+   "thc": "66.28%",
+   "cbd": "0.28%",
+   "strain": null,
+   "description": "A highly potent, full-spectrum concentrate designed for versatile and precise dosing, often used by medical patients and wellness-focused consumers. It comes in a 1g syringe for easy administration. The oil captures the full range of compounds found in the cannabis plant, including various cannabinoids (THC, CBD, CBG, CBC) and terpenes, to leverage the \"entourage effect,\" where the compounds work together synergistically.",
+   "imageHash": "6fdb502d9285b917a610042157164ad16005feb3dac9fd56f1e8e37652f3ba0f",
+   "image": "/assets/products/6fdb502d9285b917a610.webp"
+  },
+  "8538430302": {
+   "id": 8538430302,
+   "name": "Ayrloom Topicals 1000mg Rescue",
+   "slug": "ayrloom-topicals-1000mg-rescue",
+   "category": "topicals",
+   "brand": null,
+   "price": 55.0,
+   "priceRange": "$55.00 - $275.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 55.0
+    }
+   ],
+   "thc": "90.38%",
+   "cbd": null,
+   "strain": null,
+   "description": "make it hurt so good! this cooling, tingling balm is made for muscle recovery or nagging pain points. the perfect combination of cannabis, menthol, arnica, peppermint oil + eucalyptus creates a balm that is suitable post-workout or for possibly alleviating back pain, arthritis or stiff muscles.",
+   "imageHash": "5f0933d7c868b24459be882bfce986e0b0b0fb7e49c341f86e3884d130470696",
+   "image": "/assets/products/5f0933d7c868b24459be.webp"
+  },
+  "10228576204": {
+   "id": 10228576204,
+   "name": "Green Mantis Topicals 1000mg Cream",
+   "slug": "green-mantis-topicals-1000mg-cream",
+   "category": "topicals",
+   "brand": null,
+   "price": 44.0,
+   "priceRange": "$44.00 - $220.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 44.0
+    }
+   ],
+   "thc": "2.02%",
+   "cbd": "2.07%",
+   "strain": null,
+   "description": "Deep, targeted relief designed to restore comfort and ease tension exactly where you need it most. Our fast-absorbing THC + CBD formula delivers a smooth, lightweight feel with a subtle touch of calming sandalwood.",
+   "imageHash": "64a429f946c44bb52739695cd0b0a38b5a8a7b9acbe75a932e5a4276bd6b4f63",
+   "image": "/assets/products/64a429f946c44bb52739.webp"
+  },
+  "10228576221": {
+   "id": 10228576221,
+   "name": "Green Mantis Topicals 1000mg Lotion",
+   "slug": "green-mantis-topicals-1000mg-lotion",
+   "category": "topicals",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "0.94%",
+   "cbd": "0.97%",
+   "strain": null,
+   "description": "A smooth, lightweight topical lotion infused with a balanced 1000mg THC : 1000mg CBD blend for targeted everyday comfort. Fast-absorbing and non-greasy, it's designed to leave your skin feeling refreshed without a heavy residue.",
+   "imageHash": "cdfa6b60236f92a28cd327f526aeca71b7c4e7902952ed46485c8aec3ea60a02",
+   "image": "/assets/products/cdfa6b60236f92a28cd3.webp"
+  },
+  "8376963798": {
+   "id": 8376963798,
+   "name": "MFNY 60ml Massage Oil Candy Rain",
+   "slug": "mfny-60ml-massage-oil-candy-rain",
+   "category": "topicals",
+   "brand": null,
+   "price": 45.0,
+   "priceRange": "$45.00 - $225.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 45.0
+    }
+   ],
+   "thc": "498mg",
+   "cbd": "1.2%",
+   "strain": null,
+   "description": "Know why this city never sleeps? You will now. This all-natural THC-infused intimacy oil provides pleasurable sensations where applied (all we’re legally allowed to say). For imaginative use alone, with a friend, or friends; see where the night takes you. All Night Affair is formulated with MFNY’s top-tier Candy Rain live resin and jojoba oil, plus vanilla and ylang-ylang essential oils. The Candy Rain cultivar is known for aromatic notes of citrus and berries. Its natural terpenes can help elevate your mood, release tension, and spark full-body sensations that stretch long into the night.",
+   "imageHash": "07de5fbfe6a76dbfdb1a817078469840b962940aadeed6ea8ec93615e86115a9",
+   "image": "/assets/products/07de5fbfe6a76dbfdb1a.webp"
+  },
+  "5895034756": {
+   "id": 5895034756,
+   "name": "Papa & Barkley Balms 50mL 3:1 CBD:THC 150mg",
+   "slug": "papa-barkley-balms-50ml-3-1-cbd-thc-150mg",
+   "category": "topicals",
+   "brand": null,
+   "price": 90.0,
+   "priceRange": "$90.00 - $450.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 90.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "a potent, full-spectrum topical designed for intense pain relief, using a 450mg CBD/150mg THC ratio in a solventless, plant-based formula with essential oils like eucalyptus and lavender, providing warming and cooling sensations for localized muscle and joint discomfort without psychoactive effects.",
+   "imageHash": "437840a34ecf63870f0f6560bc5f6700d132cf97eccb6b96d1dd2789dd079655",
+   "image": "/assets/products/437840a34ecf63870f0f.webp"
+  },
+  "5775690676": {
+   "id": 5775690676,
+   "name": "VCC Warrior Balm",
+   "slug": "vcc-warrior-balm",
+   "category": "topicals",
+   "brand": null,
+   "price": 50.0,
+   "priceRange": "$50.00 - $250.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 50.0
+    }
+   ],
+   "thc": "0mg",
+   "cbd": null,
+   "strain": null,
+   "description": "A potent, fast-acting topical balm designed for deep muscle and joint relief, featuring a balanced 1:1 ratio of 900mg THC and 900mg CBD, combined with cooling menthol, numbing camphor, emu oil, arnica, and essential oils for rapid, lasting comfort and recovery. It's known for its smooth texture and ability to soothe soreness upon contact, offering targeted pain relief without psychoactive effects.",
+   "imageHash": "9613e0e629e81e4185b8e1d2b55c3c85078058c80afe2305048e7ca3883e8099",
+   "image": "/assets/products/9613e0e629e81e4185b8.webp"
+  },
+  "6917794908": {
+   "id": 6917794908,
+   "name": "A&P Cartridge Battery",
+   "slug": "ap-cartridge-battery",
+   "category": "accessories",
+   "brand": null,
+   "price": 10.0,
+   "priceRange": "$10.00 - $50.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 10.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "b2cb2d8cccf110ddd78a01fdbff63321cd7d2d6caa8a92d759c8fe796f7730ea",
+   "image": "/assets/products/b2cb2d8cccf110ddd78a.webp"
+  },
+  "9609561262": {
+   "id": 9609561262,
+   "name": "A&P Lighter",
+   "slug": "ap-lighter",
+   "category": "accessories",
+   "brand": null,
+   "price": 1.84,
+   "priceRange": "$1.84 - $9.20",
+   "options": [
+    {
+     "label": "1",
+     "price": 1.84
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "89f26bffd56ca482ccee615524f49df604830897aa7d695b3bfcfeae61fc9e64",
+   "image": "/assets/products/89f26bffd56ca482ccee.webp"
+  },
+  "9772344238": {
+   "id": 9772344238,
+   "name": "Dr. Dabber Ghost 2",
+   "slug": "dr-dabber-ghost-2",
+   "category": "accessories",
+   "brand": null,
+   "price": 120.0,
+   "priceRange": "$120.00 - $600.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 120.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "The one that started it all... The Dr. Dabber Ghost²™ is a reimagining of the device that launched Dr. Dabber®. Refined, re-engineered, and reborn for the modern era. The Ghost² embodies over a decade of innovation, feedback, and obsession with the perfect portable dab.",
+   "imageHash": "a2b7e67f7ac20c770913f18805def4393ec1788a5ea1e9fc0820e1b324700873",
+   "image": "/assets/products/a2b7e67f7ac20c770913.webp"
+  },
+  "9772344247": {
+   "id": 9772344247,
+   "name": "Dr. Dabber Ghost 2 Glass Mouthpiece",
+   "slug": "dr-dabber-ghost-2-glass-mouthpiece",
+   "category": "accessories",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Glass mouthpiece for the Dr. Dabber Ghost²™. *only compatible with Ghost²™",
+   "imageHash": "9b522026cf343d97fda280abe9ab6f9b9e3d463046f72987130929e12d6423a6",
+   "image": "/assets/products/9b522026cf343d97fda2.webp"
+  },
+  "9772344254": {
+   "id": 9772344254,
+   "name": "Dr. Dabber Ghost 2 eChamber",
+   "slug": "dr-dabber-ghost-2-echamber",
+   "category": "accessories",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Replacement eChamber for the Dr. Dabber Ghost²™. Utilizing a full ceramic dish and a beautiful knurling finish, this heating element is built to last. *only compatible with Ghost²™",
+   "imageHash": "ae44adfa2eabfe8b8b5751a06a24e360c0916b41d0f25e5d4a46652b1185f82e",
+   "image": "/assets/products/ae44adfa2eabfe8b8b57.webp"
+  },
+  "9772344211": {
+   "id": 9772344211,
+   "name": "Dr. Dabber Switch 2",
+   "slug": "dr-dabber-switch-2",
+   "category": "accessories",
+   "brand": null,
+   "price": 420.0,
+   "priceRange": "$420.00 - $2100.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 420.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "The Best eRig we have ever developed is here. Switch² represents the culmination of over a decade of innovation and customer feedback, resulting in what we consider to be the perfect electric dabbing experience.",
+   "imageHash": "fbef56c919d3c2654ad5ac5a0e17cb4cb25243db4f047969ed1396e828c59698",
+   "image": "/assets/products/fbef56c919d3c2654ad5.webp"
+  },
+  "9772344216": {
+   "id": 9772344216,
+   "name": "Dr. Dabber Switch 2 Quartz Insert",
+   "slug": "dr-dabber-switch-2-quartz-insert",
+   "category": "accessories",
+   "brand": null,
+   "price": 40.0,
+   "priceRange": "$40.00 - $200.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 40.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Created from the purest quartz available to offer one of the most uniform heating surfaces you can get in an e-Rig. *only compatible with Switch²™",
+   "imageHash": "9f2ef98e746254f03698c6bdecf1dc47b842ace51ff3227d3d93391139b68d14",
+   "image": "/assets/products/9f2ef98e746254f03698.webp"
+  },
+  "9772344250": {
+   "id": 9772344250,
+   "name": "Dr. Dabber Switch GO",
+   "slug": "dr-dabber-switch-go",
+   "category": "accessories",
+   "brand": null,
+   "price": 330.0,
+   "priceRange": "$330.00 - $1650.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 330.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Says all you need to know right on the label. The famous Dr. Dabber Switch experience, on the go. No compromises, no atomizers, no replacements. Everything you need for everywhere you want to be.",
+   "imageHash": "9d2bc33fccbb14e692baadfc7306bdc1a426fc39f6d3470493e94e1a93ee57b0",
+   "image": "/assets/products/9d2bc33fccbb14e692ba.webp"
+  },
+  "9772344225": {
+   "id": 9772344225,
+   "name": "Dr. Dabber Switch GO Quartz Insert",
+   "slug": "dr-dabber-switch-go-quartz-insert",
+   "category": "accessories",
+   "brand": null,
+   "price": 30.0,
+   "priceRange": "$30.00 - $150.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 30.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Created from the purest quartz available to offer one of the most uniform heating surfaces you can get in an e-Rig. *only compatible with Switch GO™",
+   "imageHash": "8c56b1dee1ba4a103a7e1f8676ffd7f8d10d35a3a9653d237c7358458d375244",
+   "image": "/assets/products/8c56b1dee1ba4a103a7e.webp"
+  },
+  "9772344221": {
+   "id": 9772344221,
+   "name": "Dr. Dabber Switch GO Sapphire Insert",
+   "slug": "dr-dabber-switch-go-sapphire-insert",
+   "category": "accessories",
+   "brand": null,
+   "price": 110.0,
+   "priceRange": "$110.00 - $550.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 110.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Created out of a lab grown single crystal of the purest sapphire available. *only compatible with Switch GO™",
+   "imageHash": "4954a0f8d527db0937c83dd951a785676a644d36529b75df59fa5e911a5c404a",
+   "image": "/assets/products/4954a0f8d527db0937c8.webp"
+  },
+  "9772344243": {
+   "id": 9772344243,
+   "name": "Dr. Dabber Tour Bag",
+   "slug": "dr-dabber-tour-bag",
+   "category": "accessories",
+   "brand": null,
+   "price": 25.0,
+   "priceRange": "$25.00 - $125.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 25.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Crafted from ballistic nylon with a silicon front pocket to transport your eRig and your oils safely. (Compatible with all Dr. Dabber eRigs)",
+   "imageHash": "a394a8c9aafe9ae7cd76fec5b486c03bf823582857073678bb51a135a5c24ac3",
+   "image": "/assets/products/a394a8c9aafe9ae7cd76.webp"
+  },
+  "9772344235": {
+   "id": 9772344235,
+   "name": "Dr. Dabber XS",
+   "slug": "dr-dabber-xs",
+   "category": "accessories",
+   "brand": null,
+   "price": 160.0,
+   "priceRange": "$160.00 - $800.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 160.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Features like our original spill-proof glassware, convenient filling tool and carb cap leash make Dr. Dabber XS™ the ultimate travel companion.",
+   "imageHash": "8793a7a1c1def8dae3f17e9f9fd0e0470329382c23caabb0dfe7b0768c34e9d0",
+   "image": "/assets/products/8793a7a1c1def8dae3f1.webp"
+  },
+  "8102954249": {
+   "id": 8102954249,
+   "name": "EG Glass 14\" Beaker Bong",
+   "slug": "eg-glass-14-beaker-bong",
+   "category": "accessories",
+   "brand": null,
+   "price": 73.48,
+   "priceRange": "$73.48 - $367.40",
+   "options": [
+    {
+     "label": "1",
+     "price": 73.48
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "This beaker bong measures a towering 14” inches tall and is made from thick, high-quality borosilicate glass. It features a triple pinch ice catcher at the bottom of the neck, which can fit many cubes resulting in long, icy-cool smoke sessions. The 14mm male bowl piece fits large packs of your herb, while the 6-slit diffuser downstem helps to diffuse your smoke for smoother rips. The eye-catching EG Glass Logo is located on the neck and base of the bong. No matter which style you go with, the EG Glass Beaker is guaranteed to meet all your smoking needs!",
+   "imageHash": "911857dc688943ca72943d8e455a84dd2ae4bef4db1e532dfb4ddff9d1d0957e",
+   "image": "/assets/products/911857dc688943ca7294.webp"
+  },
+  "7486848501": {
+   "id": 7486848501,
+   "name": "Elements Papers Phantom KS Slim",
+   "slug": "elements-papers-phantom-ks-slim",
+   "category": "accessories",
+   "brand": null,
+   "price": 2.76,
+   "priceRange": "$2.76 - $13.80",
+   "options": [
+    {
+     "label": "1",
+     "price": 2.76
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "c488c9906dbaafb0e2fa04d63fcc0decb1ebbcc579637506a27ccf758d03d75d",
+   "image": "/assets/products/c488c9906dbaafb0e2fa.webp"
+  },
+  "10531995223": {
+   "id": 10531995223,
+   "name": "Everyday Canna Co. Ranger 510 Battery",
+   "slug": "everyday-canna-co-ranger-510-battery",
+   "category": "accessories",
+   "brand": null,
+   "price": 32.18,
+   "priceRange": "$32.18 - $160.90",
+   "options": [
+    {
+     "label": "1",
+     "price": 32.18
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "The Ranger pocket battery is crafted using high quality materials, like machined aircraft grade aluminum and a premium CCELL battery. Featuring a sophisticated, yet rugged, utilitarian design.",
+   "imageHash": "c47d6b14619c9abc0ea18b9e334dbb76171706b733509ff09aa8e94601e9f703",
+   "image": "/assets/products/c47d6b14619c9abc0ea1.webp"
+  },
+  "5663135364": {
+   "id": 5663135364,
+   "name": "Fernway Stylus Pen Battery",
+   "slug": "fernway-stylus-pen-battery",
+   "category": "accessories",
+   "brand": null,
+   "price": 20.0,
+   "priceRange": "$20.00 - $100.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 20.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "An excellent vape deserves an excellent battery. Optimized to make your vapes taste better and last longer, the STYLUS is the perfect companion for your Fernway cartridge – and now with upgraded features: USB-C: For faster, more reliable power, Passthrough Charging: For an uninterrupted sesh. Use the included USB charger or any USB-C cord to recharge.\n\nRegister your stylus with Fernway's warranty program using the QR code in every box and you'll enjoy a 2-year warranty with a free replacement battery replacement in the case you break or lose your current one!",
+   "imageHash": "ab94ff529540b6b3700fd93a691b4df3727b794435c88b1a0fd21c3078fccdfa",
+   "image": "/assets/products/ab94ff529540b6b3700f.webp"
+  },
+  "6915665054": {
+   "id": 6915665054,
+   "name": "Flexispot Y4 HEPA Air Purifier",
+   "slug": "flexispot-y4-hepa-air-purifier",
+   "category": "accessories",
+   "brand": null,
+   "price": 400.0,
+   "priceRange": "$400.00 - $2000.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 400.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "Designed for medium to large-sized rooms, bedrooms, living rooms, kitchens, and offices, the Y4 is particularly ideal for households with odors or multiple pets. This versatile air purifier effectively tackles a range of air quality challenges, including smoke, ensuring a fresh and clean environment in any space. Perfect for smokers/vapers who partake indoors and want a way to help keep their airspace clean!",
+   "imageHash": "2cfb09525df38422c93da6bd8c29ca1bca7ab3dd18b17bd6ae703adad74cd618",
+   "image": "/assets/products/2cfb09525df38422c93d.webp"
+  },
+  "9114142877": {
+   "id": 9114142877,
+   "name": "Funzees Hemp Grinder",
+   "slug": "funzees-hemp-grinder",
+   "category": "accessories",
+   "brand": null,
+   "price": 4.59,
+   "priceRange": "$4.59 - $22.95",
+   "options": [
+    {
+     "label": "1",
+     "price": 4.59
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": "The Funzees 50mm Biodegradable Hemp Grinder is a compact, eco-friendly 2-piece grinder made from sustainable, recycled materials. It features an innovative tooth design meant to provide an even and fluffy grind, and is lightweight and waterproof, making it a highly practical and planet-conscious option for everyday use.",
+   "imageHash": "a3bf3b71c2f11edd98a62f1f4e2ea1f3034a29748f3ea70570b7510994949490",
+   "image": "/assets/products/a3bf3b71c2f11edd98a6.webp"
+  },
+  "10531995489": {
+   "id": 10531995489,
+   "name": "Human Grade Grinders Large",
+   "slug": "human-grade-grinders-large",
+   "category": "accessories",
+   "brand": null,
+   "price": 18.39,
+   "priceRange": "$18.39 - $91.95",
+   "options": [
+    {
+     "label": "1",
+     "price": 18.39
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "6b80a5720bc3665fdc0fd535879eb0de729f80b8c18491d424dd48f0138d5fc6",
+   "image": "/assets/products/6b80a5720bc3665fdc0f.webp"
+  },
+  "10531995368": {
+   "id": 10531995368,
+   "name": "Human Grade Grinders Medium",
+   "slug": "human-grade-grinders-medium",
+   "category": "accessories",
+   "brand": null,
+   "price": 13.79,
+   "priceRange": "$13.79 - $68.95",
+   "options": [
+    {
+     "label": "1",
+     "price": 13.79
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "37648592a81adced41538b6cf4a3cbc7482e45e82bc30a9d05bc5cbcae321bde",
+   "image": "/assets/products/37648592a81adced4153.webp"
+  },
+  "10531995442": {
+   "id": 10531995442,
+   "name": "Human Grade Hand Pipe",
+   "slug": "human-grade-hand-pipe",
+   "category": "accessories",
+   "brand": null,
+   "price": 13.79,
+   "priceRange": "$13.79 - $68.95",
+   "options": [
+    {
+     "label": "1",
+     "price": 13.79
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "214319554260c6f184dee3667e72b779550172093f2312679a7883595e443cfc",
+   "image": "/assets/products/214319554260c6f184de.webp"
+  },
+  "7328762820": {
+   "id": 7328762820,
+   "name": "Jaunty 510 Thread Battery",
+   "slug": "jaunty-510-thread-battery",
+   "category": "accessories",
+   "brand": null,
+   "price": 15.0,
+   "priceRange": "$15.00 - $75.00",
+   "options": [
+    {
+     "label": "1",
+     "price": 15.0
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "2fb576ec5453ec781a275d6331eea6e1f68b27044fc86e58d188673632022411",
+   "image": "/assets/products/2fb576ec5453ec781a27.webp"
+  },
+  "10531995324": {
+   "id": 10531995324,
+   "name": "MJ Arsenal Kettle Pipe",
+   "slug": "mj-arsenal-kettle-pipe",
+   "category": "accessories",
+   "brand": null,
+   "price": 19.31,
+   "priceRange": "$19.31 - $96.55",
+   "options": [
+    {
+     "label": "1",
+     "price": 19.31
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "5912cadb7caf5a7eba5ab98d9f85e5e25d4d13d2e5517116fce4cb845cef4cf0",
+   "image": "/assets/products/5912cadb7caf5a7eba5a.webp"
+  },
+  "10531995361": {
+   "id": 10531995361,
+   "name": "RAW Ashtray",
+   "slug": "raw-ashtray",
+   "category": "accessories",
+   "brand": null,
+   "price": 4.59,
+   "priceRange": "$4.59 - $22.95",
+   "options": [
+    {
+     "label": "1",
+     "price": 4.59
+    }
+   ],
+   "thc": null,
+   "cbd": null,
+   "strain": null,
+   "description": null,
+   "imageHash": "f3286fa477483185faf7e96e1ca22ede9504fa263d37a0ae458dfb46074aac8c",
+   "image": "/assets/products/f3286fa477483185faf7.webp"
+  }
+ },
+ "counts": {
+  "flower": 97,
+  "prerolls": 118,
+  "vapes": 129,
+  "edibles": 98,
+  "concentrates": 17,
+  "tinctures": 0,
+  "topicals": 6,
+  "accessories": 43,
+  "merch": 0
+ }
+}

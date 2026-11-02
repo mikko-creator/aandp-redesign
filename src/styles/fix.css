@@ -1,0 +1,8 @@
+/* fix.css - main-session integration fixes (loaded last). */
+
+/* 1. Long single words in display headlines ("KNOWLEDGEABLE" on /reviews/) must never run past a phone's edge:
+      size the reviews hero to the word, and let any display line break inside a word only as a last resort. */
+.display { overflow-wrap: break-word; }
+@media screen and (max-width: 480px) {
+  .p-page--reviews .p-hero__title { font-size: clamp(1.6rem, 8.2vw, 2.2rem); }
+}

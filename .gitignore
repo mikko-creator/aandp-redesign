@@ -1,0 +1,9 @@
+/tmp/
+/crawl/
+/dist/
+/preview/
+/publish/
+/audit/
+/assets/source/
+/node_modules/
+*.log

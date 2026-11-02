@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-hero-case",
+  "file": "assets/generated/g-hero-case.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph in a dark room: a tall slim display cabinet with a thin matte black metal frame and clear glass panes, standing right of centre, its inside lit by a single warm gold light from the upper left; on one clear glass shelf at eye level rests a single dense cured cannabis flower bud, frosty trichomes glinting gold; the other glass shelves are empty; faint reflections on the glass panes; a soft green glow and a low green haze rise from the base of the cabinet at the lower right. Composition: the cabinet occupies the right third of the frame, the whole left half of the frame is deep black negative space. Near-total darkness, Caravaggio chiaroscuro, deep shadows, crisp detail where the light lands, fine film grain, quiet premium mood, gold and deep green accents only, never neon, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 3910188501,
+  "requestId": "01a19ab5-1e76-7da3-9114-00ad0e186d4c",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "94c7a2c9a2cfbd902131b07cd288882fc01ffcd5992cb42179a9748c1c039364",
+  "raw": "tmp/img/raw/g-hero-case.1793596932717.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T05:22:14.399Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Thin black-and-gold framed glass cabinet right of centre, one bud on the middle shelf, faint mirror reflections of the bud in the side panes, green haze lower left and at the base. Left half black. No text, people or marks.",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "A black-framed glass display cabinet glowing in a dark room, one cured cannabis bud on its middle shelf in warm gold light, a green haze at its base."
+}

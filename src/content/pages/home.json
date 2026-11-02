@@ -1,0 +1,189 @@
+{
+ "path": "/",
+ "title": "A&P Dispensary | Family-owned cannabis dispensary in Kew Gardens, NY",
+ "description": "A family-owned dispensary focused on small-batch growers, exceptional products, and knowledgeable service, without the pressure to upsell.",
+ "hero": {
+  "kicker": "Family-owned · Kew Gardens",
+  "title": [
+   "Craft cannabis, chosen",
+   "by hand, not by trend."
+  ],
+  "text": "A family-owned dispensary focused on small-batch growers, exceptional products, and knowledgeable service, without the pressure to upsell.",
+  "ctas": [
+   {
+    "label": "Shop Now",
+    "href": "/shop/"
+   },
+   {
+    "label": "view deals",
+    "href": "/deals/"
+   }
+  ]
+ },
+ "slides": [
+  {
+   "id": "variety-pack",
+   "title": "Frosted Infused Variety Pack",
+   "text": "Discover a variety of infused pre-rolls featuring fan-favorite strains, crafted for exceptional flavor and quality.",
+   "cta": {
+    "label": "Shop Pre-Rolls",
+    "href": "/products/prerolls/"
+   },
+   "from": "home carousel"
+  },
+  {
+   "id": "delivery",
+   "kicker": "DELIVERY · KEW GARDENS",
+   "title": [
+    "GOOD CANNABIS,",
+    "BROUGHT TO YOUR DOOR."
+   ],
+   "text": "Shop A&P’s carefully curated cannabis menu from the comfort of home and enjoy a simple, convenient way to get your favorites.",
+   "cta": {
+    "label": "Shop for Delivery",
+    "href": "/delivery/"
+   },
+   "from": "delivery hero"
+  },
+  {
+   "id": "learn",
+   "kicker": "Family-owned · Kew Gardens",
+   "title": [
+    "CANNABIS, WITHOUT",
+    "THE CONFUSION."
+   ],
+   "text": "Clear, approachable guides to help you understand cannabis, explore your options, and choose with confidence, without the jargon or the hype.",
+   "cta": {
+    "label": "Start Learning",
+    "href": "/learn/"
+   },
+   "from": "education hero"
+  }
+ ],
+ "categories": [
+  {
+   "label": "Flower",
+   "slug": "flower"
+  },
+  {
+   "label": "Prerolls",
+   "slug": "prerolls"
+  },
+  {
+   "label": "Edibles",
+   "slug": "edibles"
+  },
+  {
+   "label": "Vapes",
+   "slug": "vapes"
+  },
+  {
+   "label": "Concentrates",
+   "slug": "concentrates"
+  },
+  {
+   "label": "Tinctures",
+   "slug": "tinctures"
+  },
+  {
+   "label": "Topicals",
+   "slug": "topicals"
+  }
+ ],
+ "learn": {
+  "title": "Learn Before You Light",
+  "all": {
+   "label": "read all articles",
+   "href": "/learn/"
+  },
+  "cards": [
+   {
+    "title": "First Time Visiting The A&P?",
+    "text": "Here's what to expect when shopping with us, from browsing products to checkout.",
+    "href": "/learn/first-time-visiting/",
+    "cta": "read more"
+   },
+   {
+    "title": "How to Store Cannabis Properly?",
+    "text": "Keep your flower, pre-rolls, and edibles fresh with these simple storage tips.",
+    "href": "/learn/how-to-store-cannabis/",
+    "cta": "read more"
+   },
+   {
+    "title": "Understanding THC & CBD",
+    "text": "Learn how cannabinoids work and choose products that match your desired experience.",
+    "href": "/learn/thc-vs-cbd/",
+    "cta": "read more"
+   }
+  ]
+ },
+ "products": {
+  "title": "Our Products",
+  "text": "Fresh drops, rotating daily.",
+  "cta": {
+   "label": "view full menu",
+   "href": "/shop/"
+  },
+  "tabs": [
+   {
+    "label": "Our Specials",
+    "collection": "our-specials"
+   },
+   {
+    "label": "Bestselling",
+    "collection": "bestselling"
+   },
+   {
+    "label": "Popular Flower",
+    "collection": "popular-flower"
+   },
+   {
+    "label": "Popular Preroll",
+    "collection": "popular-preroll"
+   },
+   {
+    "label": "Popular Carts",
+    "collection": "popular-carts"
+   }
+  ]
+ },
+ "story": {
+  "kicker": "our story",
+  "title": "Chosen by the people behind the counter",
+  "text": "We don’t believe in making cannabis complicated. Our budtenders know the menu, know the products, and actually want to help you find something you’ll enjoy.",
+  "points": [
+   {
+    "title": "No upselling, ever",
+    "text": "Our budtenders are trained to help you find the right product, not the most expensive one."
+   },
+   {
+    "title": "Small-batch, curated menu",
+    "text": "We'd rather carry 40 products we trust than 400 we don't."
+   },
+   {
+    "title": "Family-owned and local",
+    "text": "Real product knowledge from people who care."
+   }
+  ],
+  "cta": {
+   "label": "Learn More",
+   "href": "/about/"
+  },
+  "photo": "AP_Dispensary_Storefront.webp"
+ },
+ "inside": {
+  "title": "Step Inside A&P",
+  "text": "Take a look around our Kew Gardens shop and experience the space, the people, and the atmosphere that make A&P different.",
+  "videos": [
+   "1788206916799633",
+   "1788206955213589",
+   "1788206868207068",
+   "1788206983661869",
+   "1788206758368741",
+   "1788206827469171"
+  ]
+ },
+ "visit": {
+  "from": "site.store"
+ }
+}

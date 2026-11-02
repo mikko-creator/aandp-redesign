@@ -1,0 +1,40 @@
+{
+ "intros": {
+  "flower": {
+   "text": [
+    "Cannabis flower is the traditional form of cannabis. It is sold in different strains, cultivars, cannabinoid profiles, and potency levels.",
+    "When browsing flower, you may encounter information about THC percentage, CBD content, aroma, and other characteristics."
+   ],
+   "src": "/learn/first-time-visiting/"
+  },
+  "prerolls": {
+   "text": [
+    "Pre-rolls are cannabis flower that has already been prepared for use.",
+    "They’re convenient for customers who want a ready-to-use option without preparing flower themselves."
+   ],
+   "src": "/learn/first-time-visiting/"
+  },
+  "edibles": {
+   "text": [
+    "Edibles are cannabis-infused foods or beverages.",
+    "Because edible products are processed through the digestive system, their effects can differ from inhaled cannabis and may take longer to appear.",
+    "Always follow the product’s labeled serving instructions."
+   ],
+   "src": "/learn/first-time-visiting/"
+  },
+  "vapes": {
+   "text": [
+    "Vape products allow cannabis extracts or other formulations to be inhaled through a compatible device.",
+    "Product composition and instructions can vary, so check the packaging carefully."
+   ],
+   "src": "/learn/first-time-visiting/"
+  },
+  "concentrates": {
+   "text": [
+    "Concentrates contain cannabis compounds in a more concentrated form and can have significantly higher cannabinoid concentrations than traditional flower.",
+    "If you’re unfamiliar with concentrates, ask the dispensary team about the product and its labeled potency before making a purchase."
+   ],
+   "src": "/learn/first-time-visiting/"
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-topical",
+  "file": "assets/generated/g-topical.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: one small open round tin of smooth brushed metal holding a pale golden waxy balm with a soft swirl on its surface, the plain lid leaning against the tin, both completely plain metal with no embossing, no engraving and no print, resting on a slab of dark slate stone; one warm gold key light from the upper left glints on the metal rim, a soft green glow from the lower right. Composition: the tin sits right of centre, black negative space on the left half. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, calm apothecary mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 145809065,
+  "requestId": "01a19ab5-4b62-7ef1-be51-479f15970316",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "b1fbc71184e3bac6c335f8742c8aa9effc6e571ad74c1e17f951758f0092215e",
+  "raw": "tmp/img/raw/g-topical.1793596943771.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-02T05:22:25.918Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Open gold-coloured round tin of pale yellow balm with a swirl, its dark green lid beside it, on dark veined stone. No embossing, text or marks.",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "An open, unlabelled round gold-coloured tin of pale yellow balm on dark stone, its lid beside it."
+}

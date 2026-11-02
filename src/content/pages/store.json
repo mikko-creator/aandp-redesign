@@ -1,0 +1,55 @@
+{
+ "path": "/store/kew-gardens-ny/",
+ "title": "A&P Dispensary Kew Gardens, NY | Hours, Directions & Deals",
+ "description": "Visit A&P Dispensary for a welcoming, convenient shopping experience and a carefully selected range of quality cannabis products. Our team is here to help you find the right products and answer any questions along the way.",
+ "h1": "A&P Dispensary, Kew Gardens",
+ "kicker": "Family-owned · Kew Gardens",
+ "about": {
+  "title": "About A&P Dispensary, Kew Gardens",
+  "text": [
+   "At A&P Dispensary, we’re proud to be part of the local community, offering a welcoming space where quality cannabis products and exceptional service come together. Whether you’re a first-time visitor or a returning customer, our knowledgeable team is here to help you explore a carefully curated selection of premium cannabis products. From personalized recommendations to a seamless shopping experience, we’re committed to making every visit comfortable, convenient, and memorable.",
+   "Visit A&P Dispensary for a welcoming, convenient shopping experience and a carefully selected range of quality cannabis products. Our team is here to help you find the right products and answer any questions along the way."
+  ]
+ },
+ "how": {
+  "title": "How it works",
+  "steps": [
+   {
+    "title": "Don’t Forget Your ID",
+    "text": "Bring a valid, government-issued photo ID and have it ready when you arrive."
+   },
+   {
+    "title": "Step Inside and Start Browsing",
+    "text": "Once you arrive, you’ll typically begin by checking in and verifying your eligibility to shop. From there, you can explore the available products."
+   },
+   {
+    "title": "Not Sure What to Choose? Ask Questions",
+    "text": "Our team can help you understand product information and compare options without making the process complicated."
+   }
+  ],
+  "src": "/learn/first-time-visiting/"
+ },
+ "bring": {
+  "title": "What to bring",
+  "text": "Bring a valid, government-issued photo ID and have it ready when you arrive."
+ },
+ "inside": {
+  "title": "Step Inside A&P",
+  "text": "Take a look around our Kew Gardens shop and experience the space, the people, and the atmosphere that make A&P different.",
+  "videos": [
+   "1788206916799633",
+   "1788206955213589",
+   "1788206868207068",
+   "1788206983661869",
+   "1788206758368741",
+   "1788206827469171"
+  ]
+ },
+ "review": {
+  "title": "How’d we do?",
+  "cta": {
+   "label": "Leave us a review on Google",
+   "href": "https://www.google.com/maps?cid=15311297106157784610&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=en-GB&source=embed"
+  }
+ }
+}

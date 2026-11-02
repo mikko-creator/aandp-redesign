@@ -1,0 +1,151 @@
+{
+  "_about": "Information architecture adopted from a large multi-state dispensary operator's site (utility bar + store chip, 4-item main bar with Shop / Deals / Resources mega menus, a category bar, footer columns Resources / Products / Collections, URL patterns /products/<category>/, /collection/<slug>/, /store/<slug>/, /locations/, /learn/<slug>/, /faq/, /about/, /contact/, /reviews/). Labels and content are A&P's own. Slots A&P has no content for were mapped to A&P's equivalent (rewards -> the small-batch drops list) or left out (medical card, careers, news, legal pages).",
+  "utility": {
+    "store": { "label": "Kew Gardens, NY", "sub": "In-store pickup", "href": "/store/kew-gardens-ny/" },
+    "links": [
+      { "label": "Delivery", "href": "/delivery/" },
+      { "label": "FAQ", "href": "/faq/" }
+    ]
+  },
+  "nav": [
+    { "label": "Shop", "href": "/shop/", "mega": "shop" },
+    { "label": "Deals", "href": "/deals/", "mega": "deals" },
+    { "label": "Find Us", "href": "/locations/" },
+    { "label": "Resources", "href": "/learn/", "mega": "resources" }
+  ],
+  "cta": { "label": "order now", "href": "/shop/" },
+  "megas": {
+    "shop": {
+      "columns": [
+        { "title": "Products", "links": [
+          { "label": "Flower", "href": "/products/flower/" },
+          { "label": "Pre-Rolls", "href": "/products/prerolls/" },
+          { "label": "Edibles", "href": "/products/edibles/" },
+          { "label": "Vapes", "href": "/products/vapes/" },
+          { "label": "Concentrates", "href": "/products/concentrates/" },
+          { "label": "Tinctures", "href": "/products/tinctures/" },
+          { "label": "Topicals", "href": "/products/topicals/" },
+          { "label": "Accessories", "href": "/products/accessories/" },
+          { "label": "Merch", "href": "/products/merch/" }
+        ] },
+        { "title": "Collections", "links": [
+          { "label": "Our Specials", "href": "/collection/our-specials/" },
+          { "label": "Bestselling", "href": "/collection/bestselling/" },
+          { "label": "Popular Flower", "href": "/collection/popular-flower/" },
+          { "label": "Popular Preroll", "href": "/collection/popular-preroll/" },
+          { "label": "Popular Carts", "href": "/collection/popular-carts/" }
+        ] },
+        { "title": "Ways to shop", "links": [
+          { "label": "Full menu", "href": "/shop/" },
+          { "label": "In-store pickup", "href": "/store/kew-gardens-ny/" },
+          { "label": "Delivery", "href": "/delivery/" }
+        ] }
+      ],
+      "cards": [
+        { "title": "Our Specials", "text": "Deals at this store", "href": "/deals/", "image": "g-cabinet-deals" },
+        { "title": "Delivery", "text": "Good cannabis, brought to your door.", "href": "/delivery/", "image": "p-van" }
+      ]
+    },
+    "deals": {
+      "title": "Deals at this store",
+      "source": "menu.promotions",
+      "max": 8,
+      "all": { "label": "View all deals", "href": "/deals/" }
+    },
+    "resources": {
+      "columns": [
+        { "title": "Resources", "links": [
+          { "label": "Small-Batch Drops", "href": "/drops/" },
+          { "label": "Frequently Asked Questions", "href": "/faq/" },
+          { "label": "Contact Us", "href": "/contact/" },
+          { "label": "About Us", "href": "/about/" },
+          { "label": "Review Us", "href": "/reviews/" },
+          { "label": "Delivery", "href": "/delivery/" }
+        ] },
+        { "title": "Learn About Cannabis", "links": [
+          { "label": "Beginner's Guide", "href": "/learn/beginners-guide/" },
+          { "label": "First Time Visiting The A&P?", "href": "/learn/first-time-visiting/" },
+          { "label": "Understanding THC & CBD", "href": "/learn/thc-vs-cbd/" },
+          { "label": "Terpene Profile", "href": "/learn/terpene-profile/" },
+          { "label": "How to Store Cannabis Properly?", "href": "/learn/how-to-store-cannabis/" }
+        ], "all": { "label": "View All Articles", "href": "/learn/" } }
+      ],
+      "cards": [
+        { "title": "Learn Before You Light", "text": "Clear, approachable guides.", "href": "/learn/", "image": "g-smoke-glass" }
+      ]
+    }
+  },
+  "categoryBar": [
+    { "label": "Flower", "href": "/products/flower/" },
+    { "label": "Pre-Rolls", "href": "/products/prerolls/" },
+    { "label": "Edibles", "href": "/products/edibles/" },
+    { "label": "Vapes", "href": "/products/vapes/" },
+    { "label": "Concentrates", "href": "/products/concentrates/" },
+    { "label": "Topicals", "href": "/products/topicals/" },
+    { "label": "Accessories", "href": "/products/accessories/" },
+    { "label": "More", "children": [
+      { "label": "Tinctures", "href": "/products/tinctures/" },
+      { "label": "Merch", "href": "/products/merch/" },
+      { "label": "Our Specials", "href": "/collection/our-specials/" },
+      { "label": "Bestselling", "href": "/collection/bestselling/" }
+    ] }
+  ],
+  "footer": {
+    "columns": [
+      { "title": "Resources", "links": [
+        { "label": "About Us", "href": "/about/" },
+        { "label": "FAQs", "href": "/faq/" },
+        { "label": "Learn About Cannabis", "href": "/learn/" },
+        { "label": "Small-Batch Drops", "href": "/drops/" },
+        { "label": "Contact Us", "href": "/contact/" },
+        { "label": "Find Us", "href": "/locations/" },
+        { "label": "Deals", "href": "/deals/" },
+        { "label": "Review Us", "href": "/reviews/" },
+        { "label": "Delivery", "href": "/delivery/" }
+      ] },
+      { "title": "Products", "links": [
+        { "label": "Flower", "href": "/products/flower/" },
+        { "label": "Vapes", "href": "/products/vapes/" },
+        { "label": "Pre-Rolls", "href": "/products/prerolls/" },
+        { "label": "Edibles", "href": "/products/edibles/" },
+        { "label": "Extracts", "href": "/products/concentrates/" },
+        { "label": "Accessories", "href": "/products/accessories/" },
+        { "label": "Merch", "href": "/products/merch/" },
+        { "label": "Topicals", "href": "/products/topicals/" }
+      ] },
+      { "title": "Collections", "links": [
+        { "label": "Our Specials", "href": "/collection/our-specials/" },
+        { "label": "Bestselling", "href": "/collection/bestselling/" },
+        { "label": "Popular Flower", "href": "/collection/popular-flower/" },
+        { "label": "Popular Preroll", "href": "/collection/popular-preroll/" },
+        { "label": "Popular Carts", "href": "/collection/popular-carts/" }
+      ] }
+    ]
+  },
+  "redirects": [
+    { "from": "/store/", "to": "/shop/" },
+    { "from": "/about-us/", "to": "/about/" },
+    { "from": "/education/", "to": "/learn/" },
+    { "from": "/store/kew-gardens-ny/category/flower/", "to": "/products/flower/" },
+    { "from": "/store/kew-gardens-ny/category/preroll/", "to": "/products/prerolls/" },
+    { "from": "/store/kew-gardens-ny/category/edible/", "to": "/products/edibles/" },
+    { "from": "/store/kew-gardens-ny/category/carts/", "to": "/products/vapes/" },
+    { "from": "/store/kew-gardens-ny/category/concentrate/", "to": "/products/concentrates/" },
+    { "from": "/store/kew-gardens-ny/category/cbd/", "to": "/products/tinctures/" },
+    { "from": "/store/kew-gardens-ny/category/topical/", "to": "/products/topicals/" },
+    { "from": "/store/kew-gardens-ny/category/accessory/", "to": "/products/accessories/" },
+    { "from": "/store/kew-gardens-ny/category/merch/", "to": "/products/merch/" },
+    { "from": "/beginners-guide/", "to": "/learn/beginners-guide/" },
+    { "from": "/understanding-cannabinoids/", "to": "/learn/understanding-cannabinoids/" },
+    { "from": "/terpene-profile/", "to": "/learn/terpene-profile/" },
+    { "from": "/first-time-visiting-the-a-p-heres-what-to-expect-when-shopping-with-us/", "to": "/learn/first-time-visiting/" },
+    { "from": "/how-to-store-cannabis-properly-simple-tips-to-keep-your-products-fresh/", "to": "/learn/how-to-store-cannabis/" },
+    { "from": "/understanding-thc-cbd-a-beginners-guide-to-cannabinoids/", "to": "/learn/thc-vs-cbd/" },
+    { "from": "/cbd-for-stress-relief-how-cannabidiol-can-help-you-find-calm-in-a-hectic-world-2/", "to": "/learn/cbd-for-stress-relief/" },
+    { "from": "/the-benefits-of-cbd-oil-a-comprehensive-guide-to-its-uses-and-effects-2/", "to": "/learn/benefits-of-cbd-oil/" },
+    { "from": "/understanding-different-cannabis-strains-indica-sativa-and-hybrid-explained-2/", "to": "/learn/indica-sativa-hybrid/" },
+    { "from": "/category/all/", "to": "/learn/" },
+    { "from": "/category/essential-guides/", "to": "/learn/" },
+    { "from": "/category/uncategorized/", "to": "/learn/" }
+  ]
+}

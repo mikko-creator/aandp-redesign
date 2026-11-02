@@ -1,0 +1,50 @@
+{
+ "path": "/delivery/",
+ "title": "Delivery | A&P Dispensary",
+ "description": "Shop A&P’s carefully curated cannabis menu from the comfort of home and enjoy a simple, convenient way to get your favorites.",
+ "hero": {
+  "kicker": "DELIVERY · KEW GARDENS",
+  "title": [
+   "GOOD CANNABIS,",
+   "BROUGHT TO YOUR DOOR."
+  ],
+  "text": "Shop A&P’s carefully curated cannabis menu from the comfort of home and enjoy a simple, convenient way to get your favorites.",
+  "ctas": [
+   {
+    "label": "Shop for Delivery",
+    "href": "/shop/"
+   },
+   {
+    "label": "View Our Menu",
+    "href": "/shop/"
+   }
+  ]
+ },
+ "steps": [
+  {
+   "title": "place your order",
+   "text": [
+    "Shopping with A&P Dispensary is simple, fast, and secure. Browse our curated selection of premium flower, vapes, edibles, and concentrates online, then place your order in just a few clicks. Whether you’re picking up in-store or checking out the latest drops, we make the process smooth and hassle-free."
+   ],
+   "photo": "AP-Dispensary-Website-Mockup.webp"
+  },
+  {
+   "title": "we Pack your order",
+   "text": [
+    "Once your order is confirmed, our trained team carefully prepares it for dispatch. Each item is securely packed, quality-checked, and handled with discretion to ensure freshness, safety, and compliance. Your order is then readied for pickup or delivery within your selected time window."
+   ],
+   "photo": "bud-image-e1788892648584.webp"
+  },
+  {
+   "title": "we deliver it at your door",
+   "text": [
+    "Enjoy the convenience of premium cannabis delivered straight to you. A&P Dispensary offers safe, reliable, and discreet delivery so you can shop your favorite products without leaving home.",
+    "Simply browse our menu, place your order, and our team will handle the rest. We ensure timely service, secure packaging, and a smooth experience from checkout to doorstep."
+   ],
+   "photo": "AP-Dispensary-Delivery-Van-Wrap.webp"
+  }
+ ],
+ "visit": {
+  "from": "site.store"
+ }
+}

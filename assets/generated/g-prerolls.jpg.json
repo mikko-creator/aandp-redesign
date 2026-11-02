@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-prerolls",
+  "file": "assets/generated/g-prerolls.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist editorial still-life photograph: three unlit hand-rolled cannabis pre-roll cones standing upright side by side in a small short matte black glass cup, wide ends pointing up, each wide end neatly twisted shut into a small twisted paper tip, each cone rolled in plain thin white rolling paper and visibly filled with ground green cannabis flower that shows faintly through the paper, the cones clearly conical and wider at the top; a few loose green cannabis crumbs on the dark smoked glass beside the cup; a hard raking warm gold light from the upper left grazes the paper texture. Composition: the cup right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no filters, no crutches, no tan or orange or brown tips, no cork, no cigarettes, no straws, no ash, no smoke, no flame, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3323957613,
+  "requestId": "01a19abf-ef1d-77d2-8f7b-b06a65f72457",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "9239e6680514d7a980f1fcfe80d43429b2a05c020464753bb7f06267b9db8e81",
+  "raw": "tmp/img/raw/g-prerolls.1793597641036.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-02T05:34:02.673Z",
+  "review": {
+    "verdict": "ACCEPT-BEST-OF-REJECTS",
+    "reason": "Attempt 1 rejected: tan cork-like tips (cigarette read), white letterbox bars. Attempt 2 rejected: empty hollow tubes, open ends. Attempt 3 (last allowed): three white paper cones filled with ground flower, standing in a black cup, flower crumbs on the glass; the wide ends are open, not twisted. No filters, no text, no marks.",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "Three white paper pre-roll cones filled with ground cannabis flower, standing in a black cup on dark glass, with crumbs of flower beside it."
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-accessories",
+  "file": "assets/generated/g-accessories.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist product still-life photograph: one clean empty clear glass spoon pipe for dry herb: a short thick clear glass body with a wide round open bowl on top near one end, the dark round opening of the bowl clearly visible from above, tapering to a smooth rounded mouthpiece at the other end, completely clear colourless glass with no decoration and no markings, lying on a sheet of dark smoked glass with a soft reflection beneath it; the warm gold key light from the upper left traces bright highlights along its curves and a green rim light from the lower right outlines the other edge. Composition: the pipe lies right of centre on a gentle diagonal, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no closed glass ball, no smoke, no flame, no ash, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3765437311,
+  "requestId": "01a19abc-053e-7080-8c15-cae140afaa2d",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "24fa1a400d66e02934f7b3b69d7b221df3ed550e3cc518bfa8fb7db7296676a1",
+  "raw": "tmp/img/raw/g-accessories.1793597386261.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T05:29:47.903Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Attempt 1 rejected: a closed glass ball on a tube (oil-burner read), grey ground. Attempt 2: clear glass spoon pipe with an open bowl on black glass, green and gold reflections in the bowl. No text or marks.",
+    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
+    "at": "2026-11-02T05:39:21.722Z"
+  },
+  "alt": "A clear glass spoon pipe with an open bowl lying on black glass, green and gold light caught in the bowl."
+}

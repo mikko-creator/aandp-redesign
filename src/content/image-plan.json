@@ -1,0 +1,214 @@
+{
+ "about": "Generated industry imagery for the A&P Dispensary redesign pitch (IMAGERY lane, 2026-11-02). Thirteen illustrative stills in one tenebrist mood, 'Cabinet of Light': shot on black, one warm gold key light from the upper left, a soft green glow from the lower right, smoked glass, generous black negative space for type. None stands in for A&P's store, street, staff, customers, products or results (A&P's own photos and footage cover the store); every alt describes what is depicted. Run: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project> --concurrency 3 --cap-ultra 32.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
+  },
+  "style": "no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "General Use (Heavy)",
+   "operating_resolution": "2048x2048",
+   "output_format": "png"
+  }
+ },
+ "images": [
+  {
+   "id": "g-hero-case",
+   "file": "assets/generated/g-hero-case.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "home hero depth layer",
+    "OG image"
+   ],
+   "negativeSpace": "left half black; the case stands right of centre",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A black-framed glass display cabinet glowing in a dark room, one cured cannabis bud on its middle shelf in warm gold light, a green haze at its base.",
+   "prompt": "Tenebrist editorial still-life photograph in a dark room: a tall slim display cabinet with a thin matte black metal frame and clear glass panes, standing right of centre, its inside lit by a single warm gold light from the upper left; on one clear glass shelf at eye level rests a single dense cured cannabis flower bud, frosty trichomes glinting gold; the other glass shelves are empty; faint reflections on the glass panes; a soft green glow and a low green haze rise from the base of the cabinet at the lower right. Composition: the cabinet occupies the right third of the frame, the whole left half of the frame is deep black negative space. Near-total darkness, Caravaggio chiaroscuro, deep shadows, crisp detail where the light lands, fine film grain, quiet premium mood, gold and deep green accents only, never neon"
+  },
+  {
+   "id": "g-bud-macro",
+   "file": "assets/generated/g-bud-macro.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/flower/",
+    "category cards"
+   ],
+   "negativeSpace": "left third black; the bud fills the right two thirds",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Macro close-up of a cured cannabis flower, frosty trichomes and orange pistils catching warm gold light.",
+   "prompt": "Tenebrist macro photograph: an extreme close-up of a dense cured cannabis flower bud, shallow depth of field, frosty resin trichome heads sparkling like tiny glass beads where the light lands, fine twisted orange pistils, layered deep green calyxes, the far side of the bud dissolving into black shadow, a faint soft green glow on the lower right edge. Composition: the bud fills the right two thirds of the frame, black negative space on the left third. Shot on a pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, crisp detail, fine film grain, quiet premium mood"
+  },
+  {
+   "id": "g-prerolls",
+   "file": "assets/generated/g-prerolls.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/prerolls/"
+   ],
+   "negativeSpace": "left 40% black; the cones lie on a diagonal right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Three white paper pre-roll cones filled with ground cannabis flower, standing in a black cup on dark glass, with crumbs of flower beside it.",
+   "prompt": "Tenebrist editorial still-life photograph: three unlit hand-rolled cannabis pre-roll cones standing upright side by side in a small short matte black glass cup, wide ends pointing up, each wide end neatly twisted shut into a small twisted paper tip, each cone rolled in plain thin white rolling paper and visibly filled with ground green cannabis flower that shows faintly through the paper, the cones clearly conical and wider at the top; a few loose green cannabis crumbs on the dark smoked glass beside the cup; a hard raking warm gold light from the upper left grazes the paper texture. Composition: the cup right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no filters, no crutches, no tan or orange or brown tips, no cork, no cigarettes, no straws, no ash, no smoke, no flame",
+   "rejectReason": "attempt 2 (by-eye review): empty hollow paper tubes open at the narrow end (no twisted tips, no flower inside), yellow crumbs"
+  },
+  {
+   "id": "g-vape",
+   "file": "assets/generated/g-vape.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/vapes/"
+   ],
+   "negativeSpace": "left half black; the cartridge stands right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "One plain glass vape cartridge filled with golden oil, standing on a black glass slab with a thin green edge light.",
+   "prompt": "Tenebrist product still-life photograph: one single plain cylindrical glass vape cartridge filled with clear golden amber cannabis oil, a plain smooth matte black mouthpiece on top and a plain smooth brushed metal base, completely blank and unmarked, standing upright alone on a polished black glass surface with a soft reflection beneath it; a soft green rim light from the lower right outlines the glass edge and the oil glows amber where the warm gold key light from the upper left passes through it. Composition: the cartridge stands right of centre, small in the frame, black negative space on the left half. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; nothing else in the frame, no candies, no crystals, no beads, no glitter, no gold flakes, no crumbs, no neon strips, no LED lines",
+   "rejectReason": "attempt 1 (by-eye review): amber candy-like cubes and gold glitter beside the cartridge (candy cue), neon green strips"
+  },
+  {
+   "id": "g-concentrate",
+   "file": "assets/generated/g-concentrate.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/concentrates/"
+   ],
+   "negativeSpace": "left 40% black; the mound right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A small soft mound of waxy golden cannabis concentrate in a pool of amber oil on a square of parchment paper.",
+   "prompt": "Tenebrist macro still-life photograph: a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, opaque and matte like beeswax, pale butter gold with a fine grainy texture and a faint oily sheen, a little translucent amber terpene oil pooling at its base, sitting on a small square of unbleached parchment paper that rests on dark smoked glass; a warm gold side light from the upper left. Composition: the parchment and mound sit right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no crystals, no facets, no gems, no glitter, not food, not honey, not caramel, not jelly, no spoon, no tools",
+   "rejectReason": "attempt 1 (by-eye review): faceted gem-like crystals read as rock candy (food and candy cue)"
+  },
+  {
+   "id": "g-tincture",
+   "file": "assets/generated/g-tincture.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/tinctures/"
+   ],
+   "negativeSpace": "left 40% black; bottles and leaf right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "An unlabelled amber glass dropper bottle and a separate dropper lying across a cannabis fan leaf on dark slate.",
+   "prompt": "Tenebrist editorial still-life photograph: two small plain amber glass dropper bottles with smooth black rubber dropper bulbs, completely plain glass with no labels, one standing and one lying on its side, beside a single fresh green cannabis fan leaf on a dark matte stone surface; the warm gold key light from the upper left passes through the amber glass so the bottles glow, a soft green glow from the lower right catches the leaf edges. Composition: bottles and leaf right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, quiet apothecary mood"
+  },
+  {
+   "id": "g-topical",
+   "file": "assets/generated/g-topical.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/topicals/"
+   ],
+   "negativeSpace": "left half black; the tin right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "An open, unlabelled round gold-coloured tin of pale yellow balm on dark stone, its lid beside it.",
+   "prompt": "Tenebrist editorial still-life photograph: one small open round tin of smooth brushed metal holding a pale golden waxy balm with a soft swirl on its surface, the plain lid leaning against the tin, both completely plain metal with no embossing, no engraving and no print, resting on a slab of dark slate stone; one warm gold key light from the upper left glints on the metal rim, a soft green glow from the lower right. Composition: the tin sits right of centre, black negative space on the left half. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, calm apothecary mood"
+  },
+  {
+   "id": "g-accessories",
+   "file": "assets/generated/g-accessories.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/accessories/"
+   ],
+   "negativeSpace": "left 40% black; the pipe right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A clear glass spoon pipe with an open bowl lying on black glass, green and gold light caught in the bowl.",
+   "prompt": "Tenebrist product still-life photograph: one clean empty clear glass spoon pipe for dry herb: a short thick clear glass body with a wide round open bowl on top near one end, the dark round opening of the bowl clearly visible from above, tapering to a smooth rounded mouthpiece at the other end, completely clear colourless glass with no decoration and no markings, lying on a sheet of dark smoked glass with a soft reflection beneath it; the warm gold key light from the upper left traces bright highlights along its curves and a green rim light from the lower right outlines the other edge. Composition: the pipe lies right of centre on a gentle diagonal, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no closed glass ball, no smoke, no flame, no ash",
+   "rejectReason": "attempt 1 (by-eye review): a closed glass ball on a tube (reads as an oil-burner pipe, not a flower pipe), grey studio ground, small dark marks near the mouthpiece"
+  },
+  {
+   "id": "g-edibles",
+   "file": "assets/generated/g-edibles.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "/products/edibles/"
+   ],
+   "negativeSpace": "left 40% black; tin and chews right of centre",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A closed plain black tin and two small matte amber-brown chews on a slab of dark slate.",
+   "prompt": "Tenebrist editorial still-life photograph: a small plain round dark matte metal tin with its lid closed, completely plain with no print, and three small soft square chews in a deep muted dark amber brown with completely smooth dull matte surfaces, like small cubes of plain fruit leather, set out on a slab of dark slate stone. Composition: tin and chews right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; muted earthy colours only, no sugar, no sugar coating, no speckles, no sparkle, no glitter, no glints, no bokeh dots, no confetti, no gold flakes, no stars, no sprinkles, no bright or candy colours, no wrapper",
+   "rejectReason": "attempt 2 (by-eye review): sugar-speckled caramel-like tops on the chews and star-shaped gold glints and bokeh (candy and party cues)"
+  },
+  {
+   "id": "g-smoke-glass",
+   "file": "assets/generated/g-smoke-glass.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "Resources mega card",
+    "learn",
+    "bands",
+    "haze-loop key frame"
+   ],
+   "negativeSpace": "the left and lower edges darkest",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "Soft smoke drifting behind panes of frosted glass, lit gold from the upper left and green from the lower right, in darkness.",
+   "prompt": "Tenebrist abstract photograph: soft slow wisps of pale smoke drifting in darkness behind two tall overlapping panes of frosted smoked glass with thin black edges, a warm gold beam of light entering from the upper left and catching the smoke, a soft green glow leaking from the lower right, the frosted glass diffusing both colours, fine haze. Composition: smoke and light concentrated in the centre and right, deep black around the edges, especially the left and the bottom. Near-total darkness, pure black background, Caravaggio chiaroscuro, fine film grain, ethereal calm mood; nothing else in the frame, no objects, no plants"
+  },
+  {
+   "id": "g-cabinet-deals",
+   "file": "assets/generated/g-cabinet-deals.jpg",
+   "role": "backdrop",
+   "usedFor": [
+    "Shop mega card",
+    "deals"
+   ],
+   "negativeSpace": "left 40% black",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Empty glass shelves inside a dark display cabinet, lit by a warm gold light from above.",
+   "prompt": "Tenebrist interior still-life photograph: the inside of a dark display cabinet with three empty clear glass shelves held by thin matte black metal brackets, completely empty, a warm gold light strip along the top inside edge pouring down through the glass shelves, gold highlights on the shelf edges, a soft green glow at the base of the cabinet in the lower right. Composition: the shelves fill the right 60% of the frame in gentle perspective, black negative space on the left. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, quiet premium mood; no products, no objects on the shelves, no price tags"
+  },
+  {
+   "id": "g-leaf-cut",
+   "file": "assets/generated/g-leaf-cut.png",
+   "role": "cutout",
+   "cutout": true,
+   "usedFor": [
+    "screen and cut-out protrusions"
+   ],
+   "negativeSpace": "cut-out (transparent)",
+   "input": {
+    "aspect_ratio": "4:5"
+   },
+   "alt": "One cannabis fan leaf with a warm gold rim light along its serrated edges.",
+   "prompt": "Studio photograph of one single fresh cannabis fan leaf with seven long serrated leaflets and a short stem, seen flat from the front, the whole leaf in the frame with a wide black margin on every side, deep green leaflets with a warm gold rim light from the upper left glowing along the serrated edges, a faint green fill light from the lower right, crisp sharp detail of the veins, isolated on a pure black background, nothing else in the frame"
+  },
+  {
+   "id": "g-bud-cut",
+   "file": "assets/generated/g-bud-cut.png",
+   "role": "cutout",
+   "cutout": true,
+   "usedFor": [
+    "protrusions (hero, menu)"
+   ],
+   "negativeSpace": "cut-out (transparent)",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "One dense cured cannabis bud with frosty trichomes and orange pistils, lit gold from the upper left.",
+   "prompt": "Studio macro photograph of one single dense cured cannabis flower bud, the whole bud in the frame with a wide black margin on every side, frosty white trichomes glinting gold, fine twisted orange pistils, deep green and violet calyxes, a warm gold key light from the upper left, a faint green rim light from the lower right, crisp sharp detail, isolated on a pure black background, nothing else in the frame"
+  }
+ ]
+}

@@ -1,1 +1,1 @@
-.display{overflow-wrap:break-word}@media screen and (max-width:480px){.p-page--reviews .p-hero__title{font-size:clamp(1.6rem,8.2vw,2.2rem)}}
+.display{overflow-wrap:break-word}@media screen and (max-width:480px){.s-hero__h{font-size:clamp(1.75rem,9.2vw,2.9rem)}.p-hero__title--md,.p-hero--compact .p-hero__title.p-hero__title--md{font-size:clamp(1.5rem,7.2vw,2.2rem)}}@media screen and (min-width:481px) and (max-width:1023px){.p-page--about .p-head__title{font-size:clamp(1.5rem,3.6vw,2rem)}}

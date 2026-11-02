@@ -1,4 +1,4 @@
-// home.mjs - the home page "/" (HOME lane, "CABINET OF LIGHT"). Section order = contract section 6 HOME (11 sections).
+// home.mjs - the home page "/" (HOME lane; v2 "MORNING GLASS", light). Section order = contract section 6 HOME (11 sections).
 // Every visible fact is read from ctx (home.json, site.json, menu.json, faq.json); new words are neutral glue only
 // (section labels, button labels). No inline JS; root-absolute URLs only in HTML attributes (contract D6).
 import { page, icon } from './shell.mjs';
@@ -41,7 +41,6 @@ ${s.kicker ? `<p class="kicker h-slide__kicker">${esc(s.kicker)}</p>` : ''}<h2 c
   return `<section class="band h-hero" data-spot aria-labelledby="h-hero-title">
 <div class="band__clip" aria-hidden="true">
 <div class="band__bg h-hero__film">${media(ctx, 'store-room', { eager: true })}</div>
-<div class="h-hero__smoke">${media(ctx, 'smoke')}</div>
 <div class="h-hero__grade"></div>
 <div class="h-hero__pool"></div>
 <div class="h-hero__leaf"></div>

@@ -30,6 +30,9 @@ if [ ! -d publish/repo/.git ]; then git -C publish/repo init -q -b main; git -C 
 find publish/repo -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 git archive HEAD | tar -x -C publish/repo
 MSYS_NO_PATHCONV=1 node tools/make-pages-preview.mjs --prefix "$PREFIX" --out preview
+# frozen snapshots of earlier versions (built once with their own sub-path prefix, e.g. /aandp-redesign/v1-dark),
+# served next to the current preview; they go through the same secret and residue scans below
+if [ -d tmp/snapshots ]; then for d in tmp/snapshots/*/; do cp -r "$d" "preview/$(basename "$d")"; done; fi
 for d in publish/repo preview; do
   node tools/secret-scan.mjs --dir "$d" "${SCAN[@]}"
   node tools/residue-scan.mjs --dir "$d" "${RESIDUE[@]}"

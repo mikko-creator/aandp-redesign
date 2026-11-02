@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist editorial still-life photograph: two small plain amber glass dropper bottles with smooth black rubber dropper bulbs, completely plain glass with no labels, one standing and one lying on its side, beside a single fresh green cannabis fan leaf on a dark matte stone surface; the warm gold key light from the upper left passes through the amber glass so the bottles glow, a soft green glow from the lower right catches the leaf edges. Composition: bottles and leaf right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, quiet apothecary mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key editorial still-life photograph: two small plain amber glass dropper bottles with smooth black rubber dropper bulbs, completely plain glass with no labels, one standing and one lying on its side, beside a single fresh green cannabis fan leaf with seven serrated leaflets, on soft cream linen; the sunlight passes through the amber glass so the bottles glow and cast warm amber light onto the linen. Composition: bottles and leaf right of centre, the left 40% is calm cream linen as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; quiet apothecary mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 2891867260,
-  "requestId": "01a19ab5-4a76-7393-85aa-0ded7f9f10b7",
+  "seed": 580677016,
+  "requestId": "01a19c1a-a92d-70c0-a1c6-ba87c5765f6d",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "2f71a390e4d4741709c96a0125e6974f5690481f01dc6611448d57f771a211d2",
-  "raw": "tmp/img/raw/g-tincture.1793596943531.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:24.999Z",
+  "sha256": "4fffcfabcf7f1b638c73f470d437e202c225f8a46daa3041ca7d66c16258b214",
+  "raw": "tmp/img/raw/g-tincture.1793620364487.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:52:46.534Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "One unlabelled amber dropper bottle and a separate dropper lying across a seven-leaflet fan leaf on dark slate. No labels, text or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. One unlabelled amber dropper bottle, a separate dropper with oil and a large fan leaf on cream fabric, sun from the upper left, shadows lower right. No labels, text or marks.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "An unlabelled amber glass dropper bottle and a separate dropper lying across a cannabis fan leaf on dark slate."
+  "alt": "An unlabelled amber glass dropper bottle, a separate dropper and a fresh cannabis fan leaf on cream linen in soft sunlight."
 }

@@ -1,4 +1,4 @@
-/* site.js - A&P Dispensary "CABINET OF LIGHT" behaviour (FOUNDATION): header state, mega menus, the category "More"
+/* site.js - A&P Dispensary "MORNING GLASS" (v2) behaviour (FOUNDATION): header state, mega menus, the category "More"
    dropdown, drawer, 21+ gate, reveals, parallax, tilt, pointer-follow key light, marquee, rotator, tabs, films, demo
    forms, demo add-to-cart toast. No dependencies, defer-safe. Contract D6: no string literal in this file starts with
    a slash; every URL is read from HTML attributes. All motion is off under prefers-reduced-motion. */

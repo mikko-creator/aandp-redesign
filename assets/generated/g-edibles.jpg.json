@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist editorial still-life photograph: a small plain round dark matte metal tin with its lid closed, completely plain with no print, and three small soft square chews in a deep muted dark amber brown with completely smooth dull matte surfaces, like small cubes of plain fruit leather, set out on a slab of dark slate stone. Composition: tin and chews right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; muted earthy colours only, no sugar, no sugar coating, no speckles, no sparkle, no glitter, no glints, no bokeh dots, no confetti, no gold flakes, no stars, no sprinkles, no bright or candy colours, no wrapper, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key editorial still-life photograph: a small shallow plain matte unglazed ceramic dish in a pale stone colour holding four small soft square chews in muted earthy tones of soft sage green, olive and warm clay brown, each chew perfectly smooth and uniform in colour with a soft dull matte surface, set on soft light cream linen. Composition: dish and chews right of centre, the left 40% is calm cream linen as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; muted earthy colours only, plain uniform surfaces, no dots, no specks, no sugar coating, no sparkle, no glitter, no glints, no gloss, no bright or candy colours, no wrapper, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 919560386,
-  "requestId": "01a19abf-ef1c-78b2-ab2a-ac3d1c85a3a9",
+  "seed": 92729136,
+  "requestId": "01a19c27-ddfa-7661-b89a-bb2174466389",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "6009607c4f3098141966f96f1342f72ef82e20dff9c50ecc95de8faaa60a5a28",
-  "raw": "tmp/img/raw/g-edibles.1793597641405.jpg",
-  "attempt": 3,
-  "generatedAt": "2026-11-02T05:34:03.273Z",
+  "sha256": "ec42e5cb422b29a5f7f60a1bc708e73de5fb924cd50c4878bfc63e1357c2a865",
+  "raw": "tmp/img/raw/g-edibles.1793621233439.jpg",
+  "attempt": 5,
+  "generatedAt": "2026-11-02T12:07:15.198Z",
   "review": {
-    "verdict": "ACCEPT-BEST-OF-REJECTS",
-    "reason": "Attempt 1 rejected: sugar-sparkle caramel cubes, star confetti. Attempt 2 rejected: sugar-speckled tops, star glints and bokeh. Attempt 3 (last allowed): a closed plain black tin and two matte amber-brown chews on dark slate; the chew tops still show fine light speckles and a few tiny gold glints sit at the lower left. Operator check advised for a caramel read. No text or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "verdict": "ACCEPT",
+    "reason": "Light attempt 1 rejected (100% crop): fine white sugar-like speckles on every chew. Attempt 2: three smooth matte chews (sage, cream, clay) in a plain ceramic dish on linen; at 100% only a few faint pores, no sugar, sparkle or candy colours. No text or wrapper.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "A closed plain black tin and two small matte amber-brown chews on a slab of dark slate."
+  "alt": "A plain matte ceramic dish holding three matte chews in sage, cream and clay tones on light linen."
 }

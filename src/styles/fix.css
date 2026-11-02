@@ -13,3 +13,45 @@
 @media screen and (min-width: 481px) and (max-width: 1023px) {
   .p-page--about .p-head__title { font-size: clamp(1.5rem, 3.6vw, 2rem); }
 }
+
+/* 2. v2 "Morning Glass" review fixes (REVIEW lane, 2026-11-02). */
+/* 2a. The case floor shadow (components.css .case::before, right: -5%) reaches past the case's own right edge. Where a
+       case spans the content column on phones and tablets that widened the page (home measured 392px at 390, from
+       .h-visit__case). Below 1024px the shadow stays inside the case's box; it still falls to the lower right. */
+@media screen and (max-width: 1023px) {
+  .case::before { right: 0; }
+}
+/* 2b. The home visit case and the six "Step Inside A&P" film cases set their own aspect ratio, but their .case__media
+       kept the component ratio (16:9 / 9:16 of a narrower box), so a strip of the black case frame showed under the
+       photo and every film (28px at 1280 under the photo, 11px under each film). v1 hid it dark on dark; on the light
+       grounds it read as a black bar. The media now fills the case. */
+.h-visit__case > .case__media,
+.h-inside__case > .case__media { height: 100%; aspect-ratio: auto; }
+/* 2c. Phones: "Leave us a review on Google" was wider than its button (label 306px in a 284px box on /reviews/, 321 in
+       316 in the "How'd we do?" panel), so the nowrap label ran under the button's clip and the star touched the edge.
+       A label that does not fit now wraps to two centred lines; labels that fit stay on one line (min-height unchanged). */
+@media screen and (max-width: 480px) {
+  .btn { white-space: normal; text-align: center; line-height: 1.2; padding-block: 8px; }
+}
+
+/* 3. Main-session integration (v2). */
+/* 3a. /reviews/: the hero asks for p-hero__title--md, but .p-hero--compact .p-hero__title (two classes) outranked it,
+       so at 1280 the four-line title pushed the review button below the first screen. The hero has no backdrop, so on
+       desktop the text box may run wider and the title one step smaller. */
+@media screen and (min-width: 900px) {
+  .p-hero--reviews .p-hero__text { max-width: min(1000px, 82%); }
+  .p-hero--compact.p-hero--reviews .p-hero__title { font-size: clamp(2.2rem, 3.6vw, 3.4rem); }
+}
+/* 3b. A&P's store has a black ceiling: in the store and home films it was the darkest area left on a first screen.
+       A soft morning haze from the top (store) and the top right corner (home). A light veil only lifts the ground
+       under dark text, so hero contrast can only rise. Desktop only: phones and tablets stack these heroes. */
+@media screen and (min-width: 1024px) {
+  .p-hero--store .p-hero__scrim::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(180deg, rgba(var(--wash), 0.9) 0%, rgba(var(--wash), 0.62) 20%, rgba(var(--wash), 0) 44%);
+  }
+  .h-hero__grade::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(64% 52% at 100% 0%, rgba(251, 249, 243, 0.8) 0%, rgba(251, 249, 243, 0.34) 46%, rgba(251, 249, 243, 0) 76%);
+  }
+}

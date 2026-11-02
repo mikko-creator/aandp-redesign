@@ -297,7 +297,7 @@ export function page({ ctx, path, title, description, canonical, og = {}, jsonld
 <meta property="og:type" content="${escA(og.type || 'website')}">
 <meta property="og:image" content="${escA(ogImage)}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#000000">
+<meta name="theme-color" content="#fbf9f3">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">

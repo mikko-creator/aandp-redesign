@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist editorial still-life photograph in a dark room: a tall slim display cabinet with a thin matte black metal frame and clear glass panes, standing right of centre, its inside lit by a single warm gold light from the upper left; on one clear glass shelf at eye level rests a single dense cured cannabis flower bud, frosty trichomes glinting gold; the other glass shelves are empty; faint reflections on the glass panes; a soft green glow and a low green haze rise from the base of the cabinet at the lower right. Composition: the cabinet occupies the right third of the frame, the whole left half of the frame is deep black negative space. Near-total darkness, Caravaggio chiaroscuro, deep shadows, crisp detail where the light lands, fine film grain, quiet premium mood, gold and deep green accents only, never neon, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key editorial still-life photograph in a sunlit room: a tall slim display cabinet with a thin matte black metal frame and clear glass panes and clear glass shelves stands right of centre against a smooth warm cream plaster wall on a pale stone floor; on two of its glass shelves rest a few dense cured cannabis flower buds, frosty trichomes catching the sun; the other shelves are empty; bright clean reflections on the glass; a softly blurred potted green plant in a pale ceramic pot stands at the far right edge. Composition: the cabinet occupies the right third of the frame, the whole left half of the frame is calm softly sunlit cream wall as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; not a shop, no brick, no signage, no counter, no packaged goods, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "16:9"
   },
-  "seed": 3910188501,
-  "requestId": "01a19ab5-1e76-7da3-9114-00ad0e186d4c",
+  "seed": 4282992653,
+  "requestId": "01a19c1a-5088-7283-a4eb-71bd7a28da69",
   "cutout": null,
   "width": 2752,
   "height": 1536,
-  "sha256": "94c7a2c9a2cfbd902131b07cd288882fc01ffcd5992cb42179a9748c1c039364",
-  "raw": "tmp/img/raw/g-hero-case.1793596932717.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:14.399Z",
+  "sha256": "ee397dee267811b117895ba930a9174fd23089159b8ce1b13e34100558f99e3e",
+  "raw": "tmp/img/raw/g-hero-case.1793620341969.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:52:23.856Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Thin black-and-gold framed glass cabinet right of centre, one bud on the middle shelf, faint mirror reflections of the bud in the side panes, green haze lower left and at the base. Left half black. No text, people or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. Slim black-framed glass cabinet centred in a sunlit cream room, small cured buds on four glass shelves, a window at the left, a potted plant at the right, window-light shadows on the wall. 100% crop: no text, marks, people or brick. Not a shop.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "A black-framed glass display cabinet glowing in a dark room, one cured cannabis bud on its middle shelf in warm gold light, a green haze at its base."
+  "alt": "A slim black-framed glass display cabinet standing in a bright sunlit cream room, a few cured cannabis buds on its glass shelves, a window at the left and a potted plant at the right."
 }

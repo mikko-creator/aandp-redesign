@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist abstract photograph: soft slow wisps of pale smoke drifting in darkness behind two tall overlapping panes of frosted smoked glass with thin black edges, a warm gold beam of light entering from the upper left and catching the smoke, a soft green glow leaking from the lower right, the frosted glass diffusing both colours, fine haze. Composition: smoke and light concentrated in the centre and right, deep black around the edges, especially the left and the bottom. Near-total darkness, pure black background, Caravaggio chiaroscuro, fine film grain, ethereal calm mood; nothing else in the frame, no objects, no plants, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key abstract photograph: soft white haze and gentle rays of morning sunlight drifting behind two tall overlapping panes of frosted glass with thin pale edges, the sunlight streaming in from the upper left in soft visible rays, delicate pastel mint and warm pale gold tints diffused through the frosted glass, the haze glowing white. Composition: haze, rays and glass concentrated in the centre and right, calm pale cream negative space on the left third and along the bottom edge. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; ethereal calm mood, nothing else in the frame, no objects, no plants, no furniture, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "16:9"
   },
-  "seed": 4240326261,
-  "requestId": "01a19ab5-76bd-72a1-94e0-9fb625983e73",
+  "seed": 3592312858,
+  "requestId": "01a19c1a-508c-7aa2-95f3-84f4169ada13",
   "cutout": null,
   "width": 2752,
   "height": 1536,
-  "sha256": "7c7c8df5652ba95ef2ae3011a79a4b4111c6120ac5117d98eebce6c7ab5102a0",
-  "raw": "tmp/img/raw/g-smoke-glass.1793596956605.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:38.287Z",
+  "sha256": "d758b31ccff019cd044156e6cf9f70650d17770302e525ff97daf816ff903929",
+  "raw": "tmp/img/raw/g-smoke-glass.1793620341318.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:52:23.833Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Frosted glass panes, gold beam at the left, pale smoke centre, green glow right. No objects, no text. Key frame for haze-loop.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. Frosted glass panels with soft leaf and window shadows, very pale cream with a faint mint tint; calm light negative space. Less visible haze than asked, but no objects, no text. Key frame of the light haze-loop.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "Soft smoke drifting behind panes of frosted glass, lit gold from the upper left and green from the lower right, in darkness."
+  "alt": "Tall frosted glass panels in soft morning light, pale cream with a faint mint tint, soft shadows of leaves falling across them."
 }

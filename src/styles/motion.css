@@ -1,12 +1,12 @@
-/* motion.css - CABINET OF LIGHT motion (FOUNDATION): reveals ("light on"), hover light, parallax/tilt hooks, the
-   marquee, the rotator, the footer light sweep. Every animation is off under prefers-reduced-motion. */
+/* motion.css - MORNING GLASS motion (FOUNDATION): reveals (fade up out of a soft morning haze), hover light,
+   parallax/tilt hooks, the marquee, the rotator, the footer sheen. Every animation is off under prefers-reduced-motion. */
 
-/* ---------------- [data-reveal]: fade-up + light on. Only hidden when JS runs (html.js); site.js adds .is-in, and
+/* ---------------- [data-reveal]: fade-up out of a light haze. Only hidden when JS runs (html.js); site.js adds .is-in, and
    html.reveal-all is the 2.5 s fail-safe. Stagger with style="--i:n". */
 .js [data-reveal] {
   opacity: 0;
   translate: 0 var(--reveal-y);
-  filter: brightness(0.45);
+  filter: blur(6px) saturate(0.7);
   transition: opacity var(--t-slow) var(--ease-out), translate var(--t-slow) var(--ease-out), filter 1.2s var(--ease-out);
   transition-delay: calc(var(--i, 0) * 90ms);
 }
@@ -17,7 +17,7 @@
   .btn:hover::before { transform: translateX(130%); transition: transform 0.75s var(--ease-out); }
   .glass--lift:hover { transform: translateY(-5px); box-shadow: var(--glass-hi), var(--shadow-3); }
   .glass--lift:hover::after { opacity: 1; background-position: -20% 0; transition: background-position 1.1s var(--ease-out), opacity var(--t-fast) ease; }
-  .pcard:hover { transform: translateY(-6px); box-shadow: 0 0 0 1px rgba(57, 188, 31, 0.3), var(--shadow-3); }
+  .pcard:hover { transform: translateY(-6px); box-shadow: 0 0 0 1px rgba(31, 122, 18, 0.28), var(--shadow-3); }
   .pcard:hover::before { opacity: 1; }
   .pcard:hover .pcard__img { transform: scale(1.06); }
   .case { transition: box-shadow var(--t-med) var(--ease-out), transform var(--t-med) var(--ease-out); }
@@ -35,12 +35,12 @@
 [data-tilt] { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 0.5s var(--ease-out); transform-style: preserve-3d; }
 [data-tilt].is-tilting { transition: transform 0.12s linear; }
 
-/* ---------------- [data-spot]: the key light eases toward the pointer ---------------- */
-@property --lx { syntax: '<percentage>'; inherits: true; initial-value: 26%; }
-@property --ly { syntax: '<percentage>'; inherits: true; initial-value: 30%; }
+/* ---------------- [data-spot]: the sun pool eases toward the pointer (rests upper left) ---------------- */
+@property --lx { syntax: '<percentage>'; inherits: true; initial-value: 22%; }
+@property --ly { syntax: '<percentage>'; inherits: true; initial-value: 18%; }
 [data-spot] { transition: --lx 0.6s var(--ease-out), --ly 0.6s var(--ease-out); }
 
-/* ---------------- slow beam drift on .band--beam ---------------- */
+/* ---------------- slow sunbeam drift on .band--beam ---------------- */
 @keyframes beam-drift { 0%, 100% { transform: translateX(-4%); opacity: 0.75; } 50% { transform: translateX(4%); opacity: 1; } }
 .band--beam::before { animation: beam-drift 14s var(--ease-in-out) infinite; }
 
@@ -57,14 +57,14 @@
 .is-rotator .rotator__stage > [data-slide].is-active { opacity: 1; visibility: visible; transition: opacity 0.8s var(--ease-out), visibility 0s; }
 .rotator__dots { display: flex; gap: 6px; margin-top: 18px; }
 .rotator__dot { position: relative; width: 44px; height: 44px; border-radius: 50%; }
-.rotator__dot::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: rgba(235, 231, 215, 0.3); transition: background-color var(--t-fast) ease, transform var(--t-med) var(--ease-out); }
-.rotator__dot[aria-current="true"]::after { background: var(--leaf); transform: scale(1.3); box-shadow: 0 0 10px rgba(57, 188, 31, 0.8); }
+.rotator__dot::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: rgba(23, 25, 15, 0.22); transition: background-color var(--t-fast) ease, transform var(--t-med) var(--ease-out); }
+.rotator__dot[aria-current="true"]::after { background: var(--leaf-deep); transform: scale(1.3); box-shadow: 0 0 0 3px rgba(57, 188, 31, 0.2); }
 .rotator__dot:hover::after { background: var(--gold-hot); }
 
 /* ---------------- [data-tabs] ---------------- */
 [data-tabs] [role="tabpanel"][hidden] { display: none !important; }
 
-/* ---------------- footer mark: a slow light sweep across the giant cropped A&P ---------------- */
+/* ---------------- footer mark: a slow soft sheen across the giant cropped A&P ---------------- */
 @keyframes sweep { 0% { background-position: 130% 0; } 100% { background-position: -30% 0; } }
 .foot__mark-text { animation: sweep 9s linear infinite; }
 .foot__mark.is-paused .foot__mark-text { animation-play-state: paused; }

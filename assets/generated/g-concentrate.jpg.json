@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist macro still-life photograph: a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, opaque and matte like beeswax, pale butter gold with a fine grainy texture and a faint oily sheen, a little translucent amber terpene oil pooling at its base, sitting on a small square of unbleached parchment paper that rests on dark smoked glass; a warm gold side light from the upper left. Composition: the parchment and mound sit right of centre, black negative space on the left 40% of the frame. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; no crystals, no facets, no gems, no glitter, not food, not honey, not caramel, not jelly, no spoon, no tools, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key macro still-life photograph: one single very thin flat sheet of translucent amber cannabis shatter concentrate, thin as cellophane, smooth and glassy, pressed flat between two sheets of unbleached parchment paper, the top parchment sheet partly peeled back and curling up to reveal the amber sheet stuck flat to the lower sheet; one small cured cannabis flower bud rests on the pale limestone beside the parchment. Composition: the parchment sits right of centre, the left 40% is calm pale stone as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; muted pale amber, a flat thin sheet only, no chunks, no pieces, no crystals, no sugar, no sparkle, no glints, not food, not candy, no plate, no cutlery, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 676947958,
-  "requestId": "01a19abc-053c-74c3-b0a2-bcf5b296e6f2",
+  "seed": 2748610460,
+  "requestId": "01a19c23-d282-74e0-97b3-93d2636ecd6a",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "fb21e6c5aacb950e803ec8f9daaf7b2ab03a6b0d32056c38072da8cd158ec289",
-  "raw": "tmp/img/raw/g-concentrate.1793597391751.jpg",
-  "attempt": 2,
-  "generatedAt": "2026-11-02T05:29:53.733Z",
+  "sha256": "df7c42130d52f66797c9fb44d2ac04c841a7839b6f5f787358c0ea36d1a35788",
+  "raw": "tmp/img/raw/g-concentrate.1793620964957.jpg",
+  "attempt": 5,
+  "generatedAt": "2026-11-02T12:02:46.897Z",
   "review": {
-    "verdict": "ACCEPT",
-    "reason": "Attempt 1 rejected: faceted gem-like crystals read as rock candy. Attempt 2: pale golden waxy mound with a pool of amber oil on parchment, a second out-of-focus mound behind. Operator check advised for a food read. No text.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "verdict": "ACCEPT-BEST-OF-ATTEMPTS",
+    "reason": "Light attempt 1 rejected: a thick faceted saturated-orange slab with sparkling glints (hard candy or toffee read). Attempt 2 rejected: a heap of sugar-frosted pale chunks (candied fruit read). Attempt 3 (last allowed, kept): an amber slab on parchment with the top sheet peeled back (a concentrate cue) and a small bud; the slab still shows faceted internal glints. No text. Operator check advised for a candy read.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "A small soft mound of waxy golden cannabis concentrate in a pool of amber oil on a square of parchment paper."
+  "alt": "A slab of translucent amber cannabis shatter on parchment paper, the top sheet peeled back, a small cannabis bud beside it on pale marble."
 }

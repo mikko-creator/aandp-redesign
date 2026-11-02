@@ -1,93 +1,96 @@
-/* tokens.css - "CABINET OF LIGHT": glassmorphism x ethereal x tenebrism on A&P Dispensary's own brand (main session
-   owns this file; lanes ask for a value change through their report, never edit it).
-   The idea comes from A&P's real shop: black-framed glass display cases glowing inside a dark brick room. Tenebrism =
-   near-total darkness with ONE warm key light (A&P gold) that carves the subject out of the black. Ethereal = a soft
-   green luminous haze (A&P logo green) and drifting smoke, like light leaking from a lit case. Glass = smoked panes
-   whose top-left edge catches the key light, the way a case's glass edge does.
-   Brand values are A&P's own (site kit + age gate): ink #000000, charcoal #1C1710, gold #977E42, logo green #39BC1F,
-   pine #1F7A12, clay #6B5730, mist #EBE7D7, paper #FFFFFF, forest #294830. Faces: Archivo Black (display), Figtree
-   (body/UI), Roboto Mono (labels). */
+/* tokens.css - "MORNING GLASS" (v2, light): glassmorphism x ethereal, with tenebrism kept only as soft directional
+   light and shadow, on A&P Dispensary's own brand (main session owns this file; lanes ask for a value change through
+   their report, never edit it). v1 "Cabinet of Light" (dark) is tagged v1-dark and served at /v1-dark/.
+   The idea: A&P's black-framed glass cases in daylight. Grounds are A&P mist, cream and paper lit by soft morning sun
+   from the upper left; white frosted-glass panes float over pastel light (a warm gold sun glow and a mint glow from
+   A&P's logo green); products and cut-outs cast soft directional shadows (the gentle chiaroscuro). The one deep moment
+   per page is A&P forest green (footer), never black.
+   VARIABLE NAMES ARE KEPT FROM v1 so every stylesheet re-themes through them: --ink-* are now the LIGHT grounds
+   (ink-0 the page, ink-1 the default band ...) and --bone* are now the DARK text colours.
+   Brand values: ink #000000, charcoal #1C1710, gold #977E42, logo green #39BC1F, pine #1F7A12, clay #6B5730,
+   mist #EBE7D7, forest #294830, paper #FFFFFF. Faces: Archivo Black, Figtree, Roboto Mono. */
 :root {
-  /* ---- darkness (grounds) ---- */
-  --ink-0: #000000;            /* the void: page ground, vignette edges */
-  --ink-1: #040604;            /* default band (a breath of green in the black) */
-  --ink-2: #080b07;            /* raised band */
-  --ink-3: #10140e;            /* surfaces, inputs */
-  --ink-4: #1c1f17;            /* borders on dark, the "+" buttons */
-  --ink-5: #4a4d42;            /* rules, disabled */
+  /* ---- grounds (light) ---- */
+  --ink-0: #fbf9f3;            /* page ground: warm paper */
+  --ink-1: #f6f3ea;            /* default band */
+  --ink-2: #efebdf;            /* raised band (A&P mist, lifted) */
+  --ink-3: #ffffff;            /* surfaces, inputs */
+  --ink-4: #ddd6c3;            /* borders on light */
+  --ink-5: #b8b09a;            /* rules, disabled */
 
-  /* ---- light (text on dark) ---- */
-  --bone: #ebe7d7;             /* A&P mist: text on dark (15.9:1 on ink-1) */
-  --bone-2: #c9c4b2;           /* secondary text on dark (11.4:1) */
-  --bone-3: #9d9886;           /* tertiary text on dark, >= 13px only (6.6:1) */
+  /* ---- text (dark on light) ---- */
+  --bone: #17190f;             /* headings + body text (16.6:1 on ink-1) */
+  --bone-2: #3d4034;           /* secondary text (10.3:1) */
+  --bone-3: #636658;           /* tertiary text, >= 13px only (5.6:1) */
   --white: #ffffff;
 
   /* ---- A&P colour ---- */
-  --leaf: #39bc1f;             /* logo green: primary CTA, prices, active states (8.9:1 on ink-1) */
-  --leaf-hot: #62dc45;         /* green inside the glow, hover */
-  --leaf-deep: #1f7a12;        /* A&P pine: green in shadow, borders on green */
-  --leaf-ink: #041004;         /* text on green (9.4:1) */
-  --gold: #977e42;             /* A&P gold: the key light, kickers on large type, rules */
-  --gold-hot: #c9a85c;         /* gold text on dark at any size (8.4:1 on ink-1) */
-  --gold-pale: #e6d3a1;        /* highlight inside the key light */
-  --clay: #6b5730;             /* A&P clay: deep warm shadow */
-  --forest: #294830;           /* A&P forest: the green room behind glass */
-  --charcoal: #1c1710;         /* A&P charcoal: warm black for plates */
-  --mist: #ebe7d7;             /* A&P mist: the one light band per page (dark text) */
+  --leaf: #39bc1f;             /* logo green: primary CTA ground (with --leaf-ink text), badges, glows */
+  --leaf-hot: #2ea617;         /* hover on light */
+  --leaf-deep: #1f7a12;        /* A&P pine: green TEXT and links on light (5.4:1 on ink-1) */
+  --leaf-ink: #06140a;         /* text on green (9.0:1) */
+  --gold: #8a7136;             /* A&P gold, deepened for light grounds: rules, large type, icons (4.6:1) */
+  --gold-hot: #6e5726;         /* gold TEXT at any size on light (6.9:1) */
+  --gold-pale: #ead9ad;        /* sun highlight, gold glass tint */
+  --clay: #6b5730;
+  --forest: #294830;           /* A&P forest: the one deep band (footer); cream text on it */
+  --forest-deep: #1d3523;
+  --charcoal: #1c1710;
+  --mist: #e7eedf;             /* the one tinted band per page: soft sage (dark text) */
   --paper: #ffffff;
 
-  /* aliases kept so the inherited component layer renders before FOUNDATION re-themes it */
+  /* aliases kept from v1 */
   --sun: var(--leaf); --sun-hot: var(--leaf-hot); --sun-deep: var(--leaf-deep); --sun-ink: var(--leaf-ink);
-  --rose: var(--gold-pale); --rose-hot: var(--gold-hot); --ember: var(--leaf-hot);
+  --rose: var(--gold-pale); --rose-hot: var(--gold-hot); --ember: var(--leaf-deep);
 
-  /* ---- the key light (tenebrism): warm pools + raking beams; never under body text ---- */
-  --light-pool: radial-gradient(60% 55% at var(--lx, 26%) var(--ly, 30%), rgba(201, 168, 92, 0.24) 0%, rgba(151, 126, 66, 0.09) 38%, rgba(0, 0, 0, 0) 70%);
-  --light-pool-soft: radial-gradient(50% 45% at var(--lx, 72%) var(--ly, 40%), rgba(230, 211, 161, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
-  --light-beam: linear-gradient(112deg, rgba(0, 0, 0, 0) 30%, rgba(201, 168, 92, 0.10) 46%, rgba(230, 211, 161, 0.16) 50%, rgba(201, 168, 92, 0.10) 54%, rgba(0, 0, 0, 0) 70%);
-  /* ---- the glow (ethereal): green light leaking from a lit case, soft and wide ---- */
-  --light-leaf: radial-gradient(48% 42% at var(--gx, 78%) var(--gy, 62%), rgba(57, 188, 31, 0.20) 0%, rgba(31, 122, 18, 0.08) 42%, rgba(0, 0, 0, 0) 72%);
-  --haze: radial-gradient(80% 60% at 50% 100%, rgba(235, 231, 215, 0.07) 0%, rgba(0, 0, 0, 0) 70%);
-  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.55) 80%, rgba(0, 0, 0, 0.92) 100%);
-  --grain-opacity: 0.06;
+  /* ---- light (soft morning sun from the upper left): pools + beams on grounds, never under body text ---- */
+  --light-pool: radial-gradient(62% 58% at var(--lx, 22%) var(--ly, 18%), rgba(255, 226, 160, 0.55) 0%, rgba(255, 236, 196, 0.22) 40%, rgba(255, 255, 255, 0) 72%);
+  --light-pool-soft: radial-gradient(50% 45% at var(--lx, 76%) var(--ly, 30%), rgba(255, 247, 226, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+  --light-beam: linear-gradient(112deg, rgba(255, 255, 255, 0) 28%, rgba(255, 244, 214, 0.35) 46%, rgba(255, 255, 255, 0.55) 50%, rgba(255, 244, 214, 0.35) 54%, rgba(255, 255, 255, 0) 72%);
+  /* ---- the glow (ethereal): mint light from A&P's green, wide and soft ---- */
+  --light-leaf: radial-gradient(46% 42% at var(--gx, 80%) var(--gy, 70%), rgba(57, 188, 31, 0.16) 0%, rgba(140, 214, 120, 0.08) 45%, rgba(255, 255, 255, 0) 72%);
+  --haze: radial-gradient(80% 60% at 50% 100%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 70%);
+  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(255, 255, 255, 0) 60%, rgba(120, 104, 60, 0.06) 100%);
+  --grain-opacity: 0.025;
 
-  /* ---- glass (mid plane) ---- */
-  --glass-bg: rgba(12, 16, 11, 0.44);            /* smoked pane on dark */
-  --glass-bg-strong: rgba(7, 10, 7, 0.74);       /* pane that carries body text */
-  --glass-leaf: rgba(57, 188, 31, 0.09);         /* green-tinted pane (menu, prices) */
-  --glass-gold: rgba(151, 126, 66, 0.13);        /* gold-tinted pane (deals, story) */
+  /* ---- glass (mid plane): white frosted panes ---- */
+  --glass-bg: rgba(255, 255, 255, 0.52);
+  --glass-bg-strong: rgba(255, 255, 255, 0.8);
+  --glass-leaf: rgba(236, 247, 230, 0.66);
+  --glass-gold: rgba(250, 243, 225, 0.72);
   --glass-sun: var(--glass-leaf); --glass-rose: var(--glass-gold);
-  --glass-blur: 20px;
-  --glass-sat: 140%;
-  --glass-border: rgba(235, 231, 215, 0.11);
-  --glass-edge-lit: linear-gradient(135deg, rgba(201, 168, 92, 0.85) 0%, rgba(201, 168, 92, 0.2) 22%, rgba(235, 231, 215, 0.07) 45%, rgba(235, 231, 215, 0.02) 100%);
-  --glass-edge-leaf: linear-gradient(135deg, rgba(98, 220, 69, 0.8) 0%, rgba(57, 188, 31, 0.18) 24%, rgba(235, 231, 215, 0.05) 50%, rgba(235, 231, 215, 0.02) 100%);
-  --glass-hi: inset 0 1px 0 rgba(235, 231, 215, 0.12), inset 0 0 0 1px rgba(235, 231, 215, 0.025);
+  --glass-blur: 18px;
+  --glass-sat: 160%;
+  --glass-border: rgba(255, 255, 255, 0.78);
+  --glass-edge-lit: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(234, 217, 173, 0.75) 24%, rgba(255, 255, 255, 0.35) 52%, rgba(255, 255, 255, 0.2) 100%);
+  --glass-edge-leaf: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(57, 188, 31, 0.35) 26%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0.2) 100%);
+  --glass-hi: inset 0 1px 0 rgba(255, 255, 255, 0.95), inset 0 0 0 1px rgba(255, 255, 255, 0.45);
   --glass-r: var(--r-lg);
 
-  /* ---- shadow + depth ---- */
-  --shadow-1: 0 2px 6px rgba(0, 0, 0, 0.5);
-  --shadow-2: 0 18px 40px -12px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
-  --shadow-3: 0 40px 80px -20px rgba(0, 0, 0, 0.9), 0 10px 30px rgba(0, 0, 0, 0.6);
-  --shadow-cut: drop-shadow(0 30px 30px rgba(0, 0, 0, 0.75)) drop-shadow(0 8px 10px rgba(0, 0, 0, 0.6));
-  --rim-gold: drop-shadow(-6px -4px 14px rgba(201, 168, 92, 0.32));
-  --rim-leaf: drop-shadow(6px 4px 18px rgba(57, 188, 31, 0.30));
+  /* ---- shadow + depth (soft, warm, directional: light from the upper left, shadows fall lower right) ---- */
+  --shadow-1: 0 2px 6px rgba(52, 46, 24, 0.08);
+  --shadow-2: 0 18px 40px -16px rgba(52, 46, 24, 0.22), 0 4px 12px rgba(52, 46, 24, 0.06);
+  --shadow-3: 0 40px 80px -30px rgba(52, 46, 24, 0.3), 0 10px 30px rgba(52, 46, 24, 0.08);
+  --shadow-cut: drop-shadow(14px 26px 22px rgba(70, 58, 26, 0.24)) drop-shadow(4px 6px 8px rgba(70, 58, 26, 0.14));
+  --rim-gold: drop-shadow(-5px -4px 12px rgba(255, 220, 150, 0.55));
+  --rim-leaf: drop-shadow(6px 4px 16px rgba(57, 188, 31, 0.22));
   --rim-sun: var(--rim-gold);
-  --glow-leaf: 0 0 0 1px rgba(57, 188, 31, 0.55), 0 10px 40px -6px rgba(57, 188, 31, 0.45);
+  --glow-leaf: 0 0 0 1px rgba(57, 188, 31, 0.45), 0 12px 30px -10px rgba(57, 188, 31, 0.45);
   --glow-sun: var(--glow-leaf);
 
   /* ---- type ---- */
-  --font-display: 'Archivo Black', 'Arial Black', Impact, system-ui, sans-serif;  /* headlines, usually uppercase */
-  --font-body: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;     /* body copy, nav, buttons */
+  --font-display: 'Archivo Black', 'Arial Black', Impact, system-ui, sans-serif;
+  --font-body: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-ui: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-mono: 'Roboto Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace; /* kickers, prices, ticker, meta */
-  --fs-mega: clamp(3.1rem, 7.6vw, 7.6rem);   /* one per page at most: the hero line */
-  --fs-1: clamp(2.6rem, 5.6vw, 5.2rem);      /* h1 */
-  --fs-2: clamp(2rem, 3.9vw, 3.5rem);        /* h2 */
-  --fs-3: clamp(1.3rem, 2vw, 1.75rem);       /* h3 / card titles */
+  --font-mono: 'Roboto Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  --fs-mega: clamp(3.1rem, 7.6vw, 7.6rem);
+  --fs-1: clamp(2.6rem, 5.6vw, 5.2rem);
+  --fs-2: clamp(2rem, 3.9vw, 3.5rem);
+  --fs-3: clamp(1.3rem, 2vw, 1.75rem);
   --fs-lede: clamp(1.06rem, 1.25vw, 1.25rem);
-  --fs-body: 1rem;                           /* 16px */
-  --fs-small: 0.875rem;                      /* 14px - 13px floor on phones */
-  --fs-kicker: 0.8125rem;                    /* 13px Roboto Mono 500 caps, tracking .16em */
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-kicker: 0.8125rem;
   --lh-display: 0.94;
   --lh-tight: 1.15;
   --lh-body: 1.65;
@@ -105,7 +108,7 @@
   --wrap-narrow: 780px;
   --gutter: clamp(16px, 4vw, 40px);
   --section-y: clamp(72px, 9vw, 140px);
-  --header-h: 150px;                          /* utility 36 + main 72 + category bar 42 (desktop); phones set their own */
+  --header-h: 150px;
 
   /* ---- motion ---- */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -115,5 +118,5 @@
   --t-slow: 900ms;
   --reveal-y: 28px;
 
-  color-scheme: dark;
+  color-scheme: light;
 }

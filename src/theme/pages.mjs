@@ -3,6 +3,8 @@
 // pages/*.json, articles/*.json, menu.json); new words are neutral glue only (section labels, buttons, alt text).
 // The look (glass, case, bands, buttons, kicker, faq, review, demo form, motion hooks) is FOUNDATION's component
 // contract; pages.css only lays the pages out. Pseudo-elements of .band/.glass/.case/.btn/.kicker are never used here.
+// v2 MORNING GLASS (light): heroes keep their film or still under a LIGHT wash on the text side (no dark grade, no
+// smoke film); the learn hub and the articles share A&P's plants film, lifted, its dark sky masked out.
 import { page, crumbsHtml, icon } from './shell.mjs';
 import { esc, escA, attrs, linkAttrs, photo, gimg, media, demoForm, absUrl } from './util.mjs';
 
@@ -35,11 +37,14 @@ function caseBox(inner, { cls = '', tall = false, wide = false, attrsObj = {} } 
   return `<figure${attrs({ class: c, ...attrsObj })}><div class="case__media">${inner}</div><span class="case__glass" aria-hidden="true"></span><span class="case__light" aria-hidden="true"></span></figure>`;
 }
 
-// the page hero: dark ground, one key light (data-spot), the backdrop on the lit side behind a local scrim; crumbs,
-// kicker, H1, lede and buttons sit straight on the ground (no glass box behind hero text, D10). `aside` = an optional
-// case or cut-out on the right (the protruding one crosses the lower seam; the next band gets extra top padding).
+// the page hero: light paper ground, soft sun from the upper left (data-spot), the backdrop on the right under a light
+// wash (.p-hero__scrim); crumbs, kicker, H1, lede and buttons sit straight on the ground (no glass box behind hero
+// text, D10). A film backdrop adds .p-hero--film (phones show it as a window across the top, the text below it).
+// `aside` = an optional case or cut-out on the right (the protruding one crosses the lower seam; the next band gets
+// extra top padding).
 function hero(ctx, { crumbs, kick, title, lede = '', ctas = [], bg = '', mod = '', aside = '', extra = '', titleCls = '' }) {
-  return `<section class="band band--void p-hero ${mod}" data-spot>
+  const film = /^<video/.test(bg) ? ' p-hero--film' : '';
+  return `<section class="band band--void p-hero ${mod}${film}" data-spot>
 <div class="band__clip p-hero__clip" aria-hidden="true">
 ${bg ? `<div class="band__bg p-hero__bg">${bg}</div>` : ''}<span class="p-hero__pool"></span><span class="p-hero__leaf"></span><span class="p-hero__scrim"></span><span class="grain"></span>
 </div>
@@ -360,9 +365,10 @@ function drops(ctx) {
   const spec = (hp.tabs || []).find((t) => t.collection === 'our-specials');
   const crumbs = [['/', 'Home'], ['/drops/', 'Small-Batch Drops']];
   const main = `${hero(ctx, {
-    crumbs, kick: 'Small-Batch Drops', mod: 'p-hero--drops',
+    crumbs, kick: 'Small-Batch Drops', mod: 'p-hero--drops', titleCls: 'p-hero__title--md',
     title: esc(n.title), lede: esc(n.text),
-    bg: media(ctx, 'haze-loop', { eager: true, cls: 'p-hero__film p-hero__film--full' }),
+    // v2: the light haze loop (made from the light g-smoke-glass still), multiplied into the paper ground
+    bg: media(ctx, 'haze-loop', { eager: true, cls: 'p-hero__film p-hero__film--full p-hero__film--haze' }),
     extra: `<div class="p-drops__form">${demoForm({ id: 'drops-form', fields: ['Email'], button: n.button, cls: 'p-form p-form--inline' })}<p class="p-note">${esc(n.note)}</p></div>`,
   })}
 ${band(`<div class="wrap">
@@ -386,7 +392,7 @@ function learn(ctx) {
     crumbs, kick: c.hero.kicker, mod: 'p-hero--learn', titleCls: 'p-hero__title--fit',
     title: lines(c.hero.title, 'outline'), lede: esc(c.hero.text),
     ctas: c.hero.ctas.map((b, i) => btn(b.href, b.label, i ? 'btn--glass' : 'btn--leaf')),
-    bg: media(ctx, 'smoke', { eager: true, cls: 'p-hero__film p-hero__film--full p-hero__film--screen' }),
+    bg: media(ctx, 'plants', { eager: true, cls: 'p-hero__film p-hero__film--full p-hero__film--dim' }),
   })}
 ${band(`<div class="wrap">
 ${head('p-guides', 'Start here', esc(c.guides.title))}

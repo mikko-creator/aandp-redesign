@@ -138,7 +138,7 @@
    "poster": "/assets/media/smoke.jpg",
    "w": 1920,
    "h": 1080,
-   "duration": 10.0,
+   "duration": 10,
    "audio": false,
    "use": "ethereal overlays (screen blend), learn hero",
    "note": "A&P's own footage (smoke film, 16:9 centre crop; 1 s crossfade loop)"
@@ -161,10 +161,10 @@
    "h": 1068,
    "wSmall": 960,
    "hSmall": 534,
-   "duration": 11.9,
+   "duration": 11.92,
    "audio": false,
-   "use": "ethereal band backdrop (deals, drops): muted decorative loop, poster only under reduced motion",
-   "note": "AI-generated illustrative motion (fal, Kling 2.1 image-to-video, animated from the AI-generated still g-smoke-glass), played forward then in reverse so it loops seamlessly. Not footage of A&P Dispensary, its store, staff, customers, products or brands."
+   "use": "light band backdrop (deals, drops): muted decorative loop, poster only under reduced motion",
+   "note": "AI-generated illustrative motion (fal, Kling 2.1 image-to-video, animated from the AI-generated still g-smoke-glass of the light set: soft haze and morning light behind frosted glass), played forward then in reverse (ping-pong) so it loops seamlessly. Not footage of A&P Dispensary, its store, staff, customers, products or brands."
   }
  }
 }

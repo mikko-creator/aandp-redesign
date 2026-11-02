@@ -1,13 +1,16 @@
-/* components.css - CABINET OF LIGHT component contract (FOUNDATION; docs/BUILD-CONTRACT.md section 3).
-   Back plane = darkness + one warm key light (bands); mid plane = smoked glass and the display case; front plane =
-   cut-outs and screen-blended art that cross seams. Pseudo-elements owned here: .band::before/::after,
-   .glass::before/::after, .case::before/::after, .btn::before, .kicker::before, .pcard::before, .review::before. */
+/* components.css - MORNING GLASS component contract (FOUNDATION; docs/BUILD-CONTRACT.md section 3 + v2).
+   Back plane = light grounds (paper, cream, A&P mist) lit by a soft morning sun from the upper left; mid plane = white
+   frosted glass and the black-framed display case standing in daylight; front plane = cut-outs with soft shadows
+   falling lower right, and light-ground art blended with multiply. Pseudo-elements owned here: .band::before/::after,
+   .glass::before/::after, .case::before/::after, .btn::before, .kicker::before, .pcard::before, .review::before.
+   Text colours: --bone / --bone-2 / --bone-3; green text = --leaf-deep only; gold text = --gold-hot only. */
 
 /* A custom property resolves its var() where it is declared, so the light tokens are re-declared on the elements
    that move them (--lx/--ly from [data-spot], --gx/--gy set inline). Same values as tokens.css. */
 .band, .case, [data-spot] {
-  --light-pool: radial-gradient(60% 55% at var(--lx, 26%) var(--ly, 30%), rgba(201, 168, 92, 0.24) 0%, rgba(151, 126, 66, 0.09) 38%, rgba(0, 0, 0, 0) 70%);
-  --light-leaf: radial-gradient(48% 42% at var(--gx, 78%) var(--gy, 62%), rgba(57, 188, 31, 0.20) 0%, rgba(31, 122, 18, 0.08) 42%, rgba(0, 0, 0, 0) 72%);
+  --light-pool: radial-gradient(62% 58% at var(--lx, 22%) var(--ly, 18%), rgba(255, 226, 160, 0.55) 0%, rgba(255, 236, 196, 0.22) 40%, rgba(255, 255, 255, 0) 72%);
+  --light-pool-soft: radial-gradient(50% 45% at 76% 30%, rgba(255, 247, 226, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+  --light-leaf: radial-gradient(46% 42% at var(--gx, 80%) var(--gy, 70%), rgba(57, 188, 31, 0.16) 0%, rgba(140, 214, 120, 0.08) 45%, rgba(255, 255, 255, 0) 72%);
 }
 
 /* ---------------------------------------------------------------- layout */
@@ -15,7 +18,7 @@
 .wrap--wide { max-width: var(--wrap-wide); }
 .wrap--narrow { max-width: var(--wrap-narrow); }
 
-/* ---------------------------------------------------------------- bands (back plane) */
+/* ---------------------------------------------------------------- bands (back plane: light grounds) */
 .band {
   position: relative;
   isolation: isolate;
@@ -27,37 +30,38 @@
 }
 .band:has(.protrude) { z-index: 2; }
 .band::before, .band::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; }
-/* ::after paints after .band__clip (same layer, later in order): the key light + vignette sit over any backdrop */
+/* ::after paints after .band__clip (same layer, later in order): the sun pool sits over any backdrop */
 .band--void { background-color: var(--ink-0); }
 .band--lit::after { background: var(--light-pool), var(--vignette); }
 .band--beam::before { background: var(--light-beam); opacity: 0.9; }
 .band--beam::after { background: var(--light-pool), var(--vignette); }
-.band--glow::after { background: var(--light-leaf), var(--light-pool-soft), var(--vignette); }
-.band--mist { background-color: var(--mist); color: var(--ink-0); }
-.band--mist::after { background: radial-gradient(70% 60% at 22% 18%, var(--paper) 0%, rgba(0, 0, 0, 0) 70%); opacity: 0.7; }
-.band--mist .kicker { color: var(--clay); }
-.band--mist .kicker::before { background: var(--leaf-deep); box-shadow: none; }
-.band--mist .display, .band--mist h2, .band--mist h3 { color: var(--ink-0); }
-.band--mist .lede, .band--mist p { color: var(--charcoal); }
+.band--glow::after { background: var(--light-leaf), var(--light-pool-soft); }
+/* the one tinted band per page: soft sage, dark text */
+.band--mist { background-color: var(--mist); color: var(--bone); }
+.band--mist::after { background: radial-gradient(70% 60% at 22% 18%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 70%); }
+.band--mist .kicker { color: var(--gold-hot); }
+.band--mist .display, .band--mist h2, .band--mist h3 { color: var(--bone); }
+.band--mist .lede, .band--mist p { color: var(--bone-2); }
 .band--mist .accent { color: var(--leaf-deep); }
-.band--mist .accent--gold { color: var(--clay); }
-.band--mist .outline { -webkit-text-stroke-color: var(--ink-0); }
+.band--mist .accent--gold { color: var(--gold-hot); }
+.band--mist .outline { -webkit-text-stroke-color: var(--bone); }
 .band--mist .link-arrow { color: var(--leaf-deep); }
-.band--mist .btn--ghost { color: var(--ink-0); border-color: color-mix(in srgb, var(--ink-0) 35%, transparent); }
+.band--mist .btn--ghost { color: var(--bone); border-color: color-mix(in srgb, var(--bone) 45%, transparent); }
 
 .band__clip { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; }
 .band__bg { position: absolute; inset: 0; display: block; }
 .band__bg > img, .band__bg > video, .band__bg > picture, img.band__bg, video.band__bg { width: 100%; height: 100%; object-fit: cover; }
 .band__bg > picture > img { width: 100%; height: 100%; object-fit: cover; }
+/* paper tooth: a faint warm grain, multiplied (never a pattern you can see under text) */
 .grain {
   position: absolute; inset: 0; display: block; pointer-events: none;
   opacity: var(--grain-opacity);
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .32  0 0 0 0 .28  0 0 0 0 .18  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 }
 .haze { position: absolute; left: 0; right: 0; bottom: 0; height: 45%; display: block; pointer-events: none; background: var(--haze); }
 
-/* ---------------------------------------------------------------- glass (mid plane) */
+/* ---------------------------------------------------------------- glass (mid plane: white frosted panes) */
 .glass {
   position: relative;
   isolation: isolate;
@@ -65,9 +69,9 @@
   -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
   backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
   border-radius: var(--glass-r);
-  box-shadow: var(--glass-hi), var(--shadow-2);
+  box-shadow: var(--glass-hi), 0 0 0 1px rgba(52, 46, 24, 0.06), var(--shadow-2);
 }
-/* the pane's edge: a 1px ring drawn with a mask, lit from the top-left on .glass--lit */
+/* the pane's edge: a 1px white hairline drawn with a mask, lit gold from the top-left on .glass--lit */
 .glass::before {
   content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 1;
   background: linear-gradient(var(--glass-border), var(--glass-border));
@@ -78,7 +82,7 @@
 /* a light sheen that crosses the pane on hover (.glass--lift) */
 .glass::after {
   content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 1;
-  background: linear-gradient(105deg, rgba(0, 0, 0, 0) 35%, rgba(230, 211, 161, 0.10) 48%, rgba(235, 231, 215, 0.16) 50%, rgba(230, 211, 161, 0.10) 52%, rgba(0, 0, 0, 0) 65%) no-repeat;
+  background: linear-gradient(105deg, rgba(255, 255, 255, 0) 35%, rgba(255, 244, 214, 0.45) 48%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 244, 214, 0.45) 52%, rgba(255, 255, 255, 0) 65%) no-repeat;
   background-size: 250% 100%;
   background-position: 120% 0;
   opacity: 0;
@@ -94,14 +98,16 @@
 .glass--lift { transition: transform var(--t-med) var(--ease-out), box-shadow var(--t-med) var(--ease-out); }
 
 /* ---------------------------------------------------------------- the display case (signature) */
+/* A&P's black-framed glass case standing in daylight: a thin dark frame caught by the light on its top-left edge,
+   bright glass reflections, and a soft shadow falling to the lower right. */
 .case {
   position: relative;
   isolation: isolate;
   display: block;
   padding: 7px;
   border-radius: var(--r-md);
-  background: linear-gradient(180deg, var(--ink-4), var(--ink-0) 18%, var(--ink-0));
-  box-shadow: 0 0 0 1px rgba(235, 231, 215, 0.08), var(--shadow-3);
+  background: linear-gradient(155deg, #45463d 0%, #1f201a 16%, #121310 60%, #0b0c09 100%);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.28), 0 0 0 1px rgba(18, 19, 16, 0.85), 18px 30px 46px -24px rgba(52, 46, 24, 0.5), 6px 10px 18px -8px rgba(52, 46, 24, 0.2);
   color: var(--bone);
   text-decoration: none;
 }
@@ -111,38 +117,38 @@
   overflow: hidden;
   aspect-ratio: 4 / 5;
   border-radius: calc(var(--r-md) - 6px);
-  background: var(--ink-3);
+  background: var(--ink-2);
 }
 .case__media > img, .case__media > video, .case__media > picture, .case__media > .img-slot { width: 100%; height: 100%; object-fit: cover; }
 .case__media > picture > img { width: 100%; height: 100%; object-fit: cover; }
 .case--tall .case__media { aspect-ratio: 9 / 16; }
 .case--wide .case__media { aspect-ratio: 16 / 9; }
-/* inner glass reflection: a diagonal pane highlight + a faint inner edge */
+/* inner glass reflection: a bright diagonal pane highlight + a second thin glint + a white inner edge */
 .case__glass {
   position: absolute; inset: 7px; z-index: 2; pointer-events: none;
   border-radius: calc(var(--r-md) - 6px);
-  background: linear-gradient(118deg, rgba(235, 231, 215, 0.13) 0%, rgba(235, 231, 215, 0.03) 22%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 62%, rgba(235, 231, 215, 0.06) 70%, rgba(0, 0, 0, 0) 78%), linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0) 40%);
-  box-shadow: inset 0 0 0 1px rgba(235, 231, 215, 0.07), inset 0 18px 30px -18px rgba(230, 211, 161, 0.35);
+  background: linear-gradient(118deg, rgba(255, 255, 255, 0.34) 0%, rgba(255, 255, 255, 0.1) 18%, rgba(255, 255, 255, 0) 34%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0.16) 67%, rgba(255, 255, 255, 0) 75%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22), inset 0 16px 26px -18px rgba(255, 255, 255, 0.6);
 }
 /* the light strip along the top inside edge */
 .case__light {
   position: absolute; z-index: 3; left: 12%; right: 12%; top: 7px; height: 2px; pointer-events: none;
   border-radius: 2px;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0), var(--gold-pale) 20%, var(--paper) 50%, var(--gold-pale) 80%, rgba(0, 0, 0, 0));
-  box-shadow: 0 0 14px 3px rgba(230, 211, 161, 0.45), 0 10px 40px 6px rgba(201, 168, 92, 0.18);
-  opacity: 0.85;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75) 20%, var(--paper) 50%, rgba(255, 255, 255, 0.75) 80%, rgba(255, 255, 255, 0));
+  box-shadow: 0 0 12px 2px rgba(255, 246, 222, 0.6);
+  opacity: 0.8;
 }
-/* green glow at the base, like a lit case on the floor */
+/* the case's soft floor shadow, falling to the lower right (deepens on hover) */
 .case::before {
-  content: ''; position: absolute; z-index: -1; left: 6%; right: 6%; bottom: -26px; height: 54px; pointer-events: none;
-  background: radial-gradient(closest-side, rgba(57, 188, 31, 0.55), rgba(31, 122, 18, 0.18) 60%, rgba(0, 0, 0, 0));
-  filter: blur(8px);
+  content: ''; position: absolute; z-index: -1; left: 12%; right: -5%; bottom: -20px; height: 44px; pointer-events: none;
+  background: radial-gradient(closest-side, rgba(52, 46, 24, 0.34), rgba(52, 46, 24, 0.1) 60%, rgba(52, 46, 24, 0));
+  filter: blur(7px);
   opacity: 0.7;
 }
 /* the black frame's hairline, lit along the top */
 .case::after {
   content: ''; position: absolute; inset: 0; z-index: 4; pointer-events: none; border-radius: inherit;
-  box-shadow: inset 0 1px 0 rgba(230, 211, 161, 0.28), inset 0 0 0 1px rgba(235, 231, 215, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
 /* ---------------------------------------------------------------- buttons + links */
@@ -158,32 +164,32 @@
 .btn .ico { width: 1.15em; height: 1.15em; }
 .btn::before {
   content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
-  background: linear-gradient(110deg, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.32) 50%, rgba(0, 0, 0, 0) 70%);
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 70%);
   transform: translateX(-130%);
 }
-.btn--leaf { background: var(--leaf); color: var(--leaf-ink); box-shadow: 0 10px 30px -10px rgba(57, 188, 31, 0.6); }
+.btn--leaf { background: var(--leaf); color: var(--leaf-ink); box-shadow: 0 10px 24px -12px rgba(31, 122, 18, 0.55); }
 .btn--leaf:hover { background: var(--leaf-hot); box-shadow: var(--glow-leaf); }
-.btn--gold { background: linear-gradient(135deg, var(--gold-pale), var(--gold-hot) 45%, var(--gold)); color: var(--ink-0); box-shadow: 0 10px 30px -12px rgba(201, 168, 92, 0.6); }
-.btn--gold:hover { box-shadow: 0 0 0 1px rgba(230, 211, 161, 0.6), 0 12px 40px -8px rgba(201, 168, 92, 0.55); }
+.btn--gold { background: linear-gradient(135deg, #f6ebcd, var(--gold-pale) 50%, #dcc48b); color: var(--bone); border-color: rgba(138, 113, 54, 0.32); box-shadow: 0 10px 24px -14px rgba(110, 87, 38, 0.55); }
+.btn--gold:hover { border-color: rgba(110, 87, 38, 0.6); box-shadow: 0 0 0 1px rgba(138, 113, 54, 0.3), 0 12px 30px -10px rgba(110, 87, 38, 0.45); }
 .btn--glass {
-  background: var(--glass-bg); color: var(--bone); border-color: var(--glass-border);
+  background: rgba(255, 255, 255, 0.62); color: var(--bone); border-color: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(14px) saturate(var(--glass-sat)); backdrop-filter: blur(14px) saturate(var(--glass-sat));
-  box-shadow: var(--glass-hi);
+  box-shadow: var(--glass-hi), 0 0 0 1px rgba(52, 46, 24, 0.1), var(--shadow-1);
 }
-.btn--glass:hover { border-color: rgba(201, 168, 92, 0.6); color: var(--white); }
-.btn--ghost { background: transparent; color: var(--bone); border-color: rgba(235, 231, 215, 0.32); }
-.btn--ghost:hover { border-color: var(--leaf); color: var(--leaf-hot); }
+.btn--glass:hover { background: rgba(255, 255, 255, 0.9); color: var(--leaf-deep); box-shadow: var(--glass-hi), 0 0 0 1px rgba(31, 122, 18, 0.35), var(--shadow-2); }
+.btn--ghost { background: transparent; color: var(--bone); border-color: color-mix(in srgb, var(--bone) 45%, transparent); }
+.btn--ghost:hover { border-color: var(--leaf-deep); color: var(--leaf-deep); background: rgba(255, 255, 255, 0.5); }
 .btn--sm { min-height: 40px; padding: 0 1.1em; font-size: 0.8125rem; }
 .btn-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .link-arrow {
   display: inline-flex; align-items: center; gap: 0.45em;
-  color: var(--leaf); font-weight: 800; text-decoration: none;
+  color: var(--leaf-deep); font-weight: 800; text-decoration: none;
   background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
   padding-bottom: 2px;
   transition: background-size var(--t-med) var(--ease-out), color var(--t-fast) ease;
 }
 .link-arrow .ico { width: 1.05em; height: 1.05em; transition: transform var(--t-med) var(--ease-out); }
-.link-arrow:hover { color: var(--leaf-hot); background-size: 100% 1px; }
+.link-arrow:hover { color: var(--bone); background-size: 100% 1px; }
 .link-arrow:hover .ico { transform: translateX(4px); }
 
 /* ---------------------------------------------------------------- type */
@@ -194,13 +200,13 @@
   letter-spacing: var(--track-kicker); text-transform: uppercase;
   color: var(--gold-hot);
 }
-.kicker::before { content: ''; flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 10px 1px rgba(57, 188, 31, 0.7); }
+.kicker::before { content: ''; flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 0 3px rgba(57, 188, 31, 0.16); }
 .display { margin: 0 0 0.35em; font-family: var(--font-display); font-weight: 400; font-size: var(--fs-1); line-height: var(--lh-display); letter-spacing: var(--track-display); text-transform: uppercase; color: var(--bone); text-wrap: balance; }
 h2.display { font-size: var(--fs-2); }
 .display--mega { font-size: var(--fs-mega); line-height: 0.9; }
 h2.display--mega { font-size: var(--fs-mega); }
 .lede { font-size: var(--fs-lede); line-height: 1.6; color: var(--bone-2); max-width: 62ch; }
-.accent { color: var(--leaf); }
+.accent { color: var(--leaf-deep); }
 .accent--gold { color: var(--gold-hot); }
 .outline { color: transparent; -webkit-text-stroke: 1.5px var(--bone); paint-order: stroke fill; }
 .prose { font-size: 1.0625rem; line-height: 1.75; color: var(--bone-2); max-width: 70ch; }
@@ -209,43 +215,43 @@ h2.display--mega { font-size: var(--fs-mega); }
 .prose h2 { font-size: clamp(1.6rem, 2.6vw, 2.3rem); color: var(--bone); margin: 1.8em 0 0.4em; }
 .prose h3 { font-size: 1.3rem; color: var(--bone); margin: 1.6em 0 0.3em; }
 .prose h4 { color: var(--bone); margin: 1.4em 0 0.2em; }
-.prose a { color: var(--leaf); text-decoration: underline; text-underline-offset: 0.2em; }
-.prose a:hover { color: var(--leaf-hot); }
+.prose a { color: var(--leaf-deep); text-decoration: underline; text-underline-offset: 0.2em; }
+.prose a:hover { color: var(--bone); }
 .prose strong { color: var(--bone); }
 .prose ul, .prose ol { padding-left: 1.3em; }
 .prose li + li { margin-top: 0.45em; }
-.prose li::marker { color: var(--leaf); }
+.prose li::marker { color: var(--leaf-deep); }
 .prose blockquote { margin: 1.5em 0; padding: 0.4em 0 0.4em 1.2em; border-left: 2px solid var(--gold); color: var(--bone); font-style: italic; }
 .prose img { border-radius: var(--r-md); height: auto; }
 .prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
-.prose th, .prose td { padding: 0.6em 0.8em; border-bottom: 1px solid rgba(235, 231, 215, 0.12); text-align: left; }
+.prose th, .prose td { padding: 0.6em 0.8em; border-bottom: 1px solid rgba(23, 25, 15, 0.12); text-align: left; }
 .prose th { color: var(--bone); font-weight: 700; }
 
 /* ---------------------------------------------------------------- chips */
 .chip {
   display: inline-flex; align-items: center; gap: 0.4em;
   min-height: 32px; padding: 0.3em 0.95em;
-  border-radius: var(--r-pill); border: 1px solid var(--glass-border);
-  background: var(--glass-bg); color: var(--bone);
+  border-radius: var(--r-pill); border: 1px solid rgba(52, 46, 24, 0.16);
+  background: rgba(255, 255, 255, 0.72); color: var(--bone);
   font: 600 0.8125rem/1.2 var(--font-ui); text-decoration: none; white-space: nowrap;
   transition: border-color var(--t-fast) ease, color var(--t-fast) ease, background-color var(--t-fast) ease;
 }
 .chip .ico { width: 14px; height: 14px; }
-a.chip:hover, button.chip:hover { border-color: rgba(201, 168, 92, 0.6); color: var(--white); }
-.chip--leaf { color: var(--leaf-hot); background: var(--glass-leaf); border-color: rgba(57, 188, 31, 0.42); }
+a.chip:hover, button.chip:hover { border-color: var(--leaf-deep); color: var(--leaf-deep); background: var(--paper); }
+.chip--leaf { color: var(--leaf-deep); background: var(--glass-leaf); border-color: rgba(31, 122, 18, 0.32); }
 a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] { background: var(--leaf); color: var(--leaf-ink); border-color: var(--leaf); }
-.chip--deal { background: var(--gold); color: var(--ink-0); border-color: rgba(230, 211, 161, 0.5); font-family: var(--font-mono); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; box-shadow: 0 6px 18px -6px rgba(0, 0, 0, 0.8); }
+.chip--deal { background: linear-gradient(135deg, var(--gold), var(--gold-hot)); color: var(--white); border-color: rgba(255, 255, 255, 0.4); font-family: var(--font-mono); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; box-shadow: 0 6px 14px -6px rgba(70, 58, 26, 0.45); }
 
 /* ---------------------------------------------------------------- product card (productCard() markup) */
 .pcard {
   position: relative; isolation: isolate;
   display: flex; flex-direction: column;
   border-radius: var(--r-md);
-  background: linear-gradient(180deg, var(--ink-3), var(--ink-2));
-  box-shadow: 0 0 0 1px rgba(235, 231, 215, 0.08), var(--shadow-2);
+  background: var(--ink-3);
+  box-shadow: 0 0 0 1px rgba(52, 46, 24, 0.08), var(--shadow-2);
   transition: transform var(--t-med) var(--ease-out), box-shadow var(--t-med) var(--ease-out);
 }
-/* rim light (green edge) that brightens on hover */
+/* rim light (a mint edge from the top-left) that brightens on hover */
 .pcard::before {
   content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none; border-radius: inherit; padding: 1px;
   background: var(--glass-edge-leaf);
@@ -254,13 +260,13 @@ a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] 
   opacity: 0.35;
   transition: opacity var(--t-med) var(--ease-out);
 }
-/* the photo sits on a lit shelf: A&P's menu photos are shot on white, so the shelf is mist light */
+/* the photo sits on a sunlit shelf: A&P's menu photos are shot on white */
 .pcard__media {
   position: relative; overflow: hidden;
   aspect-ratio: 1 / 1;
   border-radius: var(--r-md) var(--r-md) 0 0;
-  background: radial-gradient(90% 80% at 50% 30%, var(--paper) 0%, var(--mist) 70%, var(--bone-2) 100%);
-  box-shadow: inset 0 -18px 30px -18px rgba(0, 0, 0, 0.35);
+  background: radial-gradient(90% 80% at 40% 28%, var(--paper) 0%, var(--paper) 45%, var(--ink-1) 100%);
+  box-shadow: inset 0 -16px 24px -20px rgba(52, 46, 24, 0.18);
 }
 .pcard__img { width: 100%; height: 100%; object-fit: contain; padding: 9%; mix-blend-mode: multiply; transition: transform var(--t-slow) var(--ease-out); }
 .pcard__noimg { display: grid; place-items: center; width: 100%; height: 100%; font: 400 3.2rem/1 var(--font-display); color: var(--gold); }
@@ -270,24 +276,25 @@ a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] 
 .pcard__name { margin: 0; font: 700 1rem/1.3 var(--font-ui); color: var(--bone); text-transform: none; letter-spacing: 0; }
 .pcard__meta { margin: 0; font: 400 0.8125rem/1.45 var(--font-mono); color: var(--bone-3); }
 .pcard__price { margin: auto 0 0; padding: 8px 52px 0 0; display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.5em; font-family: var(--font-mono); }
-.pcard__amount { font-size: 1.06rem; font-weight: 700; color: var(--leaf); }
+.pcard__amount { font-size: 1.06rem; font-weight: 700; color: var(--leaf-deep); }
 .pcard__unit { font-size: 0.8125rem; color: var(--bone-3); }
 .pcard__add {
   position: absolute; right: 12px; bottom: 12px; z-index: 3;
   display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
-  background: var(--ink-4); color: var(--leaf); border: 1px solid rgba(57, 188, 31, 0.45);
+  background: var(--paper); color: var(--leaf-deep); border: 1px solid rgba(31, 122, 18, 0.4);
+  box-shadow: var(--shadow-1);
   transition: background-color var(--t-fast) ease, color var(--t-fast) ease, transform var(--t-med) var(--ease-out), box-shadow var(--t-med) var(--ease-out);
 }
 .pcard__add svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
-.pcard__add:hover { background: var(--leaf); color: var(--leaf-ink); box-shadow: var(--glow-leaf); }
+.pcard__add:hover { background: var(--leaf); color: var(--leaf-ink); border-color: var(--leaf); box-shadow: var(--glow-leaf); }
 .pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 18px; list-style: none; margin: 0; padding: 0; }
 
-/* ---------------------------------------------------------------- ticker (marquee strip) */
+/* ---------------------------------------------------------------- ticker (marquee strip on a pale gold glass) */
 .ticker {
   position: relative; overflow: hidden;
   padding-block: 15px;
-  background: var(--ink-0);
-  border-block: 1px solid rgba(201, 168, 92, 0.25);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(250, 243, 225, 0.85));
+  border-block: 1px solid rgba(138, 113, 54, 0.22);
   color: var(--bone);
   font: 500 0.9375rem/1.3 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase;
   -webkit-mask: linear-gradient(90deg, rgba(0, 0, 0, 0), #000 6%, #000 94%, rgba(0, 0, 0, 0));
@@ -295,17 +302,18 @@ a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] 
 }
 .ticker ul, .ticker ol { display: flex; align-items: center; gap: 2.4rem; list-style: none; margin: 0; padding: 0; }
 .ticker li, .ticker__item { display: inline-flex; align-items: center; gap: 2.4rem; white-space: nowrap; }
-.ticker li::before, .ticker__item::before { content: ''; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 8px rgba(57, 188, 31, 0.8); }
+.ticker li::before, .ticker__item::before { content: ''; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 0 3px rgba(57, 188, 31, 0.15); }
 .ticker a { color: inherit; text-decoration: none; }
-.ticker a:hover { color: var(--gold-pale); }
+.ticker a:hover { color: var(--leaf-deep); }
 
 /* ---------------------------------------------------------------- depth (front plane) */
 .cut { filter: var(--shadow-cut) var(--rim-gold); }
-.screen { mix-blend-mode: screen; }
+/* v2 generated art is shot on light grounds: multiply lets the ground show through its paper-white */
+.screen { mix-blend-mode: multiply; }
 .protrude { position: absolute; z-index: 3; pointer-events: none; }
 .img-slot {
   display: block; width: 100%; min-height: 120px; aspect-ratio: 16 / 9;
-  background: var(--light-pool), var(--light-leaf), linear-gradient(160deg, var(--ink-3), var(--ink-0));
+  background: var(--light-pool), var(--light-leaf), linear-gradient(160deg, var(--ink-3), var(--ink-2));
   border-radius: inherit;
 }
 
@@ -314,7 +322,7 @@ a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] 
 .crumbs li { display: inline-flex; align-items: center; gap: 0.6em; }
 .crumbs li + li::before { content: '/'; color: var(--gold); }
 .crumbs a { color: var(--bone-2); text-decoration: none; }
-.crumbs a:hover { color: var(--leaf-hot); }
+.crumbs a:hover { color: var(--leaf-deep); text-decoration: underline; }
 .crumbs [aria-current] { color: var(--bone); }
 
 /* ---------------------------------------------------------------- demo forms */
@@ -324,23 +332,22 @@ a.chip--leaf:hover, .chip--leaf[aria-pressed="true"], .chip--leaf[aria-current] 
 .demo-form__label { font: 500 0.8125rem/1.3 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--bone-2); }
 .demo-form__input {
   width: 100%; min-height: 48px; padding: 12px 14px;
-  border-radius: var(--r-sm); border: 1px solid rgba(235, 231, 215, 0.16);
-  background: rgba(0, 0, 0, 0.45); color: var(--bone);
+  border-radius: var(--r-sm); border: 1px solid rgba(52, 46, 24, 0.24);
+  background: var(--paper); color: var(--bone);
+  box-shadow: inset 0 1px 2px rgba(52, 46, 24, 0.06);
   transition: border-color var(--t-fast) ease, box-shadow var(--t-fast) ease;
 }
+.demo-form__input::placeholder { color: var(--bone-3); opacity: 1; }
 textarea.demo-form__input { resize: vertical; min-height: 120px; }
-.demo-form__input:focus { outline: none; border-color: var(--leaf); box-shadow: 0 0 0 3px rgba(57, 188, 31, 0.25); }
+.demo-form__input:focus { outline: none; border-color: var(--leaf-deep); box-shadow: 0 0 0 3px rgba(57, 188, 31, 0.22); }
 .demo-form__btn { justify-self: start; }
 .demo-form__note { grid-column: 1 / -1; margin: 0; color: var(--gold-hot); font-size: var(--fs-small); }
 .demo-form--inline { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; }
 .demo-form--inline .demo-form__field { flex: 1 1 220px; }
-.band--mist .demo-form__input { background: var(--paper); color: var(--ink-0); border-color: color-mix(in srgb, var(--ink-0) 25%, transparent); }
-.band--mist .demo-form__label { color: var(--charcoal); }
-.band--mist .demo-form__note { color: var(--clay); }
 
 /* ---------------------------------------------------------------- FAQ accordion (details/summary) */
-.faq { border-top: 1px solid rgba(235, 231, 215, 0.12); }
-.faq details, details.faq { border-bottom: 1px solid rgba(235, 231, 215, 0.12); }
+.faq { border-top: 1px solid rgba(23, 25, 15, 0.12); }
+.faq details, details.faq { border-bottom: 1px solid rgba(23, 25, 15, 0.12); }
 details.faq { border-top: 0; }
 .faq summary {
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
@@ -352,16 +359,13 @@ details.faq { border-top: 0; }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after {
   content: ''; flex: none; width: 10px; height: 10px; margin-right: 6px;
-  border-right: 2px solid var(--leaf); border-bottom: 2px solid var(--leaf);
+  border-right: 2px solid var(--leaf-deep); border-bottom: 2px solid var(--leaf-deep);
   transform: translateY(-3px) rotate(45deg);
   transition: transform var(--t-med) var(--ease-out);
 }
 .faq details[open] > summary::after, details.faq[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
-.faq summary:hover { color: var(--leaf-hot); }
+.faq summary:hover { color: var(--leaf-deep); }
 .faq details > :not(summary), details.faq > :not(summary) { margin: 0 0 1em; color: var(--bone-2); max-width: 72ch; }
-.band--mist .faq summary { color: var(--ink-0); }
-.band--mist .faq details > :not(summary) { color: var(--charcoal); }
-.band--mist .faq, .band--mist .faq details { border-color: color-mix(in srgb, var(--ink-0) 15%, transparent); }
 
 /* ---------------------------------------------------------------- review (quote card) */
 .review {
@@ -370,8 +374,8 @@ details.faq { border-top: 0; }
   margin: 0; padding: 30px 28px 26px;
   border-radius: var(--r-lg);
 }
-.review:not(.glass) { background: linear-gradient(160deg, rgba(151, 126, 66, 0.10), rgba(0, 0, 0, 0) 45%), var(--ink-2); box-shadow: 0 0 0 1px rgba(235, 231, 215, 0.08), var(--shadow-2); }
-.review::before { content: '\201C'; position: absolute; z-index: -1; top: -6px; left: 18px; font: 400 5.5rem/1 var(--font-display); color: var(--gold); opacity: 0.35; pointer-events: none; }
+.review:not(.glass) { background: linear-gradient(160deg, rgba(234, 217, 173, 0.4), rgba(255, 255, 255, 0) 45%), var(--ink-3); box-shadow: 0 0 0 1px rgba(52, 46, 24, 0.08), var(--shadow-2); }
+.review::before { content: '\201C'; position: absolute; z-index: -1; top: -6px; left: 18px; font: 400 5.5rem/1 var(--font-display); color: var(--gold); opacity: 0.28; pointer-events: none; }
 .review blockquote, .review__text { margin: 0; color: var(--bone); font-size: 1.02rem; line-height: 1.65; }
 .review blockquote p { margin: 0; }
 .review figcaption, .review cite, .review__by { margin-top: auto; font: 500 0.8125rem/1.4 var(--font-mono); font-style: normal; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-hot); }
@@ -382,14 +386,14 @@ details.faq { border-top: 0; }
 .stat__num, .stat strong { font: 400 var(--fs-2)/1 var(--font-display); color: var(--gold-hot); }
 .stat__label, .stat span { font: 500 0.8125rem/1.4 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--bone-2); }
 
-/* ---------------------------------------------------------------- toast */
+/* ---------------------------------------------------------------- toast (white glass) */
 .toast {
   position: fixed; z-index: 260; left: 50%; bottom: 24px;
   max-width: min(92vw, 460px); padding: 14px 20px;
   border-radius: var(--r-md);
   background: var(--glass-bg-strong); color: var(--bone);
   -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
-  box-shadow: 0 0 0 1px rgba(57, 188, 31, 0.45), var(--shadow-3);
+  box-shadow: var(--glass-hi), 0 0 0 1px rgba(52, 46, 24, 0.1), inset 3px 0 0 var(--leaf), var(--shadow-3);
   font-weight: 600; font-size: 0.95rem;
   opacity: 0; visibility: hidden; transform: translate(-50%, 16px);
   transition: opacity var(--t-med) var(--ease-out), transform var(--t-med) var(--ease-out), visibility 0s linear var(--t-med);
@@ -403,10 +407,11 @@ details.faq { border-top: 0; }
   position: absolute; z-index: 6; right: var(--gutter); bottom: 20px;
   display: inline-flex; align-items: center; gap: 8px;
   min-height: 44px; padding: 0 16px 0 12px;
-  border-radius: var(--r-pill); border: 1px solid var(--glass-border);
-  background: var(--glass-bg); color: var(--bone);
+  border-radius: var(--r-pill); border: 1px solid rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.72); color: var(--bone);
   -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  box-shadow: 0 0 0 1px rgba(52, 46, 24, 0.1), var(--shadow-1);
   font: 500 0.8125rem/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase;
 }
-.motion-toggle:hover { border-color: rgba(201, 168, 92, 0.6); }
+.motion-toggle:hover { color: var(--leaf-deep); background: rgba(255, 255, 255, 0.92); }
 .motion-toggle .ico { width: 16px; height: 16px; fill: currentColor; stroke: none; }

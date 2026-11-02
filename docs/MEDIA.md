@@ -6,9 +6,10 @@ The pitch uses two kinds of imagery, and they are kept apart on purpose.
    own website photos and A&P's own store videos. Nothing in this group is generated or altered beyond cropping,
    resizing and re-encoding for the web.
 2. **AI-generated illustrative imagery.** Thirteen still images made with an image model (fal.ai, FLUX1.1 [pro] ultra;
-   two cut-outs with BiRefNet v2). They are mood pieces for category headers, menus and depth layers. They never
-   depict A&P's store, street, staff, customers, products or results, and they carry no text, logos or brand marks.
-   Each file carries an IPTC `trainedAlgorithmicMedia` label (XMP), kept on every WebP variant the build makes.
+   two cut-outs with BiRefNet v2) and one short motion loop made from one of them. They are mood pieces for category
+   headers, menus and depth layers. They never depict A&P's store, street, staff, customers, products or results, and
+   they carry no text, logos or brand marks. Each file carries an IPTC `trainedAlgorithmicMedia` label (XMP), kept on
+   every WebP variant the build makes.
 
 ## A&P's own footage: stills (`assets/photos/`)
 
@@ -42,33 +43,38 @@ The registry with paths, sizes and alt text is `src/content/images.json`.
 
 ## AI-generated illustrative stills (`assets/generated/`)
 
-Shot on black in one light scheme: a warm gold key light from the upper left, a soft green glow from the lower right.
-Prompts, model, seed, request id and the by-eye review verdict of every image are in the sidecar next to each file
-(`<file>.json`) and in `src/content/image-plan.json`.
+The light version ("Morning Glass"): the eleven backdrop stills were made again on light grounds, with the same names
+and shapes as before. One light scheme throughout: bright, high-key still lifes in soft morning sunlight from the upper
+left, soft shadows falling to the lower right, cream, paper-white and pale stone with a hint of sage green, and calm
+light space where the page sets type. The two cut-outs are unchanged. Prompts, model, seed, request id and the by-eye
+review verdict of every image are in the sidecar next to each file (`<file>.json`) and in
+`src/content/image-plan.json`.
 
-| id | what is depicted |
-|---|---|
-| `g-hero-case` | a black-framed glass display cabinet in darkness, one cured bud on a shelf, green haze |
-| `g-bud-macro` | macro of a cured cannabis flower |
-| `g-prerolls` | three white paper pre-roll cones filled with ground flower, in a black cup |
-| `g-vape` | one plain, unbranded vape cartridge on black glass |
-| `g-concentrate` | a small mound of waxy golden concentrate on parchment |
-| `g-tincture` | an unlabelled amber dropper bottle, a dropper and a fan leaf |
-| `g-topical` | an open, unlabelled tin of balm |
-| `g-accessories` | a clear glass spoon pipe |
-| `g-edibles` | a closed plain tin and two plain chews |
-| `g-smoke-glass` | smoke behind frosted glass panes, gold and green light |
-| `g-cabinet-deals` | empty lit glass shelves in a dark cabinet |
-| `g-leaf-cut` | one cannabis fan leaf, transparent cut-out |
-| `g-bud-cut` | one cured cannabis bud, transparent cut-out |
+| id | shape | what is depicted |
+|---|---|---|
+| `g-hero-case` | 16:9 | a slim black-framed glass display cabinet in a sunlit cream room, a few cured buds on its shelves, a window and a potted plant |
+| `g-smoke-glass` | 16:9 | frosted glass panels in soft morning light, pale cream with a faint mint tint, soft leaf shadows |
+| `g-bud-macro` | 3:2 | macro of a cured cannabis flower on cream linen |
+| `g-prerolls` | 3:2 | two slim paper pre-roll cones on pale marble |
+| `g-vape` | 3:2 | one plain, unbranded vape cartridge on a white sill by a window |
+| `g-concentrate` | 3:2 | amber cannabis shatter on parchment, the top sheet peeled back, a small bud beside it |
+| `g-tincture` | 3:2 | an unlabelled amber dropper bottle, a dropper and a fan leaf on cream linen |
+| `g-topical` | 3:2 | an open, unlabelled tin of white balm on pale marble |
+| `g-accessories` | 3:2 | a clear glass spoon pipe on a white surface |
+| `g-edibles` | 3:2 | a plain ceramic dish of three matte, earth-toned chews on linen |
+| `g-cabinet-deals` | 3:2 | empty glass shelves in a bright pale wood display case |
+| `g-leaf-cut` | 4:5 | one cannabis fan leaf, transparent cut-out (unchanged) |
+| `g-bud-cut` | 1:1 | one cured cannabis bud, transparent cut-out (unchanged) |
 
-Review: every image was viewed whole at full size before it was accepted. Seven generations were rejected and
-regenerated (pseudo-cigarette tips, candy-like edibles and crystals, an oil-burner shaped pipe, empty paper tubes);
-the rejected files are kept outside the site as evidence.
+Review: every image was viewed whole and in a 100% crop of its subject before it was accepted. Five generations of
+the light set were rejected and made again (sugar-like speckles on the chews, a candy-like concentrate twice, pre-roll
+tubes without a cone shape or twisted tips twice); for the pre-rolls and the concentrate the best of three attempts was
+kept and is marked for an operator check. The dark first-version stills and every rejected file are kept outside the
+site as evidence.
 
 ## AI-generated motion (`assets/media/haze-loop.mp4`)
 
-`haze-loop` is AI-generated motion: the AI still `g-smoke-glass` animated with an image-to-video model (fal, Kling
-2.1), so the smoke curls and drifts behind the frosted glass. Six seconds play forward and then in reverse, which makes
-the loop seamless: 1920x1068 (and 960x534 for phones), about 12 s, no audio. It is illustrative atmosphere, not footage
-of A&P. The MP4s carry the AI note in their metadata and the poster carries the AI label.
+`haze-loop` is AI-generated motion: the light still `g-smoke-glass` animated with an image-to-video model (fal, Kling
+2.1), so soft haze and morning light drift slowly behind the frosted glass. Six seconds play forward and then in
+reverse, which makes the loop seamless: 1920x1068 (and 960x534 for phones), about 12 s, no audio. It is illustrative
+atmosphere, not footage of A&P. The MP4s carry the AI note in their metadata and the poster carries the AI label.

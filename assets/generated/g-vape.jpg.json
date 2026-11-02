@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist product still-life photograph: one single plain cylindrical glass vape cartridge filled with clear golden amber cannabis oil, a plain smooth matte black mouthpiece on top and a plain smooth brushed metal base, completely blank and unmarked, standing upright alone on a polished black glass surface with a soft reflection beneath it; a soft green rim light from the lower right outlines the glass edge and the oil glows amber where the warm gold key light from the upper left passes through it. Composition: the cartridge stands right of centre, small in the frame, black negative space on the left half. Near-total darkness, pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, a soft green glow from the lower right, crisp detail, fine film grain, quiet premium mood, full-bleed photograph edge to edge with no border and no frame; nothing else in the frame, no candies, no crystals, no beads, no glitter, no gold flakes, no crumbs, no neon strips, no LED lines, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key product still-life photograph: one single plain cylindrical glass vape cartridge filled with clear golden amber cannabis oil, a plain smooth matte black mouthpiece on top and a plain smooth brushed silver metal base, completely blank and unmarked, standing upright alone on a sheet of frosted white glass with a soft reflection beneath it; the sunlight passes through the oil so it glows warm gold. Composition: the cartridge stands right of centre, small in the frame, the left half is calm soft white frosted glass as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; nothing else in the frame, no crystals, no beads, no glitter, no neon, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 3776795457,
-  "requestId": "01a19abc-048b-7933-a0fe-07575d6fa4f0",
+  "seed": 2731097959,
+  "requestId": "01a19c1a-7df7-7b42-be7d-1370feb962f6",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "45be279501cc47373464bf8d3fdfc039aa3e7fbc6e852e0c1e4525e2ffe27db8",
-  "raw": "tmp/img/raw/g-vape.1793597386068.jpg",
-  "attempt": 2,
-  "generatedAt": "2026-11-02T05:29:47.918Z",
+  "sha256": "222f88105ce3726609b1f886c694dc2d7c705c6c2bdd93d1a429a457777afae7",
+  "raw": "tmp/img/raw/g-vape.1793620352984.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-02T11:52:34.921Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Attempt 1 rejected: amber candy-like cubes and gold glitter beside the cartridge, neon strips. Attempt 2: one plain cartridge (black mouthpiece, amber oil, metal base) on a black glass slab with a thin teal edge light; nothing else in the frame; no text or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. One plain cartridge (black mouthpiece, golden oil, silver base) on a white sill with a soft reflection, a blurred window at the left. Nothing else in the frame; no text or marks.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "One plain glass vape cartridge filled with golden oil, standing on a black glass slab with a thin green edge light."
+  "alt": "One plain glass vape cartridge filled with golden oil, standing on a white sill by a sunny window."
 }

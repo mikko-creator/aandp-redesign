@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist editorial still-life photograph: one small open round tin of smooth brushed metal holding a pale golden waxy balm with a soft swirl on its surface, the plain lid leaning against the tin, both completely plain metal with no embossing, no engraving and no print, resting on a slab of dark slate stone; one warm gold key light from the upper left glints on the metal rim, a soft green glow from the lower right. Composition: the tin sits right of centre, black negative space on the left half. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, calm apothecary mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key editorial still-life photograph: one small open round tin of smooth brushed silver metal holding a smooth white balm with a soft swirl on its surface, the plain lid resting beside it, both completely plain metal with no embossing, no engraving and no print, on a slab of pale travertine stone with its natural soft pits; the sunlight glints on the metal rim. Composition: the tin sits right of centre, the left half is calm pale travertine as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; calm apothecary mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 145809065,
-  "requestId": "01a19ab5-4b62-7ef1-be51-479f15970316",
+  "seed": 1911067414,
+  "requestId": "01a19c1a-aefe-75f3-a6d1-86a5b3f52d51",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "b1fbc71184e3bac6c335f8742c8aa9effc6e571ad74c1e17f951758f0092215e",
-  "raw": "tmp/img/raw/g-topical.1793596943771.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:25.918Z",
+  "sha256": "398522118e664d61a5b4e080854829bfa83492c18a8bc9d79a5214537e7bf3e6",
+  "raw": "tmp/img/raw/g-topical.1793620365458.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:52:47.408Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Open gold-coloured round tin of pale yellow balm with a swirl, its dark green lid beside it, on dark veined stone. No embossing, text or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. Open plain silver tin of white balm with a swirl, its plain lid beside it, on a pale marble slab. No embossing, text or marks.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "An open, unlabelled round gold-coloured tin of pale yellow balm on dark stone, its lid beside it."
+  "alt": "An open, unlabelled round metal tin of white balm on a pale marble slab, its lid beside it."
 }

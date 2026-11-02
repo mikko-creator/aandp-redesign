@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist macro photograph: an extreme close-up of a dense cured cannabis flower bud, shallow depth of field, frosty resin trichome heads sparkling like tiny glass beads where the light lands, fine twisted orange pistils, layered deep green calyxes, the far side of the bud dissolving into black shadow, a faint soft green glow on the lower right edge. Composition: the bud fills the right two thirds of the frame, black negative space on the left third. Shot on a pure black background, one warm gold key light from the upper left in Caravaggio chiaroscuro, crisp detail, fine film grain, quiet premium mood, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key macro still-life photograph: an extreme close-up of one dense cured cannabis flower bud resting on soft cream linen, shallow depth of field, frosty resin trichome heads glinting like tiny glass beads in the sun, fine twisted orange pistils, layered sage and deep green calyxes, a gentle soft shadow on the linen. Composition: the bud sits right of centre and fills the right half of the frame, the left 40% is softly lit cream linen as light negative space. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 4125242466,
-  "requestId": "01a19ab5-1e73-73a2-8f33-c68e27b444fe",
+  "seed": 1449730557,
+  "requestId": "01a19c1a-5131-7040-98b2-f2520df3057c",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "066b4187d7d28b660095f6c57c239d08a3a2cc8ce8e49272f9f9cd56cff0b592",
-  "raw": "tmp/img/raw/g-bud-macro.1793596932729.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:14.822Z",
+  "sha256": "1ae9f8379294ca9e1212ee02ea666a081d5c2a16a0a95e009cb396fb5a743194",
+  "raw": "tmp/img/raw/g-bud-macro.1793620343211.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:52:25.263Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Macro bud fills most of the frame (little black negative space; place type with a scrim). No text, people or marks.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. One frosty cured bud with orange pistils on cream linen, soft sun; its shadow falls lower left rather than lower right (minor). No text, people or marks.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "Macro close-up of a cured cannabis flower, frosty trichomes and orange pistils catching warm gold light."
+  "alt": "Macro close-up of a cured cannabis flower on cream linen, frosty trichomes and orange pistils glinting in soft sunlight."
 }

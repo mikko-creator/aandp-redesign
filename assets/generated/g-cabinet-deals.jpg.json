@@ -5,26 +5,26 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of A&P Dispensary, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist interior still-life photograph: the inside of a dark display cabinet with three empty clear glass shelves held by thin matte black metal brackets, completely empty, a warm gold light strip along the top inside edge pouring down through the glass shelves, gold highlights on the shelf edges, a soft green glow at the base of the cabinet in the lower right. Composition: the shelves fill the right 60% of the frame in gentle perspective, black negative space on the left. Near-total darkness, pure black background, Caravaggio chiaroscuro, crisp detail, fine film grain, quiet premium mood; no products, no objects on the shelves, no price tags, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no bright colours, all surfaces blank and unmarked",
+  "prompt": "Bright, airy, high-key interior still-life photograph: the inside of a bright airy display case with a pale oak wood frame and a pale wood back, three empty clear glass shelves held by thin brass brackets, completely empty, the sunlight pouring through the glass shelves, bright highlights on the shelf edges. Composition: the shelves fill the right 60% of the frame in gentle perspective, calm light negative space on the left. soft natural morning sunlight from a window at the upper left, gentle soft shadows falling to the lower right, warm cream, paper-white and pale stone tones with a hint of sage green, clean modern premium mood, crisp detail, full-bleed photograph edge to edge with no border and no frame; no products, no objects on the shelves, no price tags, no labels, no people, no hands, no fingers, no faces, no text, no lettering, no numbers, no labels, no stickers, no logos, no brand marks, no packaging print, no candy, no saturated colours, no neon, all surfaces blank and unmarked",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 1471414352,
-  "requestId": "01a19ab5-77de-7c13-a6df-de621f19364e",
+  "seed": 3569201692,
+  "requestId": "01a19c1a-d9e7-7453-a319-73865f76e6cb",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "25bcab50dc93dad3a6c4e531b34a3174f58b34fddc0752dfd50781ced0998d46",
-  "raw": "tmp/img/raw/g-cabinet-deals.1793596956886.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-02T05:22:38.196Z",
+  "sha256": "483c303b9e24dbaf513a41e1dfc69f49cbd96353757ce66a8a0e9c4bc54df7c3",
+  "raw": "tmp/img/raw/g-cabinet-deals.1793620383850.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-02T11:53:05.972Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "Empty cabinet: three clear glass shelves, gold light strip at the top, green glow at the base. No products, labels or text.",
-    "by": "IMAGERY lane, by-eye review of the whole frame at full size (2000 px display) + contact sheet",
-    "at": "2026-11-02T05:39:21.722Z"
+    "reason": "Light attempt 1. Empty pale wood display case, three clear glass shelves on brass brackets, sunlight shadows; a blurred bright room at the right edge (no legible text at 100%). No products, labels or price tags.",
+    "by": "IMAGERY-L lane, by-eye review of the whole frame (1600 px) and a 100% crop of the subject + contact sheet",
+    "at": "2026-11-02T12:09:10.610Z"
   },
-  "alt": "Empty glass shelves inside a dark display cabinet, lit by a warm gold light from above."
+  "alt": "Empty glass shelves inside a bright, airy display case with a pale wood frame, lit by soft morning sunlight."
 }

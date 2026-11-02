@@ -1,5 +1,5 @@
-/* base.css - CABINET OF LIGHT ground rules (FOUNDATION): reset, page ground, type defaults, focus, utilities.
-   Colours, type and space come from tokens.css only. */
+/* base.css - MORNING GLASS ground rules (FOUNDATION): reset, page ground, type defaults, focus, utilities.
+   Colours, type and space come from tokens.css only (--ink-* are the light grounds, --bone* the dark text). */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) - 20px); background: var(--ink-0); }
 body {
@@ -36,9 +36,9 @@ small { font-size: var(--fs-small); }
 hr { border: 0; height: 1px; background: color-mix(in srgb, var(--bone) 12%, transparent); margin: 2rem 0; }
 ::selection { background: var(--leaf); color: var(--leaf-ink); }
 
-/* focus: always visible on keyboard focus */
+/* focus: always visible on keyboard focus (A&P pine: 5:1 on the light grounds) */
 :focus { outline: none; }
-:focus-visible { outline: 2px solid var(--leaf-hot); outline-offset: 3px; border-radius: 4px; }
+:focus-visible { outline: 2px solid var(--leaf-deep); outline-offset: 3px; border-radius: 4px; }
 main:focus { outline: none; }
 
 /* utilities */
@@ -48,5 +48,5 @@ main:focus { outline: none; }
 [hidden] { display: none !important; }
 .ico { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
-/* scrollbars on the dark ground */
-html { scrollbar-color: var(--ink-5) var(--ink-0); }
+/* scrollbars on the light ground */
+html { scrollbar-color: var(--ink-5) var(--ink-1); }

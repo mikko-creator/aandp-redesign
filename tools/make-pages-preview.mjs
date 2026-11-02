@@ -24,7 +24,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, arr) => (v.startsWith('--') ? a.concat([[v.slice(2), arr[i + 1] && !arr[i + 1].startsWith('--') ? arr[i + 1] : true]]) : a), []));
 const P = String(args.prefix || '').replace(/\/+$/, '');
-if (!/^\/[A-Za-z0-9._-]+$/.test(P)) { console.error('--prefix must look like /Repo-Name'); process.exit(2); }
+if (!/^(\/[A-Za-z0-9._-]+){1,2}$/.test(P)) { console.error('--prefix must look like /Repo-Name (or /Repo-Name/sub for a snapshot)'); process.exit(2); }
 const LITERALS_FILE = path.join(ROOT, 'tools', 'preview-literals.json');
 const LITERALS = fs.existsSync(LITERALS_FILE) ? JSON.parse(fs.readFileSync(LITERALS_FILE, 'utf8')).literals || [] : [];
 

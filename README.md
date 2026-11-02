@@ -4,12 +4,15 @@ A static, platform-free redesign concept for **A&P Dispensary**, the family-owne
 Blvd, Kew Gardens, NY.
 
 - **Preview (noindex):** https://mikko-creator.github.io/aandp-redesign/
-- **Design:** "Cabinet of Light", glassmorphism x ethereal x tenebrism on A&P's own brand (the green A&P circle mark,
-  black, A&P gold, logo green, mist; Archivo Black, Figtree and Roboto Mono). It takes its cue from the shop itself:
-  black-framed glass display cases glowing in a dark brick room. Near-black grounds are carved by one warm key light,
-  a soft green glow and drifting smoke add atmosphere, smoked glass panes carry the copy, and photos, films and
-  cut-outs sit in glass cases and break out of their frames for depth. Scroll-through reveals, parallax and hover light
-  sweeps throughout. See [docs/DESIGN.md](docs/DESIGN.md).
+- **Design (v2, light):** "Morning Glass", glassmorphism x ethereal, with tenebrism kept as soft directional light and
+  shadow, on A&P's own brand (the green A&P circle mark, black, A&P gold, logo green, mist and forest; Archivo Black,
+  Figtree and Roboto Mono). It takes its cue from the shop itself: A&P's black-framed glass display cases, seen in
+  daylight. Cream and paper grounds are lit by soft morning sun from the upper left, white frosted-glass panes carry the
+  copy over pastel gold and mint glows, and photos, films and cut-outs sit in glass cases, break out of their frames and
+  cast soft shadows for depth. The one deep band is A&P forest green (the utility strip and footer). Scroll-through
+  reveals, parallax and hover light sweeps throughout. See [docs/DESIGN.md](docs/DESIGN.md).
+- **Earlier concept (v1, dark):** "Cabinet of Light" stays viewable at
+  https://mikko-creator.github.io/aandp-redesign/v1-dark/ (git tag `v1-dark`).
 - **Architecture:** the information architecture of a large multi-state dispensary operator's site (utility bar with a
   store chip, Shop / Deals / Resources mega menus, a category bar, footer columns, page types and URL patterns),
   carrying A&P's own content. Every old A&P address redirects to its new page.
